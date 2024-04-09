@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-14",
-	"time": 22.693158813999986,
-	"alltimes": [25.646904954000007, 22.693158813999986],
-	"avgtime": 24.170031883999997,
+	"time": 24.492793398999993,
+	"alltimes": [26.439890423999998, 24.492793398999993],
+	"avgtime": 25.466341911499995,
 	"deltas": [{
-		"constructed parser": 1.1744100001465085e-4,
-		"constructed lexer": 2.999999992425728e-6,
-		"parsed input": 25.646780562999993,
-		"end": 3.950000007080234e-6
+		"constructed parser": 1.2648099999523765e-4,
+		"constructed lexer": 3.851000002441651e-6,
+		"parsed input": 26.43975585200002,
+		"end": 4.2399999813369504e-6
 	}, {
-		"constructed parser": 1.2518099998715115e-4,
-		"constructed lexer": 1.730000008137722e-6,
-		"parsed input": 22.693027682999997,
-		"end": 4.219999993892998e-6
+		"constructed parser": 1.2846199999216878e-4,
+		"constructed lexer": 1.7000000127609383e-6,
+		"parsed input": 24.492657226999995,
+		"end": 6.009999992784287e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-04-09T05:29:39-00:00",
-	"euphrates_revision_id": "64b98f5e0fc90d52d0ca2c52e4d30e8dac549e49",
-	"euphrates_revision_date": "2024-04-08T22:22:12-07:00",
-	"euphrates_revision_title": "fix recursive identifier serialization"
+	"rundate": "2024-04-09T06:18:31-00:00",
+	"euphrates_revision_id": "a10b5718e05122bf6a9563c78210c21f174896f9",
+	"euphrates_revision_date": "2024-04-08T23:09:38-07:00",
+	"euphrates_revision_title": "parselynn: fix handling of multichar strings"
 }
