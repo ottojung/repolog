@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.10355622099999096,
-	"alltimes": [0.1826368550000126, 0.10355622099999096],
-	"avgtime": 0.14309653800000177,
+	"time": 0.1293801590000072,
+	"alltimes": [0.1820111370000035, 0.1293801590000072],
+	"avgtime": 0.15569564800000535,
 	"deltas": [{
-		"constructed parser": 2.0411000008380142e-5,
-		"constructed lexer": 1.0299999928520265e-6,
-		"got first result": 0.1826082639999953,
-		"end": 7.150000016054037e-6
+		"constructed parser": 2.0849999998517887e-5,
+		"constructed lexer": 1.7400000018596984e-6,
+		"got first result": 0.181981676999996,
+		"end": 6.8700000070975875e-6
 	}, {
-		"constructed parser": 5.780000009281139e-6,
-		"constructed lexer": 7.599999776175537e-7,
-		"got first result": 0.10354202100000975,
-		"end": 7.65999999430278e-6
+		"constructed parser": 7.08999999687876e-6,
+		"constructed lexer": 7.400000043844557e-7,
+		"got first result": 0.12936497900000177,
+		"end": 7.3500000041804014e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-09T06:23:04-00:00",
-	"euphrates_revision_id": "6ac7522beefe4dfc443c9722d728515743e693d4",
-	"euphrates_revision_date": "2024-04-08T23:16:45-07:00",
-	"euphrates_revision_title": "labelinglogic: rename type:constant to type:variable"
+	"rundate": "2024-04-09T06:36:44-00:00",
+	"euphrates_revision_id": "e63ed7d2e341e4d6223e1af695b4e81d105d9d7d",
+	"euphrates_revision_date": "2024-04-08T23:30:39-07:00",
+	"euphrates_revision_title": "parselynn: fix handling of multichar strings"
 }
