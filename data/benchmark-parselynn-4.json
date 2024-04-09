@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 7.8825392119999975,
-	"alltimes": [7.670922296999997, 7.8825392119999975],
-	"avgtime": 7.776730754499997,
+	"time": 10.163422441000002,
+	"alltimes": [8.886668521999994, 10.163422441000002],
+	"avgtime": 9.525045481499998,
 	"deltas": [{
-		"constructed parser": 3.2022399999931395e-4,
-		"constructed lexer": 1.4099999994243717e-6,
-		"got first result": 0.0027918549999981224,
-		"end": 7.667808808
+		"constructed parser": 3.641349999981003e-4,
+		"constructed lexer": 1.480000001663484e-6,
+		"got first result": 0.0030210749999994846,
+		"end": 8.883281831999994
 	}, {
-		"constructed parser": 1.6675199999838242e-4,
-		"constructed lexer": 9.900000037532664e-7,
-		"got first result": 0.0030859589999963077,
-		"end": 7.879285510999999
+		"constructed parser": 2.4611399999940886e-4,
+		"constructed lexer": 2.1500000002561137e-6,
+		"got first result": 0.005029634000003114,
+		"end": 10.158144542999999
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-09T04:53:14-00:00",
-	"euphrates_revision_id": "ccbfa822f7c1c0213d0723b5c775633ab9a4eed6",
-	"euphrates_revision_date": "2024-04-08T21:48:38-07:00",
-	"euphrates_revision_title": "another improvement to deserialization of uids"
+	"rundate": "2024-04-09T05:05:36-00:00",
+	"euphrates_revision_id": "78c1011459e009e57475930ab53f5ce06698c743",
+	"euphrates_revision_date": "2024-04-08T22:00:35-07:00",
+	"euphrates_revision_title": "add unique-identifier->string/recursive"
 }
