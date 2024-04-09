@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.11100751200001469,
-	"alltimes": [0.197565179999998, 0.11100751200001469],
-	"avgtime": 0.15428634600000635,
+	"time": 0.10447530800000493,
+	"alltimes": [0.19948015800000007, 0.10447530800000493],
+	"avgtime": 0.1519777330000025,
 	"deltas": [{
-		"constructed parser": 1.9710000003669848e-5,
-		"constructed lexer": 1.269999984288006e-6,
-		"got first result": 0.19753694999999993,
-		"end": 7.250000010117219e-6
+		"constructed parser": 2.105100000449056e-5,
+		"constructed lexer": 1.2100000077452933e-6,
+		"got first result": 0.1994513069999897,
+		"end": 6.589999998141138e-6
 	}, {
-		"constructed parser": 7.070000009434807e-6,
-		"constructed lexer": 7.799999934832158e-7,
-		"got first result": 0.11099163200000817,
-		"end": 8.030000003600435e-6
+		"constructed parser": 7.150000001843182e-6,
+		"constructed lexer": 7.800000076940705e-7,
+		"got first result": 0.10445899799999836,
+		"end": 8.379999997032428e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-09T05:11:35-00:00",
-	"euphrates_revision_id": "438902bb1aff99077e8dbdce0ba63347ce8c4054",
-	"euphrates_revision_date": "2024-04-08T22:02:30-07:00",
-	"euphrates_revision_title": "add unique-identifier->symbol/recursive"
+	"rundate": "2024-04-09T05:27:54-00:00",
+	"euphrates_revision_id": "64b98f5e0fc90d52d0ca2c52e4d30e8dac549e49",
+	"euphrates_revision_date": "2024-04-08T22:22:12-07:00",
+	"euphrates_revision_title": "fix recursive identifier serialization"
 }
