@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.1667460129999938,
-	"alltimes": [0.14834702599999616, 0.1667460129999938],
-	"avgtime": 0.15754651949999499,
+	"time": 0.2023081090000005,
+	"alltimes": [0.1698140929999994, 0.2023081090000005],
+	"avgtime": 0.18606110099999995,
 	"deltas": [{
-		"constructed parser": 2.1320000001878725e-5,
-		"constructed lexer": 9.19999990856013e-7,
-		"got first result": 4.230000001825829e-6,
-		"end": 0.1483205560000016
+		"constructed parser": 1.9789999996078222e-5,
+		"constructed lexer": 8.500000063804691e-7,
+		"got first result": 3.800000001774606e-6,
+		"end": 0.16978965299999516
 	}, {
-		"constructed parser": 7.589999995616381e-6,
-		"constructed lexer": 9.8000001003129e-7,
-		"got first result": 3.29999998882613e-6,
-		"end": 0.16673414299999934
+		"constructed parser": 7.899999999949614e-6,
+		"constructed lexer": 1.2600000047768845e-6,
+		"got first result": 3.659999990190954e-6,
+		"end": 0.2022952890000056
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-13T23:22:11-00:00",
-	"euphrates_revision_id": "7ee5aefd8fa2ed5f662ee65a2a94a33a18f525bb",
-	"euphrates_revision_date": "2024-04-13T16:11:10-07:00",
-	"euphrates_revision_title": "fix dereferencing in labelinglogic:expression:evaluate"
+	"rundate": "2024-04-13T23:26:45-00:00",
+	"euphrates_revision_id": "779baa304fea22be0b19a617d826273aae8610f4",
+	"euphrates_revision_date": "2024-04-13T16:15:25-07:00",
+	"euphrates_revision_title": "add test that compares compiled labelinglogic with interpreted"
 }
