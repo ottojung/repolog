@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 8.506522316000002,
-	"alltimes": [9.157432681, 8.506522316000002],
-	"avgtime": 8.8319774985,
+	"time": 8.471531374999998,
+	"alltimes": [8.888189743000002, 8.471531374999998],
+	"avgtime": 8.679860559,
 	"deltas": [{
-		"constructed parser": 4.3168700000073557e-4,
-		"constructed lexer": 4.8100000000772525e-6,
-		"parsed input": 0.0025227549999993215,
-		"end": 9.154473429
+		"constructed parser": 4.4492299999987495e-4,
+		"constructed lexer": 4.27999999885742e-6,
+		"parsed input": 0.0025486780000001374,
+		"end": 8.885191862000003
 	}, {
-		"constructed parser": 2.7464400000098976e-4,
-		"constructed lexer": 4.199999999343618e-6,
-		"parsed input": 0.0023242629999984388,
-		"end": 8.503919209000003
+		"constructed parser": 4.001629999947909e-4,
+		"constructed lexer": 4.940000003728073e-6,
+		"parsed input": 0.0032982729999986304,
+		"end": 8.467827999
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-14T21:35:59-00:00",
-	"euphrates_revision_id": "609f9c6f3717cc1d9e1dd647f8ddc2922f32c846",
-	"euphrates_revision_date": "2024-04-14T14:04:50-07:00",
-	"euphrates_revision_title": "parselynn/simple: compile lexer together with the parser"
+	"rundate": "2024-04-14T22:45:58-00:00",
+	"euphrates_revision_id": "876399e63926d240fc3bfeb62314159946be4c9f",
+	"euphrates_revision_date": "2024-04-14T15:35:29-07:00",
+	"euphrates_revision_title": "remove lexer field from parselynn/simple-struct"
 }
