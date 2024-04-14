@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-11",
-	"time": 11.351680156,
-	"alltimes": [11.618233881999998, 11.351680156],
-	"avgtime": 11.484957019,
+	"time": 11.932610334000003,
+	"alltimes": [12.387061810999995, 11.932610334000003],
+	"avgtime": 12.1598360725,
 	"deltas": [{
-		"constructed parser": 6.360000000427135e-6,
-		"constructed lexer": 6.200000086664659e-7,
-		"got first result": 11.618219661999987,
-		"end": 7.240000002184388e-6
+		"constructed parser": 6.589999998141138e-6,
+		"constructed lexer": 9.099999971340367e-7,
+		"got first result": 12.387047330000016,
+		"end": 6.980999984307346e-6
 	}, {
-		"constructed parser": 5.240000007233903e-6,
-		"constructed lexer": 7.799999934832158e-7,
-		"got first result": 11.351667484999993,
-		"end": 6.651000006741015e-6
+		"constructed parser": 5.320000013853132e-6,
+		"constructed lexer": 5.499999815583578e-7,
+		"got first result": 11.932595824000003,
+		"end": 8.64000000433407e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-04-13T23:27:08-00:00",
-	"euphrates_revision_id": "779baa304fea22be0b19a617d826273aae8610f4",
-	"euphrates_revision_date": "2024-04-13T16:15:25-07:00",
-	"euphrates_revision_title": "add test that compares compiled labelinglogic with interpreted"
+	"rundate": "2024-04-14T02:26:41-00:00",
+	"euphrates_revision_id": "40fc1804eec55396122b39a51b832a91442a4dc5",
+	"euphrates_revision_date": "2024-04-13T18:29:55-07:00",
+	"euphrates_revision_title": "use compiled labelinglogic model in parselynn"
 }
