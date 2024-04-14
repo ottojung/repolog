@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 22.156525376000005,
-	"alltimes": [22.357393513000005, 22.156525376000005],
-	"avgtime": 22.256959444500005,
+	"time": 22.796694273,
+	"alltimes": [22.084422719999992, 22.796694273],
+	"avgtime": 22.440558496499996,
 	"deltas": [{
-		"constructed parser": 7.2000000059802005e-6,
-		"constructed lexer": 5.369999996673869e-6,
-		"parsed input": 22.357370573000004,
-		"end": 1.0369999998260937e-5
+		"constructed parser": 5.919999999548509e-6,
+		"constructed lexer": 5.039999997791256e-6,
+		"parsed input": 22.08440426,
+		"end": 7.499999995275175e-6
 	}, {
-		"constructed parser": 6.740000003446767e-6,
-		"constructed lexer": 8.07000000691005e-6,
-		"parsed input": 22.156502645999993,
-		"end": 7.920000001604421e-6
+		"constructed parser": 5.2299999993010715e-6,
+		"constructed lexer": 5.29999999798747e-6,
+		"parsed input": 22.79667617300001,
+		"end": 7.569999993961574e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-14T21:02:50-00:00",
-	"euphrates_revision_id": "6caee95d05856373168646acf602619405e46567",
+	"rundate": "2024-04-14T21:03:04-00:00",
+	"euphrates_revision_id": "88b95265626c729ce9250a6dfde936b00edd9280",
 	"euphrates_revision_date": "2024-04-14T13:52:08-07:00",
-	"euphrates_revision_title": "parselynn: use labelinglogic version of eval"
+	"euphrates_revision_title": "improve update-benchmarks-git-branch.sh script"
 }
