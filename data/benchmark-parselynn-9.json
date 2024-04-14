@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.11229652000000101,
-	"alltimes": [0.11359814500001164, 0.11229652000000101],
-	"avgtime": 0.11294733250000633,
+	"time": 0.12041991499999938,
+	"alltimes": [0.13675024699999483, 0.12041991499999938],
+	"avgtime": 0.1285850809999971,
 	"deltas": [{
-		"constructed parser": 1.9951000012952136e-5,
-		"constructed lexer": 1.499999996212864e-6,
-		"got first result": 0.11356986399999869,
-		"end": 6.830000003787973e-6
+		"constructed parser": 2.159999999662432e-5,
+		"constructed lexer": 1.4299999975264654e-6,
+		"got first result": 0.13672014700000545,
+		"end": 7.069999995223952e-6
 	}, {
-		"constructed parser": 6.079999991470686e-6,
-		"constructed lexer": 7.49999998106432e-7,
-		"got first result": 0.11227955000001089,
-		"end": 1.0140000000546934e-5
+		"constructed parser": 7.379999999557185e-6,
+		"constructed lexer": 7.200000027296483e-7,
+		"got first result": 0.12040398499999583,
+		"end": 7.830000001263215e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-14T21:20:38-00:00",
-	"euphrates_revision_id": "8be114d0c4ebe8151ef7d70c3eab720a29633787",
-	"euphrates_revision_date": "2024-04-14T13:54:46-07:00",
-	"euphrates_revision_title": "fix small error in the update-benchmarks-git-branch.sh script"
+	"rundate": "2024-04-14T21:20:44-00:00",
+	"euphrates_revision_id": "417fe6a05fb9f1990215946ccdd71cc4bd418c54",
+	"euphrates_revision_date": "2024-04-14T13:52:08-07:00",
+	"euphrates_revision_title": "make sure that every run of parselynn is in fresh scope"
 }
