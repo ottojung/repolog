@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 7.059314012999998,
-	"alltimes": [7.477877489000001, 7.059314012999998],
-	"avgtime": 7.268595750999999,
+	"time": 9.472530917999997,
+	"alltimes": [9.115552077000004, 9.472530917999997],
+	"avgtime": 9.2940414975,
 	"deltas": [{
-		"constructed parser": 2.9198400000041147e-4,
-		"constructed lexer": 1.4999999997655777e-6,
-		"got first result": 0.008927838999998272,
-		"end": 7.468656166000002
+		"constructed parser": 3.950960000054238e-4,
+		"constructed lexer": 2.9399999945667332e-6,
+		"got first result": 0.003898624000001405,
+		"end": 9.111255417000002
 	}, {
-		"constructed parser": 1.6393199999953367e-4,
-		"constructed lexer": 1.1300000011260636e-6,
-		"got first result": 0.002923208999995097,
-		"end": 7.056225742000002
+		"constructed parser": 2.0610199999993029e-4,
+		"constructed lexer": 1.7600000035145058e-6,
+		"got first result": 0.003438477999999634,
+		"end": 9.468884577999994
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-14T02:33:00-00:00",
-	"euphrates_revision_id": "779baa304fea22be0b19a617d826273aae8610f4",
-	"euphrates_revision_date": "2024-04-13T16:15:25-07:00",
-	"euphrates_revision_title": "add test that compares compiled labelinglogic with interpreted"
+	"rundate": "2024-04-14T04:06:00-00:00",
+	"euphrates_revision_id": "1807d0b1d5096ca9472af601a10d8cea9e1acf62",
+	"euphrates_revision_date": "2024-04-13T20:55:20-07:00",
+	"euphrates_revision_title": "make parselynn generated code less stateful"
 }
