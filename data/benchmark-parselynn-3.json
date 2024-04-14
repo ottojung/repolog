@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-3",
-	"time": 2.174017704999997,
-	"alltimes": [2.2417530850000027, 2.174017704999997],
-	"avgtime": 2.207885395,
+	"time": 1.8845738470000022,
+	"alltimes": [2.0261247469999972, 1.8845738470000022],
+	"avgtime": 1.9553492969999997,
 	"deltas": [{
-		"constructed parser": 2.42681999999661e-4,
-		"constructed lexer": 2.5800000003073364e-6,
-		"got first result": 2.241501422999999,
-		"end": 6.40000000373675e-6
+		"constructed parser": 1.6934199999951716e-4,
+		"constructed lexer": 1.6099999982088775e-6,
+		"got first result": 2.025947855000002,
+		"end": 5.939999997650602e-6
 	}, {
-		"constructed parser": 1.7442200000061803e-4,
-		"constructed lexer": 1.2799999993262645e-6,
-		"got first result": 2.1738354529999953,
-		"end": 6.550000001936951e-6
+		"constructed parser": 2.0703199999871913e-4,
+		"constructed lexer": 2.920000000017353e-6,
+		"got first result": 1.8843579550000022,
+		"end": 5.940000001203316e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-14T21:01:40-00:00",
-	"euphrates_revision_id": "4b8ed3a40df9417b9e05d5dbe73edcadf5b2c5e8",
+	"rundate": "2024-04-14T21:01:46-00:00",
+	"euphrates_revision_id": "6caee95d05856373168646acf602619405e46567",
 	"euphrates_revision_date": "2024-04-14T13:52:08-07:00",
-	"euphrates_revision_title": "parselynn: rename lexer into scanner, and intro an actual lexer"
+	"euphrates_revision_title": "parselynn: use labelinglogic version of eval"
 }
