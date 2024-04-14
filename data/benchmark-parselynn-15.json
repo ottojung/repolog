@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.08361543999998844,
-	"alltimes": [0.07644913999999403, 0.08361543999998844],
-	"avgtime": 0.08003228999999124,
+	"time": 0.11036797400001319,
+	"alltimes": [0.09203284999998118, 0.11036797400001319],
+	"avgtime": 0.10120041199999719,
 	"deltas": [{
-		"constructed parser": 3.990000010389849e-6,
-		"constructed lexer": 1.839999981712026e-6,
-		"parsed input": 0.07643745000001445,
-		"end": 5.859999987478659e-6
+		"constructed parser": 5.249999986745024e-6,
+		"constructed lexer": 2.0399999982601003e-6,
+		"parsed input": 0.09201830000000655,
+		"end": 7.259999989628341e-6
 	}, {
-		"constructed parser": 6.490000004077956e-6,
-		"constructed lexer": 3.5500000024057954e-6,
-		"parsed input": 0.08359944000000041,
-		"end": 5.959999981541841e-6
+		"constructed parser": 5.780000009281139e-6,
+		"constructed lexer": 3.2009999983984017e-6,
+		"parsed input": 0.11035195299999145,
+		"end": 7.040000014058023e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-04-14T20:49:02-00:00",
-	"euphrates_revision_id": "82a43bacc142b2d5b41a8bc6642111bbecdb6ddb",
-	"euphrates_revision_date": "2024-04-14T10:50:27-07:00",
-	"euphrates_revision_title": "do not update submodule during benchmarks update"
+	"rundate": "2024-04-14T21:05:17-00:00",
+	"euphrates_revision_id": "4b8ed3a40df9417b9e05d5dbe73edcadf5b2c5e8",
+	"euphrates_revision_date": "2024-04-14T13:52:08-07:00",
+	"euphrates_revision_title": "parselynn: rename lexer into scanner, and intro an actual lexer"
 }
