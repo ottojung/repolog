@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.13783042499997578,
-	"alltimes": [0.13106550200001266, 0.13783042499997578],
-	"avgtime": 0.13444796349999422,
+	"time": 0.15118084499999895,
+	"alltimes": [0.14931956899999932, 0.15118084499999895],
+	"avgtime": 0.15025020699999914,
 	"deltas": [{
-		"constructed parser": 1.9941000005019305e-5,
-		"constructed lexer": 8.000000093488779e-7,
-		"got first result": 3.8499999845953425e-6,
-		"end": 0.1310409110000137
+		"constructed parser": 1.7789999986916882e-5,
+		"constructed lexer": 8.400000126584928e-7,
+		"got first result": 4.719999992630619e-6,
+		"end": 0.1492962190000071
 	}, {
-		"constructed parser": 1.2798199998087512e-4,
-		"constructed lexer": 8.899999954792293e-7,
-		"got first result": 4.770000003873065e-6,
-		"end": 0.13769678299999555
+		"constructed parser": 8.050999980468987e-6,
+		"constructed lexer": 1.1099999994712562e-6,
+		"got first result": 4.1400000156954775e-6,
+		"end": 0.15116754400000332
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-15T03:46:00-00:00",
-	"euphrates_revision_id": "c523baabb9fc0d4759cc102ca1df27c370a1137e",
-	"euphrates_revision_date": "2024-04-14T20:39:49-07:00",
-	"euphrates_revision_title": "parselynn: fix folexer's procedure input handling"
+	"rundate": "2024-04-15T03:48:48-00:00",
+	"euphrates_revision_id": "594782544121f943b6939bdf3d469e6ac15ac8fa",
+	"euphrates_revision_date": "2024-04-14T20:40:04-07:00",
+	"euphrates_revision_title": "improve benchmarks for parselynn:simple"
 }
