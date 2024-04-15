@@ -1,17 +1,17 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.847812382,
-	"alltimes": [3.9534845780000003, 3.847812382],
-	"avgtime": 3.90064848,
+	"time": 3.231554031,
+	"alltimes": [3.271535322, 3.231554031],
+	"avgtime": 3.2515446765,
 	"deltas": [{
-		"constructed parser": 0.0017987630000000088,
-		"constructed lexer": 1.2109999999995735e-5,
-		"parsed input": 3.951665375,
-		"end": 8.330000000000837e-6
+		"constructed parser": 0.0013512559999999951,
+		"constructed lexer": 9.040000000001824e-6,
+		"parsed input": 3.2701677759999996,
+		"end": 7.2500000003472564e-6
 	}, {
-		"constructed parser": 4.6233600000000763e-4,
-		"constructed lexer": 4.759999999492948e-6,
-		"parsed input": 3.8473378160000005,
+		"constructed parser": 3.98925000000272e-4,
+		"constructed lexer": 5.069999999829378e-6,
+		"parsed input": 3.231142566,
 		"end": 7.469999999898391e-6
 	}],
 	"inputs": {
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-15T06:02:54-00:00",
-	"euphrates_revision_id": "995b1ddfa54c3a7be3c22f78aec23b5616c16d5b",
-	"euphrates_revision_date": "2024-04-14T22:43:45-07:00",
-	"euphrates_revision_title": "modify parselynn:simple benchmarks"
+	"rundate": "2024-04-15T06:06:54-00:00",
+	"euphrates_revision_id": "23145034d9225d5a29637b19f1b26e249ed5682b",
+	"euphrates_revision_date": "2024-04-14T22:55:13-07:00",
+	"euphrates_revision_title": "increase MAX_HEAP_SECTS number for CI"
 }
