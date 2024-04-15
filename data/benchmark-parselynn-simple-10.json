@@ -1,0 +1,28 @@
+{
+	"name": "benchmark-parselynn-simple-10",
+	"time": 0.5867460599999959,
+	"alltimes": [0.5914514410000038, 0.5867460599999959],
+	"avgtime": 0.5890987504999998,
+	"deltas": [{
+		"constructed parser": 0.00885202800000684,
+		"constructed lexer": 3.249999991794539e-6,
+		"parsed input": 0.5825894930000004,
+		"end": 6.670000004760368e-6
+	}, {
+		"constructed parser": 0.013581531999989238,
+		"constructed lexer": 5.130000005237889e-6,
+		"parsed input": 0.573153528000006,
+		"end": 5.86999999541149e-6
+	}],
+	"inputs": {
+		"driver": "lr",
+		"loadq": true,
+		"seq_len": 300000,
+		"n_runs": 1,
+		"string_inputq": false
+	},
+	"rundate": "2024-04-15T04:38:16-00:00",
+	"euphrates_revision_id": "f89934c83e01b0654a0b3039487aeb01b8fbb784",
+	"euphrates_revision_date": "2024-04-14T20:59:54-07:00",
+	"euphrates_revision_title": "add more benchmarks for parselynn:simple"
+}
