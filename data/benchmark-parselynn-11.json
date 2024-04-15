@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-11",
-	"time": 11.377653527999996,
-	"alltimes": [10.825488028000024, 11.377653527999996],
-	"avgtime": 11.10157077800001,
+	"time": 11.514162964000008,
+	"alltimes": [11.121693421000003, 11.514162964000008],
+	"avgtime": 11.317928192500005,
 	"deltas": [{
-		"constructed parser": 6.730000023935645e-6,
-		"constructed lexer": 1.2299999809783912e-6,
-		"got first result": 10.825471968000016,
-		"end": 8.100000002286833e-6
+		"constructed parser": 7.439999990310753e-6,
+		"constructed lexer": 1.1700000186465331e-6,
+		"got first result": 11.121678039999978,
+		"end": 6.771000016669859e-6
 	}, {
-		"constructed parser": 5.149999992681842e-6,
+		"constructed parser": 5.070000014484322e-6,
 		"constructed lexer": 5.6999999742402e-7,
-		"got first result": 11.377639658000021,
-		"end": 8.14999998510757e-6
+		"got first result": 11.514149643999986,
+		"end": 7.680000010168442e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-04-15T03:54:09-00:00",
-	"euphrates_revision_id": "a1e32b1991d6dc715e409dc04602299c9be098d3",
-	"euphrates_revision_date": "2024-04-14T20:44:07-07:00",
-	"euphrates_revision_title": "add benchmarks for parselynn:simple"
+	"rundate": "2024-04-15T04:07:35-00:00",
+	"euphrates_revision_id": "79c1af27f0c62981da5a2aa44a6ce315699f56a7",
+	"euphrates_revision_date": "2024-04-14T20:55:28-07:00",
+	"euphrates_revision_title": "tolerate even input lengths in parselynn:simple benchmarks"
 }
