@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 15.839687700000002,
-	"alltimes": [17.499141013, 15.839687700000002],
-	"avgtime": 16.6694143565,
+	"time": 15.415449595,
+	"alltimes": [15.240930316, 15.415449595],
+	"avgtime": 15.328189955500001,
 	"deltas": [{
-		"constructed parser": 0.025543081999999995,
-		"constructed lexer": 3.4090000000014387e-5,
-		"parsed input": 17.473558971000003,
-		"end": 4.869999997936247e-6
+		"constructed parser": 0.016147997999999997,
+		"constructed lexer": 2.288100000000237e-5,
+		"parsed input": 15.224754477,
+		"end": 4.96000000005381e-6
 	}, {
-		"constructed parser": 0.017888923000001,
-		"constructed lexer": 1.0259999999817637e-5,
-		"parsed input": 15.821784186999999,
-		"end": 4.3300000029944385e-6
+		"constructed parser": 0.011516321000000218,
+		"constructed lexer": 9.54999999969175e-6,
+		"parsed input": 15.403919773,
+		"end": 3.951000000057547e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-17T04:09:31-00:00",
-	"euphrates_revision_id": "bffb0ed86bcf845040a9d275e9e0aa54f6f4d061",
-	"euphrates_revision_date": "2024-04-16T21:02:08-07:00",
-	"euphrates_revision_title": "move lexical token out of parselynn:core file"
+	"rundate": "2024-04-17T04:19:56-00:00",
+	"euphrates_revision_id": "498b33dc402949a0579ad6da2fc862e6c4e95745",
+	"euphrates_revision_date": "2024-04-16T21:12:49-07:00",
+	"euphrates_revision_title": "ensure that lexer-core does not pollute parsers namespace in parselynn:core"
 }
