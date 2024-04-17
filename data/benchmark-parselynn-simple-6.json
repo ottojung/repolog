@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-6",
-	"time": 3.5794950069999913,
-	"alltimes": [3.7481441479999944, 3.5794950069999913],
-	"avgtime": 3.663819577499993,
+	"time": 3.4009658390000084,
+	"alltimes": [3.015439864000001, 3.4009658390000084],
+	"avgtime": 3.2082028515000047,
 	"deltas": [{
-		"constructed parser": 2.938087367999998,
-		"constructed lexer": 1.793999999222251e-5,
-		"parsed input": 0.8100324300000068,
-		"end": 6.409999997458726e-6
+		"constructed parser": 2.363305703000009,
+		"constructed lexer": 1.3109999997595878e-5,
+		"parsed input": 0.6521154209999906,
+		"end": 5.6300000039755105e-6
 	}, {
-		"constructed parser": 2.746207978000001,
-		"constructed lexer": 4.314000000249507e-5,
-		"parsed input": 0.8332369990000075,
-		"end": 6.8899999803306855e-6
+		"constructed parser": 2.6982148910000205,
+		"constructed lexer": 3.622099998779049e-5,
+		"parsed input": 0.7027088670000126,
+		"end": 5.859999987478659e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-17T04:22:32-00:00",
-	"euphrates_revision_id": "498b33dc402949a0579ad6da2fc862e6c4e95745",
-	"euphrates_revision_date": "2024-04-16T21:12:49-07:00",
-	"euphrates_revision_title": "ensure that lexer-core does not pollute parsers namespace in parselynn:core"
+	"rundate": "2024-04-17T04:29:52-00:00",
+	"euphrates_revision_id": "71711b7a69796549b260aa4f28c11b7dc7642d0c",
+	"euphrates_revision_date": "2024-04-16T21:20:46-07:00",
+	"euphrates_revision_title": "allow passing pure code in parselynn:core"
 }
