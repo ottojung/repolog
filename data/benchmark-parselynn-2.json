@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 14.975653338000004,
-	"alltimes": [15.271085887999998, 14.975653338000004],
-	"avgtime": 15.123369613000001,
+	"time": 12.702272401999998,
+	"alltimes": [12.323285887, 12.702272401999998],
+	"avgtime": 12.5127791445,
 	"deltas": [{
-		"constructed parser": 5.769249999989512e-4,
-		"constructed lexer": 6.120000000109371e-6,
-		"parsed input": 0.0028950959999995973,
-		"end": 15.267607747
+		"constructed parser": 4.526249999994292e-4,
+		"constructed lexer": 4.700000000745774e-6,
+		"parsed input": 0.002785449999999301,
+		"end": 12.320043112
 	}, {
-		"constructed parser": 2.861830000000509e-4,
-		"constructed lexer": 4.610000001292747e-6,
-		"parsed input": 0.002714804000000015,
-		"end": 14.972647741000003
+		"constructed parser": 2.9814299999841865e-4,
+		"constructed lexer": 4.700000001633953e-6,
+		"parsed input": 0.0026864690000003577,
+		"end": 12.699283089999998
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-19T04:06:25-00:00",
-	"euphrates_revision_id": "c3a6feb23b6f545a1d135ebbf9f3acd5d8c38766",
-	"euphrates_revision_date": "2024-04-18T21:02:51-07:00",
-	"euphrates_revision_title": "add tests for labelinglogic:expression:desugar"
+	"rundate": "2024-04-19T04:52:43-00:00",
+	"euphrates_revision_id": "f931f8a13bdf605b544c6edddf0f8ba7ed7ab955",
+	"euphrates_revision_date": "2024-04-18T21:49:35-07:00",
+	"euphrates_revision_title": "parselynn: add tests for epsilon transitions"
 }
