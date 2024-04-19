@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.11317887200002019,
-	"alltimes": [0.11275384799998278, 0.11317887200002019],
-	"avgtime": 0.11296636000000149,
+	"time": 0.12758171900000548,
+	"alltimes": [0.2151624310000102, 0.12758171900000548],
+	"avgtime": 0.17137207500000784,
 	"deltas": [{
-		"constructed parser": 2.0579999983283415e-5,
+		"constructed parser": 2.209999999536194e-5,
 		"constructed lexer": 1.330000003463283e-6,
-		"got first result": 0.1127238180000063,
-		"end": 8.119999989730786e-6
+		"got first result": 0.21513279100000204,
+		"end": 6.2100000093323615e-6
 	}, {
-		"constructed parser": 7.880000026716516e-6,
-		"constructed lexer": 1.0699999961616413e-6,
-		"got first result": 0.11316020099999946,
-		"end": 9.720999997853141e-6
+		"constructed parser": 6.331000008685805e-6,
+		"constructed lexer": 7.299999822407699e-7,
+		"got first result": 0.12756747800000312,
+		"end": 7.1800000114308205e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-19T03:59:44-00:00",
-	"euphrates_revision_id": "35265afbec834d91bae4a527125cbafb5af2792d",
-	"euphrates_revision_date": "2024-04-18T20:54:47-07:00",
-	"euphrates_revision_title": "remove the (tuple x) = x axiom"
+	"rundate": "2024-04-19T04:08:09-00:00",
+	"euphrates_revision_id": "c3a6feb23b6f545a1d135ebbf9f3acd5d8c38766",
+	"euphrates_revision_date": "2024-04-18T21:02:51-07:00",
+	"euphrates_revision_title": "add tests for labelinglogic:expression:desugar"
 }

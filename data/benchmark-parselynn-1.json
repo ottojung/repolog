@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.26691702,
-	"alltimes": [3.256323008, 3.26691702],
-	"avgtime": 3.261620014,
+	"time": 4.113239556999999,
+	"alltimes": [3.940288341, 4.113239556999999],
+	"avgtime": 4.026763948999999,
 	"deltas": [{
-		"constructed parser": 0.001239468999999993,
-		"constructed lexer": 8.099999999996998e-6,
-		"parsed input": 3.255069589,
-		"end": 5.849999999973932e-6
+		"constructed parser": 0.0013801319999999923,
+		"constructed lexer": 1.0819999999994723e-5,
+		"parsed input": 3.9388899090000002,
+		"end": 7.4799999998376165e-6
 	}, {
-		"constructed parser": 3.5242299999982407e-4,
-		"constructed lexer": 4.790000000198802e-6,
-		"parsed input": 3.266554537,
-		"end": 5.269999999946151e-6
+		"constructed parser": 4.3739399999953577e-4,
+		"constructed lexer": 5.570000000787445e-6,
+		"parsed input": 4.112788942,
+		"end": 7.650999998887187e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-19T03:57:41-00:00",
-	"euphrates_revision_id": "35265afbec834d91bae4a527125cbafb5af2792d",
-	"euphrates_revision_date": "2024-04-18T20:54:47-07:00",
-	"euphrates_revision_title": "remove the (tuple x) = x axiom"
+	"rundate": "2024-04-19T04:05:55-00:00",
+	"euphrates_revision_id": "c3a6feb23b6f545a1d135ebbf9f3acd5d8c38766",
+	"euphrates_revision_date": "2024-04-18T21:02:51-07:00",
+	"euphrates_revision_title": "add tests for labelinglogic:expression:desugar"
 }
