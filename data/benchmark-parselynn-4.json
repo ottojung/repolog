@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 17.974771290000007,
-	"alltimes": [19.99275816400001, 17.974771290000007],
-	"avgtime": 18.983764727000008,
+	"time": 17.957492088000002,
+	"alltimes": [16.044498647000005, 17.957492088000002],
+	"avgtime": 17.000995367500003,
 	"deltas": [{
-		"constructed parser": 6.452350000074603e-4,
-		"constructed lexer": 1.990000001228509e-6,
-		"got first result": 0.003576594999998406,
-		"end": 19.988534344
+		"constructed parser": 6.145580000023187e-4,
+		"constructed lexer": 1.900000000887303e-6,
+		"got first result": 0.003868394000001274,
+		"end": 16.040013795
 	}, {
-		"constructed parser": 1.8687200000044868e-4,
-		"constructed lexer": 1.1099999994712562e-6,
-		"got first result": 0.003593545000001086,
-		"end": 17.970989763000006
+		"constructed parser": 2.2376299999393723e-4,
+		"constructed lexer": 1.1600000036082747e-6,
+		"got first result": 0.0050807690000027605,
+		"end": 17.952186396000002
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-20T19:18:13-00:00",
-	"euphrates_revision_id": "d719cfe8e615fe48111afb2c9d2c5167d37c258b",
-	"euphrates_revision_date": "2024-04-20T11:55:58-07:00",
-	"euphrates_revision_title": "rename labelinglogic clause optimization function"
+	"rundate": "2024-04-20T19:22:26-00:00",
+	"euphrates_revision_id": "aa119d3c288f8edcdeeb212f34820dc077fe3c66",
+	"euphrates_revision_date": "2024-04-20T11:58:02-07:00",
+	"euphrates_revision_title": "factor out labelinglogic:expression:dnf-clause?"
 }
