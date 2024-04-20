@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.15271972400000777,
-	"alltimes": [0.18937854300000367, 0.15271972400000777],
-	"avgtime": 0.17104913350000572,
+	"time": 0.14055675000000178,
+	"alltimes": [0.15988671799999565, 0.14055675000000178],
+	"avgtime": 0.15022173399999872,
 	"deltas": [{
-		"constructed parser": 1.7459999980928842e-5,
-		"constructed lexer": 7.49999998106432e-7,
-		"got first result": 4.290000021001106e-6,
-		"end": 0.18935604300000364
+		"constructed parser": 1.964999998449457e-5,
+		"constructed lexer": 7.600000060392631e-7,
+		"got first result": 4.4800000011946395e-6,
+		"end": 0.15986182800000392
 	}, {
-		"constructed parser": 8.780000001706867e-6,
-		"constructed lexer": 1.4200000180153438e-6,
-		"got first result": 4.0699999885873694e-6,
-		"end": 0.15270545399999946
+		"constructed parser": 6.869999992886733e-6,
+		"constructed lexer": 8.600000001024455e-7,
+		"got first result": 3.3900000175890455e-6,
+		"end": 0.1405456299999912
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-20T21:03:19-00:00",
-	"euphrates_revision_id": "ea9c84122119312a0637838f3d94ff2a07b25263",
-	"euphrates_revision_date": "2024-04-20T11:00:30-07:00",
-	"euphrates_revision_title": "improve tuple null check in labelinglogic"
+	"rundate": "2024-04-20T21:55:43-00:00",
+	"euphrates_revision_id": "e575d3460b6ded9206595ab72fc0d275c3419519",
+	"euphrates_revision_date": "2024-04-20T14:50:12-07:00",
+	"euphrates_revision_title": "always simplify singleton ands in labelinglogic"
 }

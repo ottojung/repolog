@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-2",
-	"time": 36.635838651,
-	"alltimes": [33.072577931, 36.635838651],
-	"avgtime": 34.854208291,
+	"time": 27.976688924,
+	"alltimes": [25.901865963, 27.976688924],
+	"avgtime": 26.9392774435,
 	"deltas": [{
-		"constructed parser": 0.10734751500000073,
-		"constructed lexer": 2.366100000017468e-5,
-		"parsed input": 32.965201904,
-		"end": 4.850999999916894e-6
+		"constructed parser": 0.0679800459999953,
+		"constructed lexer": 1.7290000002390116e-5,
+		"parsed input": 25.833863866999998,
+		"end": 4.760000003045661e-6
 	}, {
-		"constructed parser": 0.09979455699999562,
-		"constructed lexer": 1.3420000001929111e-5,
-		"parsed input": 36.536024553999994,
-		"end": 6.1200000089911555e-6
+		"constructed parser": 0.0637926639999975,
+		"constructed lexer": 9.22999999630747e-6,
+		"parsed input": 27.91288229,
+		"end": 4.740000008496281e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-20T21:06:49-00:00",
-	"euphrates_revision_id": "ea9c84122119312a0637838f3d94ff2a07b25263",
-	"euphrates_revision_date": "2024-04-20T11:00:30-07:00",
-	"euphrates_revision_title": "improve tuple null check in labelinglogic"
+	"rundate": "2024-04-20T21:58:36-00:00",
+	"euphrates_revision_id": "e575d3460b6ded9206595ab72fc0d275c3419519",
+	"euphrates_revision_date": "2024-04-20T14:50:12-07:00",
+	"euphrates_revision_title": "always simplify singleton ands in labelinglogic"
 }
