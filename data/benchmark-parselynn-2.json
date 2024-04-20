@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 19.879447531000004,
-	"alltimes": [16.284515438, 19.879447531000004],
-	"avgtime": 18.0819814845,
+	"time": 16.019821262000004,
+	"alltimes": [15.159970150999998, 16.019821262000004],
+	"avgtime": 15.589895706500002,
 	"deltas": [{
-		"constructed parser": 0.001373484000000147,
-		"constructed lexer": 5.52000000020314e-6,
-		"parsed input": 0.003419653999999994,
-		"end": 16.27971678
+		"constructed parser": 6.700859999995146e-4,
+		"constructed lexer": 6.000000000838668e-6,
+		"parsed input": 0.003395751999999419,
+		"end": 15.155898312999998
 	}, {
-		"constructed parser": 3.9282400000217876e-4,
-		"constructed lexer": 5.3799999975012724e-6,
-		"parsed input": 0.0034192550000007316,
-		"end": 19.875630072000003
+		"constructed parser": 3.817940000025999e-4,
+		"constructed lexer": 5.729999998038693e-6,
+		"parsed input": 0.0027806669999996814,
+		"end": 16.016653071000004
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-20T23:06:03-00:00",
-	"euphrates_revision_id": "b4d1500ce7da2f55c8c38079c52528d7e695c696",
-	"euphrates_revision_date": "2024-04-20T16:02:23-07:00",
-	"euphrates_revision_title": "remove outdates functions from labelinglogic"
+	"rundate": "2024-04-20T23:19:16-00:00",
+	"euphrates_revision_id": "9ff48f81be1fff9e89167e0846f0b513d4e66fec",
+	"euphrates_revision_date": "2024-04-20T16:16:04-07:00",
+	"euphrates_revision_title": "fix tuples reduction in labelinglogic"
 }
