@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-5",
-	"time": 0.45457625000000235,
-	"alltimes": [1.6379768280000064, 0.45457625000000235],
-	"avgtime": 1.0462765390000044,
+	"time": 0.506207546000013,
+	"alltimes": [1.9631267530000116, 0.506207546000013],
+	"avgtime": 1.2346671495000123,
 	"deltas": [{
-		"constructed parser": 1.2544181100000174,
-		"constructed lexer": 1.5529999984664755e-5,
-		"parsed input": 0.3835362069999917,
-		"end": 6.981000012729055e-6
+		"constructed parser": 1.5171321440000156,
+		"constructed lexer": 1.4249999992443918e-5,
+		"parsed input": 0.4459739890000094,
+		"end": 6.3699999941491114e-6
 	}, {
-		"constructed parser": 0.0630953639999916,
-		"constructed lexer": 1.158099999543083e-5,
-		"parsed input": 0.3914626250000026,
-		"end": 6.680000012693199e-6
+		"constructed parser": 0.0670641370000169,
+		"constructed lexer": 9.479999988570853e-6,
+		"parsed input": 0.4391280690000201,
+		"end": 5.859999987478659e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-20T23:25:09-00:00",
-	"euphrates_revision_id": "9ff48f81be1fff9e89167e0846f0b513d4e66fec",
-	"euphrates_revision_date": "2024-04-20T16:16:04-07:00",
-	"euphrates_revision_title": "fix tuples reduction in labelinglogic"
+	"rundate": "2024-04-20T23:38:42-00:00",
+	"euphrates_revision_id": "9d500c29e9b67d3311e2272f516135111406e1b1",
+	"euphrates_revision_date": "2024-04-20T16:29:27-07:00",
+	"euphrates_revision_title": "add one more test for labelinglogic:*to-dnf"
 }
