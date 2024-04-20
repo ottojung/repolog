@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 23.525770916,
-	"alltimes": [25.364662389999992, 23.525770916],
-	"avgtime": 24.445216652999996,
+	"time": 38.06434529399999,
+	"alltimes": [36.102439131, 38.06434529399999],
+	"avgtime": 37.083392212499994,
 	"deltas": [{
-		"constructed parser": 6.720000001791959e-6,
-		"constructed lexer": 5.840000000034706e-6,
-		"parsed input": 25.364642839999988,
-		"end": 6.990000002815577e-6
+		"constructed parser": 6.40000000373675e-6,
+		"constructed lexer": 5.020000003241876e-6,
+		"parsed input": 36.10241935100001,
+		"end": 8.359999981166766e-6
 	}, {
-		"constructed parser": 6.219999988843483e-6,
-		"constructed lexer": 6.951000017352271e-6,
-		"parsed input": 23.52575063499998,
-		"end": 7.110000012744422e-6
+		"constructed parser": 7.4699999856875365e-6,
+		"constructed lexer": 7.3600000121132325e-6,
+		"parsed input": 38.064322533999984,
+		"end": 7.930000009537252e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-20T20:45:13-00:00",
-	"euphrates_revision_id": "02e335de1042162734afccea77cd46c5cd2c86c3",
-	"euphrates_revision_date": "2024-04-20T13:37:33-07:00",
-	"euphrates_revision_title": "rename \"semilemma\" to \"lexeme\""
+	"rundate": "2024-04-20T20:49:33-00:00",
+	"euphrates_revision_id": "3a0da37e777e991058d7e7c12ab3ebb8cdfba07b",
+	"euphrates_revision_date": "2024-04-20T13:38:51-07:00",
+	"euphrates_revision_title": "add labelinglogic:expression:ground?"
 }
