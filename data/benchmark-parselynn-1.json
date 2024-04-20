@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 4.679099255999999,
-	"alltimes": [4.933826844, 4.679099255999999],
-	"avgtime": 4.80646305,
+	"time": 4.629026826999999,
+	"alltimes": [4.552035997, 4.629026826999999],
+	"avgtime": 4.590531411999999,
 	"deltas": [{
-		"constructed parser": 0.002134338999999999,
-		"constructed lexer": 1.7400000000000748e-5,
-		"parsed input": 4.9316658239999995,
-		"end": 9.281000000527229e-6
+		"constructed parser": 0.002703992999999988,
+		"constructed lexer": 1.8060999999985894e-5,
+		"parsed input": 4.549303743,
+		"end": 1.0199999999294107e-5
 	}, {
-		"constructed parser": 5.063439999997144e-4,
-		"constructed lexer": 5.890999999813573e-6,
-		"parsed input": 4.678579321,
-		"end": 7.699999999388751e-6
+		"constructed parser": 5.489949999999411e-4,
+		"constructed lexer": 5.4399999998011594e-6,
+		"parsed input": 4.628463721999999,
+		"end": 8.669999999710853e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-20T19:08:49-00:00",
-	"euphrates_revision_id": "1902ad1e9c6dcbc0bb7bc751d4e357c8e048d0d6",
-	"euphrates_revision_date": "2024-04-20T11:20:39-07:00",
-	"euphrates_revision_title": "add labelinglogic:expression:semiground?"
+	"rundate": "2024-04-20T19:09:26-00:00",
+	"euphrates_revision_id": "c4476f1ece683ef4fa7aa3367467ff42fb5940d8",
+	"euphrates_revision_date": "2024-04-20T11:12:54-07:00",
+	"euphrates_revision_title": "make tuple officially a ground term in labelinglogic"
 }
