@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 16.833966042999997,
-	"alltimes": [16.948822650999997, 16.833966042999997],
-	"avgtime": 16.891394346999995,
+	"time": 16.782404800000002,
+	"alltimes": [19.02661628, 16.782404800000002],
+	"avgtime": 17.90451054,
 	"deltas": [{
-		"constructed parser": 0.02009509499999998,
-		"constructed lexer": 3.7660000000022675e-5,
-		"parsed input": 16.928684705,
-		"end": 5.190999999626911e-6
+		"constructed parser": 0.023059910000000017,
+		"constructed lexer": 3.824099999999442e-5,
+		"parsed input": 19.003513959,
+		"end": 4.17000000041412e-6
 	}, {
-		"constructed parser": 0.011765936999999838,
-		"constructed lexer": 1.2639999997787754e-5,
-		"parsed input": 16.822183536,
-		"end": 3.92999999832e-6
+		"constructed parser": 0.01096151000000134,
+		"constructed lexer": 1.1289999999775091e-5,
+		"parsed input": 16.771426369999997,
+		"end": 5.6300000039755105e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-20T19:50:00-00:00",
-	"euphrates_revision_id": "cfe24204dbf4169704ae97e08bd23bf518902972",
-	"euphrates_revision_date": "2024-04-20T12:42:22-07:00",
-	"euphrates_revision_title": "fix error in comment of list-reduce/pairwise/left"
+	"rundate": "2024-04-20T20:19:17-00:00",
+	"euphrates_revision_id": "b8819fca30d7d6ad13c32f78e1b0d043750bddd1",
+	"euphrates_revision_date": "2024-04-20T13:11:43-07:00",
+	"euphrates_revision_title": "expand labelinglogic:expression:leaf? to include top and bottom"
 }
