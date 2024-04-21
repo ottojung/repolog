@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 24.816937406999998,
-	"alltimes": [24.427999023, 24.816937406999998],
-	"avgtime": 24.622468214999998,
+	"time": 25.712408707999998,
+	"alltimes": [20.609262222999998, 25.712408707999998],
+	"avgtime": 23.1608354655,
 	"deltas": [{
-		"constructed parser": 7.144869999997638e-4,
-		"constructed lexer": 5.559999999960041e-6,
-		"parsed input": 0.0036519379999990775,
-		"end": 24.423627038000003
+		"constructed parser": 6.654170000004456e-4,
+		"constructed lexer": 4.650000001049648e-6,
+		"parsed input": 0.0025763259999997956,
+		"end": 20.606015829999997
 	}, {
-		"constructed parser": 4.0279399999576526e-4,
-		"constructed lexer": 5.020000003241876e-6,
-		"parsed input": 0.0037154480000012313,
-		"end": 24.812814144999997
+		"constructed parser": 3.719730000000254e-4,
+		"constructed lexer": 5.031000000599306e-6,
+		"parsed input": 0.003517336000001592,
+		"end": 25.708514367999996
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T08:14:23-00:00",
-	"euphrates_revision_id": "f33165ba59b61a2770d1e2eeb8942c443bbf2856",
-	"euphrates_revision_date": "2024-04-21T00:25:08-07:00",
-	"euphrates_revision_title": "improve dnf-clause definition in labelinglogic"
+	"rundate": "2024-04-21T08:15:19-00:00",
+	"euphrates_revision_id": "6b824c1fe22b390c3d9400db4b3a2e8e6901a39f",
+	"euphrates_revision_date": "2024-04-21T00:25:09-07:00",
+	"euphrates_revision_title": "expand tuples in labelinglogic:*to-dnf"
 }
