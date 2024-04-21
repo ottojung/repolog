@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 4.4580946169999995,
-	"alltimes": [4.313449753, 4.4580946169999995],
-	"avgtime": 4.385772185,
+	"time": 4.086348108,
+	"alltimes": [4.271098242999999, 4.086348108],
+	"avgtime": 4.1787231755,
 	"deltas": [{
-		"constructed parser": 0.0016161459999999989,
-		"constructed lexer": 1.17800000000029e-5,
-		"parsed input": 4.311814007000001,
-		"end": 7.819999999547633e-6
+		"constructed parser": 0.002009141000000006,
+		"constructed lexer": 1.4559999999996798e-5,
+		"parsed input": 4.269066562,
+		"end": 7.979999999463416e-6
 	}, {
-		"constructed parser": 4.7061400000014686e-4,
-		"constructed lexer": 5.421000000005449e-6,
-		"parsed input": 4.457611751999999,
-		"end": 6.830000000235259e-6
+		"constructed parser": 5.126250000007104e-4,
+		"constructed lexer": 4.909999999469505e-6,
+		"parsed input": 4.085821683,
+		"end": 8.890000000150167e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T07:35:42-00:00",
-	"euphrates_revision_id": "40770ec4b939e783bb7be52d8f849b8f173e97ff",
-	"euphrates_revision_date": "2024-04-21T00:22:13-07:00",
-	"euphrates_revision_title": "lift type restriction in optimization of labelinglogic dnf-clauses"
+	"rundate": "2024-04-21T07:41:20-00:00",
+	"euphrates_revision_id": "fc86be1901cf26e27fdc013583a356f102b53ae0",
+	"euphrates_revision_date": "2024-04-21T00:25:07-07:00",
+	"euphrates_revision_title": "fix error in comment of list-reduce/pairwise/left"
 }
