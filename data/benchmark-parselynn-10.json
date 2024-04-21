@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.15656504999998333,
-	"alltimes": [0.21087023799998406, 0.15656504999998333],
-	"avgtime": 0.1837176439999837,
+	"time": 0.15625118799999882,
+	"alltimes": [0.17717468699999017, 0.15625118799999882],
+	"avgtime": 0.1667129374999945,
 	"deltas": [{
-		"constructed parser": 1.9369999989748976e-5,
-		"constructed lexer": 9.200000192777225e-7,
-		"got first result": 5.859999987478659e-6,
-		"end": 0.21084408799998755
+		"constructed parser": 1.8080999979019907e-5,
+		"constructed lexer": 7.000000152856956e-7,
+		"got first result": 4.300000000512227e-6,
+		"end": 0.17715160599999535
 	}, {
-		"constructed parser": 6.619999993517922e-6,
-		"constructed lexer": 1.0599999882288103e-6,
-		"got first result": 2.910000006295377e-6,
-		"end": 0.1565544599999953
+		"constructed parser": 8.949999994456448e-6,
+		"constructed lexer": 9.499999862327968e-7,
+		"got first result": 3.7500000189538696e-6,
+		"end": 0.15623753799999918
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-21T08:42:32-00:00",
-	"euphrates_revision_id": "4fdcbd197dafe49e28c6260e8fdae9a9dc45f2d8",
+	"rundate": "2024-04-21T08:47:13-00:00",
+	"euphrates_revision_id": "00b1d07f7605f7e31f0661f9acb0abcaf8d4199c",
 	"euphrates_revision_date": "2024-04-21T00:25:10-07:00",
-	"euphrates_revision_title": "implement convinience syntax for parselynn:folexer"
+	"euphrates_revision_title": "fix hidden-tree-labels handling in parselynn:simple"
 }
