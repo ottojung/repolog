@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.15625118799999882,
-	"alltimes": [0.17717468699999017, 0.15625118799999882],
-	"avgtime": 0.1667129374999945,
+	"time": 0.16284676600000125,
+	"alltimes": [0.19282708700001194, 0.16284676600000125],
+	"avgtime": 0.1778369265000066,
 	"deltas": [{
-		"constructed parser": 1.8080999979019907e-5,
-		"constructed lexer": 7.000000152856956e-7,
-		"got first result": 4.300000000512227e-6,
-		"end": 0.17715160599999535
+		"constructed parser": 1.9450000024789915e-5,
+		"constructed lexer": 2.7299999771912553e-6,
+		"got first result": 4.020000005766633e-6,
+		"end": 0.1928008870000042
 	}, {
-		"constructed parser": 8.949999994456448e-6,
-		"constructed lexer": 9.499999862327968e-7,
-		"got first result": 3.7500000189538696e-6,
-		"end": 0.15623753799999918
+		"constructed parser": 9.250000005067704e-6,
+		"constructed lexer": 1.0699999961616413e-6,
+		"got first result": 4.750000016429112e-6,
+		"end": 0.1628316959999836
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-21T08:47:13-00:00",
-	"euphrates_revision_id": "00b1d07f7605f7e31f0661f9acb0abcaf8d4199c",
+	"rundate": "2024-04-21T08:48:17-00:00",
+	"euphrates_revision_id": "8210b663803f79e6c236e6857d10e9bbf9249666",
 	"euphrates_revision_date": "2024-04-21T00:25:10-07:00",
-	"euphrates_revision_title": "fix hidden-tree-labels handling in parselynn:simple"
+	"euphrates_revision_title": "fix negation of tuples in labelinglogic"
 }
