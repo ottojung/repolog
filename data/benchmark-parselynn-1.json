@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.958878577,
-	"alltimes": [4.010833464, 3.958878577],
-	"avgtime": 3.9848560205,
+	"time": 3.3977870219999997,
+	"alltimes": [3.5571251640000003, 3.3977870219999997],
+	"avgtime": 3.477456093,
 	"deltas": [{
-		"constructed parser": 0.0016497669999999964,
-		"constructed lexer": 9.899999999993248e-6,
-		"parsed input": 4.009166796,
-		"end": 7.001000000173008e-6
+		"constructed parser": 0.0019304890000000074,
+		"constructed lexer": 1.1861000000001898e-5,
+		"parsed input": 3.555176554,
+		"end": 6.260000000146704e-6
 	}, {
-		"constructed parser": 5.182049999996607e-4,
-		"constructed lexer": 4.880000000540008e-6,
-		"parsed input": 3.958349462,
-		"end": 6.029999999768165e-6
+		"constructed parser": 3.861739999999614e-4,
+		"constructed lexer": 5.320000000086367e-6,
+		"parsed input": 3.397387758,
+		"end": 7.769999999851507e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T01:20:50-00:00",
-	"euphrates_revision_id": "303654205f1bfefad8db27229e57fa9a054cd170",
-	"euphrates_revision_date": "2024-04-20T18:15:24-07:00",
-	"euphrates_revision_title": "fix priotization of constants in labelinglogic interpretation"
+	"rundate": "2024-04-21T02:06:55-00:00",
+	"euphrates_revision_id": "ab72ad8a88cee8786a057c8d4a85d8ed66f7a7e6",
+	"euphrates_revision_date": "2024-04-20T19:02:58-07:00",
+	"euphrates_revision_title": "introduce a concept of parselynn:folexer:expression"
 }
