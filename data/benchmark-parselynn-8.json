@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-8",
-	"time": 15.876459541000003,
-	"alltimes": [16.182174169999996, 15.876459541000003],
-	"avgtime": 16.0293168555,
+	"time": 16.58038130099999,
+	"alltimes": [17.91139695200002, 16.58038130099999],
+	"avgtime": 17.245889126500003,
 	"deltas": [{
-		"constructed parser": 6.179999985533868e-6,
-		"constructed lexer": 4.439999997885025e-6,
-		"parsed input": 4.740000008496281e-6,
-		"end": 16.182158810000004
+		"constructed parser": 7.320000008803618e-6,
+		"constructed lexer": 7.930000009537252e-6,
+		"parsed input": 5.401000009896961e-6,
+		"end": 17.91137630099999
 	}, {
-		"constructed parser": 9.150000011004522e-6,
-		"constructed lexer": 8.129999997663617e-6,
-		"parsed input": 5.590000000665896e-6,
-		"end": 15.876436670999993
+		"constructed parser": 9.559999995190083e-6,
+		"constructed lexer": 7.330000016736449e-6,
+		"parsed input": 4.340000003821842e-6,
+		"end": 16.580360070999973
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 29,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T08:03:16-00:00",
-	"euphrates_revision_id": "7a11d4f22b9b9bc8c6ec00045a6cea86577ea945",
+	"rundate": "2024-04-21T08:03:47-00:00",
+	"euphrates_revision_id": "015949d61677f2d72d34f4e87e5c644849064f58",
 	"euphrates_revision_date": "2024-04-21T00:25:08-07:00",
-	"euphrates_revision_title": "always simplify singleton ands in labelinglogic"
+	"euphrates_revision_title": "optimize tuples in labelinglogic"
 }
