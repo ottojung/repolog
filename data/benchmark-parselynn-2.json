@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 14.448288820000002,
-	"alltimes": [16.013459017, 14.448288820000002],
-	"avgtime": 15.2308739185,
+	"time": 17.737437497000002,
+	"alltimes": [17.241542516999996, 17.737437497000002],
+	"avgtime": 17.489490007,
 	"deltas": [{
-		"constructed parser": 7.225479999988238e-4,
-		"constructed lexer": 5.990000000011264e-6,
-		"parsed input": 0.005066682000000711,
-		"end": 16.007663797
+		"constructed parser": 5.358060000002496e-4,
+		"constructed lexer": 4.9499999992264065e-6,
+		"parsed input": 0.0025621990000006534,
+		"end": 17.238439561999996
 	}, {
-		"constructed parser": 3.6455399999724136e-4,
-		"constructed lexer": 5.590000000665896e-6,
-		"parsed input": 0.0028125289999998415,
-		"end": 14.445106147000004
+		"constructed parser": 4.0424399999849925e-4,
+		"constructed lexer": 5.840000000034706e-6,
+		"parsed input": 0.0036466310000022872,
+		"end": 17.733380782
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T08:22:09-00:00",
-	"euphrates_revision_id": "142c8f0557535c10111694487650bd29b284c4b2",
+	"rundate": "2024-04-21T08:27:02-00:00",
+	"euphrates_revision_id": "73e70bb9b9d3da7643f5e23fef87b9fb03429706",
 	"euphrates_revision_date": "2024-04-21T00:25:09-07:00",
-	"euphrates_revision_title": "add one more test for labelinglogic:*to-dnf"
+	"euphrates_revision_title": "go back to tuples in parselynn:folexer"
 }
