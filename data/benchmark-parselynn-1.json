@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 4.330312580999999,
-	"alltimes": [4.2615891239999995, 4.330312580999999],
-	"avgtime": 4.295950852499999,
+	"time": 4.339643454,
+	"alltimes": [4.484657882, 4.339643454],
+	"avgtime": 4.412150668,
 	"deltas": [{
-		"constructed parser": 0.001517035,
-		"constructed lexer": 1.1610000000009113e-5,
-		"parsed input": 4.260053489,
-		"end": 6.990000000151042e-6
+		"constructed parser": 0.0024741139999999995,
+		"constructed lexer": 1.1649999999988059e-5,
+		"parsed input": 4.482163308,
+		"end": 8.809999999748186e-6
 	}, {
-		"constructed parser": 4.411439999998379e-4,
-		"constructed lexer": 4.539999999941813e-6,
-		"parsed input": 4.3298591459999995,
-		"end": 7.751000000055797e-6
+		"constructed parser": 5.064050000003206e-4,
+		"constructed lexer": 5.980000000072039e-6,
+		"parsed input": 4.339125179000001,
+		"end": 5.889999998842654e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T07:47:20-00:00",
-	"euphrates_revision_id": "70ccb65d5c4e447ba827126749b730e4367620f6",
+	"rundate": "2024-04-21T07:48:06-00:00",
+	"euphrates_revision_id": "8eea70042fe22cf1368313a9a09de519b6d26222",
 	"euphrates_revision_date": "2024-04-21T00:25:07-07:00",
-	"euphrates_revision_title": "update compilation test"
+	"euphrates_revision_title": "remove sublexeme term from labelinglogic"
 }
