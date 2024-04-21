@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 27.98821057799998,
-	"alltimes": [29.72349644900001, 27.98821057799998],
-	"avgtime": 28.855853513499994,
+	"time": 29.100312065000026,
+	"alltimes": [30.98397975100002, 29.100312065000026],
+	"avgtime": 30.042145908000023,
 	"deltas": [{
-		"constructed parser": 6.630000001450753e-6,
-		"constructed lexer": 3.290000023525863e-6,
-		"got first result": 4.459999985328977e-6,
-		"end": 29.723482069
+		"constructed parser": 6.6110000034314e-6,
+		"constructed lexer": 8.700000080352766e-7,
+		"got first result": 4.4900000091274705e-6,
+		"end": 30.98396778
 	}, {
-		"constructed parser": 8.570000005647671e-6,
-		"constructed lexer": 1.099999991538425e-6,
-		"got first result": 4.009999997833802e-6,
-		"end": 27.988196897999984
+		"constructed parser": 1.1050000011891825e-5,
+		"constructed lexer": 1.4700000008360803e-6,
+		"got first result": 4.389999986642579e-6,
+		"end": 29.100295155000026
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-04-21T01:11:18-00:00",
-	"euphrates_revision_id": "f03a66b9318e28743baca47cfc5cfb7791d8b383",
-	"euphrates_revision_date": "2024-04-20T17:56:21-07:00",
-	"euphrates_revision_title": "remove redundant code in parselynn:folexer"
+	"rundate": "2024-04-21T01:11:48-00:00",
+	"euphrates_revision_id": "73e572286a95f1d6de0f01c6d3224f2bd05002b0",
+	"euphrates_revision_date": "2024-04-20T17:55:42-07:00",
+	"euphrates_revision_title": "go back to tuples in parselynn:folexer"
 }
