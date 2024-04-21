@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-3",
-	"time": 55.67223358000001,
-	"alltimes": [57.264116470000005, 55.67223358000001],
-	"avgtime": 56.46817502500001,
+	"time": 54.235348284999986,
+	"alltimes": [56.95338158900002, 54.235348284999986],
+	"avgtime": 55.594364937,
 	"deltas": [{
-		"constructed parser": 0.2547963330000016,
-		"constructed lexer": 2.7910000000019863e-5,
-		"parsed input": 57.009289206999995,
-		"end": 3.0200000082913903e-6
+		"constructed parser": 0.27545233899999744,
+		"constructed lexer": 2.476100000592396e-5,
+		"parsed input": 56.67790182900001,
+		"end": 2.660000006926566e-6
 	}, {
-		"constructed parser": 0.2939021930000081,
-		"constructed lexer": 9.710000000495711e-6,
-		"parsed input": 55.378319216999984,
-		"end": 2.4600000188002014e-6
+		"constructed parser": 0.28577111199999194,
+		"constructed lexer": 1.2130000015986298e-5,
+		"parsed input": 53.949557723,
+		"end": 7.319999980381908e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-21T07:37:11-00:00",
-	"euphrates_revision_id": "4977cfefdeac0732ff45dd04eb2e4aa03b19095a",
+	"rundate": "2024-04-21T07:37:25-00:00",
+	"euphrates_revision_id": "77f88bd410a2b795356c1f454be76a7b9da60e79",
 	"euphrates_revision_date": "2024-04-21T00:22:12-07:00",
-	"euphrates_revision_title": "improve tuple null check in labelinglogic"
+	"euphrates_revision_title": "make tuple officially a ground term in labelinglogic"
 }
