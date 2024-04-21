@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-5",
-	"time": 0.20424719200001107,
-	"alltimes": [0.22204552899999896, 0.20424719200001107],
-	"avgtime": 0.21314636050000502,
+	"time": 0.2000971580000055,
+	"alltimes": [0.210771684000008, 0.2000971580000055],
+	"avgtime": 0.20543442100000675,
 	"deltas": [{
-		"constructed parser": 1.9430000008924253e-5,
-		"constructed lexer": 3.389999989167336e-6,
-		"parsed input": 0.22201442900001211,
-		"end": 8.27999998875839e-6
+		"constructed parser": 1.826999999821055e-5,
+		"constructed lexer": 3.350000000068576e-6,
+		"parsed input": 0.21074435399999913,
+		"end": 5.71000001059474e-6
 	}, {
-		"constructed parser": 7.629999998925996e-6,
-		"constructed lexer": 8.130000011874472e-6,
-		"parsed input": 0.20422471199999848,
-		"end": 6.720000001791959e-6
+		"constructed parser": 5.430000001638291e-6,
+		"constructed lexer": 5.860000001689514e-6,
+		"parsed input": 0.2000803179999906,
+		"end": 5.5500000115671355e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T22:34:48-00:00",
-	"euphrates_revision_id": "4e9c3a239347b9cc8d898673d5644115683f7073",
-	"euphrates_revision_date": "2024-04-21T15:29:46-07:00",
-	"euphrates_revision_title": "allow r7rs expressions in parselynn:folexer"
+	"rundate": "2024-04-21T23:43:19-00:00",
+	"euphrates_revision_id": "ba405661174f7e88bcc7b839d8e1c4669ce8397a",
+	"euphrates_revision_date": "2024-04-21T16:39:12-07:00",
+	"euphrates_revision_title": "add few more tests for parselynn's non-string inputs"
 }
