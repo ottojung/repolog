@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-5",
-	"time": 0.2657714260000006,
-	"alltimes": [0.3061597850000055, 0.2657714260000006],
-	"avgtime": 0.28596560550000305,
+	"time": 0.2766451560000007,
+	"alltimes": [0.2730099500000023, 0.2766451560000007],
+	"avgtime": 0.2748275530000015,
 	"deltas": [{
-		"constructed parser": 2.6950000005854235e-5,
-		"constructed lexer": 3.969999994524187e-6,
-		"parsed input": 0.30612218500000665,
-		"end": 6.679999998482344e-6
+		"constructed parser": 1.938100000131726e-5,
+		"constructed lexer": 3.5599999961277717e-6,
+		"parsed input": 0.27298006899999905,
+		"end": 6.940000005783986e-6
 	}, {
-		"constructed parser": 6.479999996145125e-6,
-		"constructed lexer": 7.109999998533567e-6,
-		"parsed input": 0.26575072599999316,
-		"end": 7.110000012744422e-6
+		"constructed parser": 6.409999997458726e-6,
+		"constructed lexer": 6.900000002474371e-6,
+		"parsed input": 0.27662439600000255,
+		"end": 7.449999998243584e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T01:19:15-00:00",
-	"euphrates_revision_id": "4d60616a409306c27a9b59bdd418122d01fe7e3f",
-	"euphrates_revision_date": "2024-04-20T18:04:23-07:00",
-	"euphrates_revision_title": "add tests for euphrates:list-sort"
+	"rundate": "2024-04-21T01:20:07-00:00",
+	"euphrates_revision_id": "f60f52d95aefa5e5178cba3b4e66a7b950e47ef4",
+	"euphrates_revision_date": "2024-04-20T18:13:30-07:00",
+	"euphrates_revision_title": "fix priotization of constants in labelinglogic interpretation"
 }
