@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.7039617440000008,
-	"alltimes": [4.358791613, 3.7039617440000008],
-	"avgtime": 4.031376678500001,
+	"time": 4.049231594,
+	"alltimes": [4.182541657, 4.049231594],
+	"avgtime": 4.1158866255,
 	"deltas": [{
-		"constructed parser": 0.0016018049999999978,
-		"constructed lexer": 1.0330000000002837e-5,
-		"parsed input": 4.357171097999999,
-		"end": 8.380000000585142e-6
+		"constructed parser": 0.0019158680000000011,
+		"constructed lexer": 1.4779999999992022e-5,
+		"parsed input": 4.180602329,
+		"end": 8.679999999650079e-6
 	}, {
-		"constructed parser": 5.317549999999116e-4,
-		"constructed lexer": 5.630000000422797e-6,
-		"parsed input": 3.703416389,
-		"end": 7.97000000041237e-6
+		"constructed parser": 5.066249999998718e-4,
+		"constructed lexer": 5.510000000263915e-6,
+		"parsed input": 4.048710889,
+		"end": 8.5700000003186e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T06:16:50-00:00",
-	"euphrates_revision_id": "29d63699520c0ac36a68639533fc5774022f0f23",
-	"euphrates_revision_date": "2024-04-20T23:14:04-07:00",
-	"euphrates_revision_title": "small fix for update-benchmarks script"
+	"rundate": "2024-04-21T06:26:34-00:00",
+	"euphrates_revision_id": "5bbc502a0720e80c379700aeddc28ad13beaa8c0",
+	"euphrates_revision_date": "2024-04-20T23:22:28-07:00",
+	"euphrates_revision_title": "rename \"=\" type into \"constant\" type in labelinglogic"
 }
