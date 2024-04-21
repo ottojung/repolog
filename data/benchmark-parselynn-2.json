@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 16.005899096999997,
-	"alltimes": [16.475041222999998, 16.005899096999997],
-	"avgtime": 16.240470159999997,
+	"time": 16.368750917,
+	"alltimes": [15.772551416, 16.368750917],
+	"avgtime": 16.0706511665,
 	"deltas": [{
-		"constructed parser": 7.597869999997897e-4,
-		"constructed lexer": 8.629999999953952e-6,
-		"parsed input": 0.003849229000000065,
-		"end": 16.470423577
+		"constructed parser": 6.797469999995087e-4,
+		"constructed lexer": 5.580000001614849e-6,
+		"parsed input": 0.00339982399999883,
+		"end": 15.768466265
 	}, {
-		"constructed parser": 3.22152999999048e-4,
-		"constructed lexer": 5.340000001297085e-6,
-		"parsed input": 0.0033176629999971397,
-		"end": 16.002253941
+		"constructed parser": 3.5747400000119e-4,
+		"constructed lexer": 7.359999997902378e-6,
+		"parsed input": 0.003546265000000659,
+		"end": 16.364839818
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T22:33:42-00:00",
-	"euphrates_revision_id": "af54a437e016d59f1816edbc79c87267357fc9b2",
-	"euphrates_revision_date": "2024-04-21T15:29:43-07:00",
-	"euphrates_revision_title": "remove concept of hidden-tree-labels from parselynn:simple"
+	"rundate": "2024-04-21T22:33:59-00:00",
+	"euphrates_revision_id": "35d101648d0020c834755dfc9b80b6637a501cb6",
+	"euphrates_revision_date": "2024-04-21T15:29:46-07:00",
+	"euphrates_revision_title": "add non-string tests for parselynn:simple"
 }
