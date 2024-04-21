@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-5",
-	"time": 0.23583055699999989,
-	"alltimes": [0.21497987000000052, 0.23583055699999989],
-	"avgtime": 0.2254052135000002,
+	"time": 0.22701303899999914,
+	"alltimes": [0.21952030399999956, 0.22701303899999914],
+	"avgtime": 0.22326667149999935,
 	"deltas": [{
-		"constructed parser": 2.0900000002654906e-5,
-		"constructed lexer": 4.230000001825829e-6,
-		"parsed input": 0.21494667999999706,
-		"end": 8.059999998977219e-6
+		"constructed parser": 2.238000000431839e-5,
+		"constructed lexer": 4.320000002167035e-6,
+		"parsed input": 0.2194868139999926,
+		"end": 6.790000000478358e-6
 	}, {
-		"constructed parser": 6.509999998627336e-6,
-		"constructed lexer": 6.839999997509949e-6,
-		"parsed input": 0.23580905700000443,
-		"end": 8.149999999318425e-6
+		"constructed parser": 5.3199999996422775e-6,
+		"constructed lexer": 6.740000003446767e-6,
+		"parsed input": 0.22699446900000453,
+		"end": 6.509999991521909e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T22:24:27-00:00",
-	"euphrates_revision_id": "3fd246812f0c11a27ce5b3fdccc62c72837de784",
-	"euphrates_revision_date": "2024-04-21T15:21:39-07:00",
-	"euphrates_revision_title": "allow r7rs expressions in parselynn:folexer"
+	"rundate": "2024-04-21T22:34:19-00:00",
+	"euphrates_revision_id": "af54a437e016d59f1816edbc79c87267357fc9b2",
+	"euphrates_revision_date": "2024-04-21T15:29:43-07:00",
+	"euphrates_revision_title": "remove concept of hidden-tree-labels from parselynn:simple"
 }
