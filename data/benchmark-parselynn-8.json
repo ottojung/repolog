@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-8",
-	"time": 17.329433412000014,
-	"alltimes": [17.159271934000003, 17.329433412000014],
-	"avgtime": 17.24435267300001,
+	"time": 14.892199113999993,
+	"alltimes": [17.17654789400001, 14.892199113999993],
+	"avgtime": 16.034373504,
 	"deltas": [{
-		"constructed parser": 6.2000000013995304e-6,
-		"constructed lexer": 4.910000001245862e-6,
-		"parsed input": 4.560000007813869e-6,
-		"end": 17.159256263999993
+		"constructed parser": 7.3500000041804014e-6,
+		"constructed lexer": 5.560000005289112e-6,
+		"parsed input": 4.979999999932261e-6,
+		"end": 17.176530004
 	}, {
-		"constructed parser": 7.980000020779698e-6,
-		"constructed lexer": 6.810000002133165e-6,
-		"parsed input": 4.059999980654538e-6,
-		"end": 17.32941456200001
+		"constructed parser": 9.199999993825259e-6,
+		"constructed lexer": 8.250000007592462e-6,
+		"parsed input": 5.340000001297085e-6,
+		"end": 14.89217632399999
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 29,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T00:59:00-00:00",
-	"euphrates_revision_id": "29a680126b7f987ae7d1194401885d7062f2c3cd",
-	"euphrates_revision_date": "2024-04-20T17:36:35-07:00",
-	"euphrates_revision_title": "remove redundant code in parselynn:folexer"
+	"rundate": "2024-04-21T01:06:33-00:00",
+	"euphrates_revision_id": "73e572286a95f1d6de0f01c6d3224f2bd05002b0",
+	"euphrates_revision_date": "2024-04-20T17:55:42-07:00",
+	"euphrates_revision_title": "go back to tuples in parselynn:folexer"
 }
