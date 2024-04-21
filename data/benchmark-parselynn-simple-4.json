@@ -1,0 +1,28 @@
+{
+	"name": "benchmark-parselynn-simple-4",
+	"time": 0.2729667149999955,
+	"alltimes": [1.239993228000003, 0.2729667149999955],
+	"avgtime": 0.7564799714999992,
+	"deltas": [{
+		"constructed parser": 0.9447489800000142,
+		"constructed lexer": 1.6410999990057462e-5,
+		"parsed input": 0.295205927000012,
+		"end": 2.1909999986746698e-5
+	}, {
+		"constructed parser": 0.012098370999979124,
+		"constructed lexer": 9.419999997817285e-6,
+		"parsed input": 0.2608527840000079,
+		"end": 6.140000010645963e-6
+	}],
+	"inputs": {
+		"driver": "lr",
+		"loadq": true,
+		"seq_len": 41,
+		"n_runs": 3000,
+		"string_inputq": true
+	},
+	"rundate": "2024-04-21T07:36:54-00:00",
+	"euphrates_revision_id": "65e8528e5829bfca9b5bb88c62d11ddddafaf3eb",
+	"euphrates_revision_date": "2024-04-21T00:22:09-07:00",
+	"euphrates_revision_title": "make update-benchmarks script more reliable"
+}
