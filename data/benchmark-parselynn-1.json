@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 5.076148698,
-	"alltimes": [5.970067103, 5.076148698],
-	"avgtime": 5.5231079004999994,
+	"time": 4.25137404,
+	"alltimes": [4.41675803, 4.25137404],
+	"avgtime": 4.334066034999999,
 	"deltas": [{
-		"constructed parser": 0.0022721129999999923,
-		"constructed lexer": 1.4680000000016902e-5,
-		"parsed input": 5.96777231,
-		"end": 8.000000000230045e-6
+		"constructed parser": 0.002395394000000009,
+		"constructed lexer": 1.5661000000000147e-5,
+		"parsed input": 4.414339474,
+		"end": 7.5009999997988075e-6
 	}, {
-		"constructed parser": 5.296149999995947e-4,
-		"constructed lexer": 5.820000000156256e-6,
-		"parsed input": 5.075605652999999,
-		"end": 7.610000000823902e-6
+		"constructed parser": 4.3893500000002916e-4,
+		"constructed lexer": 4.5300000000025875e-6,
+		"parsed input": 4.250923255,
+		"end": 7.3199999999218335e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T08:07:22-00:00",
-	"euphrates_revision_id": "73ea88c1295aa958a8802a05dede61263765e572",
+	"rundate": "2024-04-21T08:08:01-00:00",
+	"euphrates_revision_id": "03d39acb3e352e260f5a4f9421f637b288c3fe50",
 	"euphrates_revision_date": "2024-04-21T00:25:08-07:00",
-	"euphrates_revision_title": "do some tuple handling in labelinglogic*to-dnf"
+	"euphrates_revision_title": "rename \"leaf\" to \"atom\" in labelinglogic"
 }
