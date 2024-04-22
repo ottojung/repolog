@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.16721064099999694,
-	"alltimes": [0.1576857089999919, 0.16721064099999694],
-	"avgtime": 0.16244817499999442,
+	"time": 0.1535755029999848,
+	"alltimes": [0.14050447500000018, 0.1535755029999848],
+	"avgtime": 0.1470399889999925,
 	"deltas": [{
-		"constructed parser": 1.9770999983848014e-5,
+		"constructed parser": 1.6850000008616917e-5,
 		"constructed lexer": 8.199999967928306e-7,
-		"got first result": 3.9700000229458965e-6,
-		"end": 0.15766114799998832
+		"got first result": 4.39999999457541e-6,
+		"end": 0.1404824050000002
 	}, {
-		"constructed parser": 6.880000000819564e-6,
-		"constructed lexer": 1.0409999902094569e-6,
-		"got first result": 3.6000000136482413e-6,
-		"end": 0.16719911999999226
+		"constructed parser": 7.24999998169551e-6,
+		"constructed lexer": 1.0500000087176886e-6,
+		"got first result": 3.450000008342613e-6,
+		"end": 0.15356375299998604
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-04-22T01:10:39-00:00",
-	"euphrates_revision_id": "de482cf87979057c18c906c33c810e7910a40d16",
-	"euphrates_revision_date": "2024-04-21T18:05:24-07:00",
-	"euphrates_revision_title": "allow to define lexer classes in parselynn:simple grammar"
+	"rundate": "2024-04-22T01:17:30-00:00",
+	"euphrates_revision_id": "e249d4960ac27857f44ffb07f6fb2eabe8e909d7",
+	"euphrates_revision_date": "2024-04-21T18:11:31-07:00",
+	"euphrates_revision_title": "fix call ignore in parselynn:simple lexing extraction"
 }
