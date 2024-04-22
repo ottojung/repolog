@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 20.438550491,
-	"alltimes": [19.547839814, 20.438550491],
-	"avgtime": 19.9931951525,
+	"time": 21.731049877000004,
+	"alltimes": [20.63587948499999, 21.731049877000004],
+	"avgtime": 21.183464680999997,
 	"deltas": [{
-		"constructed parser": 6.209999995121507e-6,
-		"constructed lexer": 4.5710000051712996e-6,
-		"parsed input": 19.547818851999992,
-		"end": 1.0181000007492003e-5
+		"constructed parser": 5.98999999112948e-6,
+		"constructed lexer": 4.04000000742144e-6,
+		"parsed input": 20.635860394999995,
+		"end": 9.059999996452461e-6
 	}, {
-		"constructed parser": 6.060000004026733e-6,
-		"constructed lexer": 6.329999990839497e-6,
-		"parsed input": 20.438531820999998,
-		"end": 6.28000000801876e-6
+		"constructed parser": 8.301000008259507e-6,
+		"constructed lexer": 8.819999990805627e-6,
+		"parsed input": 21.731025856000002,
+		"end": 6.900000002474371e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-04-21T23:44:00-00:00",
-	"euphrates_revision_id": "ba405661174f7e88bcc7b839d8e1c4669ce8397a",
-	"euphrates_revision_date": "2024-04-21T16:39:12-07:00",
-	"euphrates_revision_title": "add few more tests for parselynn's non-string inputs"
+	"rundate": "2024-04-22T01:10:10-00:00",
+	"euphrates_revision_id": "de482cf87979057c18c906c33c810e7910a40d16",
+	"euphrates_revision_date": "2024-04-21T18:05:24-07:00",
+	"euphrates_revision_title": "allow to define lexer classes in parselynn:simple grammar"
 }
