@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-11",
-	"time": 11.608414879999998,
-	"alltimes": [13.030606159000001, 11.608414879999998],
-	"avgtime": 12.3195105195,
+	"time": 10.675442325999995,
+	"alltimes": [11.212540571000005, 10.675442325999995],
+	"avgtime": 10.9439914485,
 	"deltas": [{
-		"constructed parser": 6.2000000013995304e-6,
-		"constructed lexer": 8.499999921696144e-7,
-		"got first result": 13.030592759000001,
-		"end": 6.350000006705159e-6
+		"constructed parser": 6.301000013309022e-6,
+		"constructed lexer": 1.309999987597621e-6,
+		"got first result": 11.21252548000001,
+		"end": 7.479999993620368e-6
 	}, {
-		"constructed parser": 4.96999999199943e-6,
-		"constructed lexer": 7.099999947968172e-7,
-		"got first result": 11.608401090000001,
-		"end": 8.110000010219665e-6
+		"constructed parser": 6.219999988843483e-6,
+		"constructed lexer": 1.0400000007848575e-6,
+		"got first result": 10.675427556000017,
+		"end": 7.509999988997151e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-04-27T20:45:31-00:00",
-	"euphrates_revision_id": "19af1ecdbd0b94e230b1a13746397b02b9477d88",
-	"euphrates_revision_date": "2024-04-27T13:37:50-07:00",
-	"euphrates_revision_title": "exit with code 1 in case of a user error"
+	"rundate": "2024-04-27T22:09:51-00:00",
+	"euphrates_revision_id": "049f34af13458344aa2721c655b921b0789afde6",
+	"euphrates_revision_date": "2024-04-27T15:04:55-07:00",
+	"euphrates_revision_title": "fix printf/threadsafe dependencies"
 }
