@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 14.750145332999999,
-	"alltimes": [15.585241712000002, 14.750145332999999],
-	"avgtime": 15.1676935225,
+	"time": 15.596745814000002,
+	"alltimes": [23.210849079, 15.596745814000002],
+	"avgtime": 19.4037974465,
 	"deltas": [{
-		"constructed parser": 0.020754362,
-		"constructed lexer": 3.264099999999992e-5,
-		"parsed input": 15.564449809000001,
-		"end": 4.9000000004184585e-6
+		"constructed parser": 0.019917393999999977,
+		"constructed lexer": 2.640000000000975e-5,
+		"parsed input": 23.190900375000002,
+		"end": 4.9099999976931485e-6
 	}, {
-		"constructed parser": 0.01640829900000007,
-		"constructed lexer": 8.890000000150167e-6,
-		"parsed input": 14.733723664000001,
-		"end": 4.479999997641926e-6
+		"constructed parser": 0.014655579999999446,
+		"constructed lexer": 1.1389999997390987e-5,
+		"parsed input": 15.582074063000004,
+		"end": 4.781000001230495e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-28T01:27:16-00:00",
-	"euphrates_revision_id": "931ea0663e15670958ff96cdcf82d8b7af58c0ad",
-	"euphrates_revision_date": "2024-04-27T17:42:04-07:00",
-	"euphrates_revision_title": "improve definition of raisu-fmt"
+	"rundate": "2024-04-28T22:46:26-00:00",
+	"euphrates_revision_id": "30bab2ca2a73e8ca8e913cd9c60b969e401f0777",
+	"euphrates_revision_date": "2024-04-28T15:38:17-07:00",
+	"euphrates_revision_title": "do not print errors in with-ignore-errors"
 }

@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-3",
-	"time": 42.47725861900001,
-	"alltimes": [42.089221894999994, 42.47725861900001],
-	"avgtime": 42.283240257,
+	"time": 40.838754577,
+	"alltimes": [41.693968217999995, 40.838754577],
+	"avgtime": 41.2663613975,
 	"deltas": [{
-		"constructed parser": 0.1854898079999998,
-		"constructed lexer": 3.298000000029333e-5,
-		"parsed input": 41.903696567,
-		"end": 2.5399999969977216e-6
+		"constructed parser": 0.21915878200000805,
+		"constructed lexer": 2.114999999491829e-5,
+		"parsed input": 41.47478554600001,
+		"end": 2.7399999851240864e-6
 	}, {
-		"constructed parser": 0.18054753700000958,
-		"constructed lexer": 1.0529999997288542e-5,
-		"parsed input": 42.29669745199999,
-		"end": 3.10000001491062e-6
+		"constructed parser": 0.17775691299999608,
+		"constructed lexer": 7.949999996981205e-6,
+		"parsed input": 40.660987044000024,
+		"end": 2.6699999864376878e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-04-28T01:29:33-00:00",
-	"euphrates_revision_id": "931ea0663e15670958ff96cdcf82d8b7af58c0ad",
-	"euphrates_revision_date": "2024-04-27T17:42:04-07:00",
-	"euphrates_revision_title": "improve definition of raisu-fmt"
+	"rundate": "2024-04-28T22:48:43-00:00",
+	"euphrates_revision_id": "30bab2ca2a73e8ca8e913cd9c60b969e401f0777",
+	"euphrates_revision_date": "2024-04-28T15:38:17-07:00",
+	"euphrates_revision_title": "do not print errors in with-ignore-errors"
 }
