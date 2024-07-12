@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-14",
-	"time": 8.554236216000021,
-	"alltimes": [8.371535903000023, 8.554236216000021],
-	"avgtime": 8.462886059500022,
+	"time": 8.78881125800001,
+	"alltimes": [9.408159398999999, 8.78881125800001],
+	"avgtime": 9.098485328500004,
 	"deltas": [{
-		"constructed parser": 1.3362100000335886e-4,
-		"constructed lexer": 3.7910000116880838e-6,
-		"parsed input": 8.371394151000004,
-		"end": 4.340000003821842e-6
+		"constructed parser": 1.451419999796144e-4,
+		"constructed lexer": 3.680000020267471e-6,
+		"parsed input": 9.408005676999977,
+		"end": 4.900000021734741e-6
 	}, {
-		"constructed parser": 1.0178100001212442e-4,
-		"constructed lexer": 2.5600000128633837e-6,
-		"parsed input": 8.554125554999985,
-		"end": 6.320000011328375e-6
+		"constructed parser": 9.788100001628663e-5,
+		"constructed lexer": 1.319999995530452e-6,
+		"parsed input": 8.78870749699999,
+		"end": 4.560000007813869e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-07-12T06:59:11-00:00",
-	"euphrates_revision_id": "2da811df06f9be77beb28e91d0fbe97c093b255f",
-	"euphrates_revision_date": "2024-07-11T23:27:17-07:00",
-	"euphrates_revision_title": "parselynn: add simple:save-to-disk"
+	"rundate": "2024-07-12T06:59:20-00:00",
+	"euphrates_revision_id": "29589510f9667d02d1747d8b44f62d96d108ecd8",
+	"euphrates_revision_date": "2024-07-11T23:53:09-07:00",
+	"euphrates_revision_title": "parselynn: fix hashmap serialization in simple"
 }
