@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 19.546153875,
-	"alltimes": [19.915163614999997, 19.546153875],
-	"avgtime": 19.730658745,
+	"time": 19.76185689799999,
+	"alltimes": [20.201982396, 19.76185689799999],
+	"avgtime": 19.981919646999994,
 	"deltas": [{
-		"constructed parser": 2.0020200000203658e-4,
-		"constructed lexer": 5.420000000810887e-6,
-		"parsed input": 19.914951292000005,
-		"end": 6.700999989561751e-6
+		"constructed parser": 2.0026300000353103e-4,
+		"constructed lexer": 7.099999997706163e-6,
+		"parsed input": 20.201768332999997,
+		"end": 6.700000000137152e-6
 	}, {
-		"constructed parser": 2.580999999679534e-5,
-		"constructed lexer": 5.3999999920506525e-6,
-		"parsed input": 19.546116305000012,
-		"end": 6.360000000427135e-6
+		"constructed parser": 2.7211000002580477e-5,
+		"constructed lexer": 5.41999999370546e-6,
+		"parsed input": 19.761816737000004,
+		"end": 7.529999990651959e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-07-15T06:45:27-00:00",
-	"euphrates_revision_id": "72c703f2ba79ce6abc9e4c4903216a4c56b9a121",
-	"euphrates_revision_date": "2024-07-14T23:41:18-07:00",
-	"euphrates_revision_title": "properties: fix staging"
+	"rundate": "2024-07-16T05:56:44-00:00",
+	"euphrates_revision_id": "979a990e853586b7e719f36f2015902c7fca0c45",
+	"euphrates_revision_date": "2024-07-15T22:52:03-07:00",
+	"euphrates_revision_title": "properties: improve debugging info by passing in names of props"
 }
