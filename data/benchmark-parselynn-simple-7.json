@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-7",
-	"time": 19.127916556000002,
-	"alltimes": [17.487168295000004, 19.127916556000002],
-	"avgtime": 18.307542425500003,
+	"time": 12.938813521000014,
+	"alltimes": [13.100631702000015, 12.938813521000014],
+	"avgtime": 13.019722611500015,
 	"deltas": [{
-		"constructed parser": 0.011092595000008032,
-		"constructed lexer": 3.7199999951553764e-6,
-		"parsed input": 17.476068239,
-		"end": 3.741000000445638e-6
+		"constructed parser": 0.008516882000009218,
+		"constructed lexer": 3.2899999951041536e-6,
+		"parsed input": 13.09210675,
+		"end": 4.780000011805896e-6
 	}, {
-		"constructed parser": 0.008542101999978513,
-		"constructed lexer": 1.5800000028320937e-6,
-		"parsed input": 19.11936766400001,
-		"end": 5.210000011857119e-6
+		"constructed parser": 0.008656464000011965,
+		"constructed lexer": 1.6799999968952761e-6,
+		"parsed input": 12.930150537000003,
+		"end": 4.840000002559464e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": false
 	},
-	"rundate": "2024-07-25T07:14:56-00:00",
-	"euphrates_revision_id": "14214e0a5d0915406ae8f733532ed7e5e8111395",
-	"euphrates_revision_date": "2024-07-25T00:03:12-07:00",
-	"euphrates_revision_title": "add more tests for bnf-alist:calculate-first-set"
+	"rundate": "2024-07-26T05:35:55-00:00",
+	"euphrates_revision_id": "b439986a72131d3e262bed17c7a0572adabd8c7e",
+	"euphrates_revision_date": "2024-07-25T22:26:56-07:00",
+	"euphrates_revision_title": "use \"\" for epsilon in first set calculation"
 }
