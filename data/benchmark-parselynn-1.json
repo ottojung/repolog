@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.11261486,
-	"alltimes": [3.363624798, 3.11261486],
-	"avgtime": 3.238119829,
+	"time": 3.8861359479999997,
+	"alltimes": [4.320922030999999, 3.8861359479999997],
+	"avgtime": 4.103528989499999,
 	"deltas": [{
-		"constructed parser": 0.0013429479999999966,
-		"constructed lexer": 8.98000000000565e-6,
-		"parsed input": 3.36226598,
-		"end": 6.889999999870611e-6
+		"constructed parser": 0.001521149999999999,
+		"constructed lexer": 1.3230000000002962e-5,
+		"parsed input": 4.319379541,
+		"end": 8.109999999561524e-6
 	}, {
-		"constructed parser": 3.9126499999975195e-4,
-		"constructed lexer": 4.220000000110247e-6,
-		"parsed input": 3.1122144439999997,
-		"end": 4.931000000318875e-6
+		"constructed parser": 4.0549499999986693e-4,
+		"constructed lexer": 5.3199999996422775e-6,
+		"parsed input": 3.885717003000001,
+		"end": 8.129999999439974e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-07-26T07:21:17-00:00",
-	"euphrates_revision_id": "8aac606ca85c92c543a77dd5d48f2d83eecb1835",
-	"euphrates_revision_date": "2024-07-26T00:18:32-07:00",
-	"euphrates_revision_title": "optimize bnf-alist:compute-follow-set slightly"
+	"rundate": "2024-07-28T04:16:20-00:00",
+	"euphrates_revision_id": "daaa0f1e0f93af429f25fbf2e99a3b2dd6a088da",
+	"euphrates_revision_date": "2024-07-27T21:13:29-07:00",
+	"euphrates_revision_title": "rename \"bnf-alist:{epsilon,end-of-input}\" to \"bnf:{epslion,...}\""
 }
