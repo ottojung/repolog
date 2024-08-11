@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-14",
-	"time": 8.272402578999987,
-	"alltimes": [8.259715460999985, 8.272402578999987],
-	"avgtime": 8.266059019999986,
+	"time": 9.354298190000009,
+	"alltimes": [9.648354898999997, 9.354298190000009],
+	"avgtime": 9.501326544500003,
 	"deltas": [{
-		"constructed parser": 1.3419199999020748e-4,
-		"constructed lexer": 3.010000000358559e-6,
-		"parsed input": 8.259573678999999,
-		"end": 4.579999995257822e-6
+		"constructed parser": 1.578320000135136e-4,
+		"constructed lexer": 3.440000000409782e-6,
+		"parsed input": 9.648186256999992,
+		"end": 7.369999991624354e-6
 	}, {
-		"constructed parser": 9.319199998003569e-5,
-		"constructed lexer": 1.2300000094001007e-6,
-		"parsed input": 8.272301946999988,
-		"end": 6.2100000093323615e-6
+		"constructed parser": 2.0990300001244577e-4,
+		"constructed lexer": 7.799999991675577e-6,
+		"parsed input": 9.354074957000023,
+		"end": 5.529999981490619e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-08-11T18:46:59-00:00",
-	"euphrates_revision_id": "027bf37275ef4c4c1125f7388bb8f7821919d401",
-	"euphrates_revision_date": "2024-08-11T11:40:42-07:00",
-	"euphrates_revision_title": "optimize lr-closure"
+	"rundate": "2024-08-11T19:21:21-00:00",
+	"euphrates_revision_id": "d373bfe6bf78599b8fe92f9e7c144ce6a65d48fe",
+	"euphrates_revision_date": "2024-08-11T12:15:02-07:00",
+	"euphrates_revision_title": "add initial implementation of lr-goto"
 }
