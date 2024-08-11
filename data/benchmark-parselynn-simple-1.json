@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 13.979281548000001,
-	"alltimes": [14.919875026, 13.979281548000001],
-	"avgtime": 14.449578287000001,
+	"time": 15.655742033000001,
+	"alltimes": [15.304793778999999, 15.655742033000001],
+	"avgtime": 15.480267906,
 	"deltas": [{
-		"constructed parser": 0.024670054999999996,
-		"constructed lexer": 4.0210000000012736e-5,
-		"parsed input": 14.895159261,
-		"end": 5.50000000032469e-6
+		"constructed parser": 0.031259381,
+		"constructed lexer": 3.527000000000391e-5,
+		"parsed input": 15.273494368,
+		"end": 4.759999999492948e-6
 	}, {
-		"constructed parser": 0.009880500999999597,
-		"constructed lexer": 1.0400000000743148e-5,
-		"parsed input": 13.969385116999998,
-		"end": 5.530000002806901e-6
+		"constructed parser": 0.009572502000001037,
+		"constructed lexer": 1.0439999998723692e-5,
+		"parsed input": 15.646154461000002,
+		"end": 4.62999999939484e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-08-09T02:23:46-00:00",
-	"euphrates_revision_id": "3b83641189570a41fa6124198c979bffe192eff0",
-	"euphrates_revision_date": "2024-08-08T19:16:50-07:00",
-	"euphrates_revision_title": "add initial implementation of parselynn:lr-closure"
+	"rundate": "2024-08-11T17:45:01-00:00",
+	"euphrates_revision_id": "2b358b7ee4a5e8b705b368c219a8139a2f3f8422",
+	"euphrates_revision_date": "2024-08-11T10:38:02-07:00",
+	"euphrates_revision_title": "add more tests for lr-closure"
 }
