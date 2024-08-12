@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 20.655232566000024,
-	"alltimes": [24.922775983000008, 20.655232566000024],
-	"avgtime": 22.789004274500016,
+	"time": 19.605747657999984,
+	"alltimes": [20.581747258000007, 19.605747657999984],
+	"avgtime": 20.093747457999996,
 	"deltas": [{
-		"constructed parser": 2.7700000003960668e-5,
-		"constructed lexer": 1.0100000054080738e-6,
-		"got first result": 3.9100000037706195e-6,
-		"end": 24.922743362999995
+		"constructed parser": 2.4191000022710796e-5,
+		"constructed lexer": 8.099999888599996e-7,
+		"got first result": 3.870000000461005e-6,
+		"end": 20.581718386999995
 	}, {
-		"constructed parser": 2.5329999999712527e-5,
-		"constructed lexer": 9.200000192777225e-7,
-		"got first result": 3.050000003668174e-6,
-		"end": 20.655203266
+		"constructed parser": 3.21099999780472e-5,
+		"constructed lexer": 1.8599999975776882e-6,
+		"got first result": 4.110000020318694e-6,
+		"end": 19.60570957799999
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-08-11T19:23:09-00:00",
-	"euphrates_revision_id": "66df84d83b3abb4c58e3ceb833df23eb3e05463d",
-	"euphrates_revision_date": "2024-08-11T12:17:14-07:00",
-	"euphrates_revision_title": "fix comment in lr-item:next-symbol"
+	"rundate": "2024-08-12T02:23:45-00:00",
+	"euphrates_revision_id": "3825f59f6c148e72fe9c5b262fcd09cfc44e3422",
+	"euphrates_revision_date": "2024-08-11T19:16:57-07:00",
+	"euphrates_revision_title": "add a test case for lr-goto"
 }
