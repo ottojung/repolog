@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.2112764000000027,
-	"alltimes": [0.16886828399998421, 0.2112764000000027],
-	"avgtime": 0.19007234199999345,
+	"time": 0.13470401700001844,
+	"alltimes": [0.1372664410000084, 0.13470401700001844],
+	"avgtime": 0.13598522900001342,
 	"deltas": [{
-		"constructed parser": 3.547099998968406e-5,
-		"constructed lexer": 9.400000067216752e-7,
-		"got first result": 5.420000007916315e-6,
-		"end": 0.1688264529999799
+		"constructed parser": 3.9271000019880375e-5,
+		"constructed lexer": 8.699999796135671e-7,
+		"got first result": 4.090000004453032e-6,
+		"end": 0.13722221000000445
 	}, {
-		"constructed parser": 2.7501000005258902e-5,
-		"constructed lexer": 2.7099999897473026e-6,
-		"got first result": 3.7700000063978223e-6,
-		"end": 0.2112424190000013
+		"constructed parser": 2.414100001146835e-5,
+		"constructed lexer": 9.599999941656279e-7,
+		"got first result": 3.050000003668174e-6,
+		"end": 0.13467586600000914
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-08-26T05:17:58-00:00",
-	"euphrates_revision_id": "b2555d1b19250ba67792d8f6543c4288591208cb",
-	"euphrates_revision_date": "2024-08-25T22:13:34-07:00",
-	"euphrates_revision_title": "fix some tests for outgoing states collections"
+	"rundate": "2024-08-26T05:22:48-00:00",
+	"euphrates_revision_id": "39c57c4fd7306b67176f86713d024e97818eacd1",
+	"euphrates_revision_date": "2024-08-25T22:17:45-07:00",
+	"euphrates_revision_title": "initial implementation of lr-compute-state-graph"
 }
