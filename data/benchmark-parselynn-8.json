@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-8",
-	"time": 11.085823749,
-	"alltimes": [12.349736598999996, 11.085823749],
-	"avgtime": 11.717780173999998,
+	"time": 13.517238583000008,
+	"alltimes": [14.957574747999999, 13.517238583000008],
+	"avgtime": 14.237406665500004,
 	"deltas": [{
-		"constructed parser": 2.148099999033093e-5,
-		"constructed lexer": 4.36000000547665e-6,
-		"parsed input": 2.8500000013309545e-6,
-		"end": 12.349707908
+		"constructed parser": 2.35610000061115e-5,
+		"constructed lexer": 5.2199999913682404e-6,
+		"parsed input": 3.860000006739028e-6,
+		"end": 14.957542106999995
 	}, {
-		"constructed parser": 2.6930000004199428e-5,
-		"constructed lexer": 7.2999999929379555e-6,
-		"parsed input": 3.7000000077114237e-6,
-		"end": 11.085785818999994
+		"constructed parser": 3.105999999775122e-5,
+		"constructed lexer": 5.700000002661909e-6,
+		"parsed input": 3.669999998123785e-6,
+		"end": 13.51719815300001
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 29,
 		"n_runs": 1
 	},
-	"rundate": "2024-08-26T05:33:06-00:00",
-	"euphrates_revision_id": "c2fab009ec4e9c3183b0f2e358aad048bcd32759",
-	"euphrates_revision_date": "2024-08-25T22:28:56-07:00",
-	"euphrates_revision_title": "remove global start symbol hack"
+	"rundate": "2024-08-26T06:08:56-00:00",
+	"euphrates_revision_id": "5e4d9507b59420df5c881b3523b63364c358b60f",
+	"euphrates_revision_date": "2024-08-25T23:04:09-07:00",
+	"euphrates_revision_title": "add more tests for lr-compute-state-graph"
 }
