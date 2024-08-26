@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.529868169,
-	"alltimes": [3.507860771, 3.529868169],
-	"avgtime": 3.51886447,
+	"time": 3.324061292,
+	"alltimes": [3.575768988, 3.324061292],
+	"avgtime": 3.44991514,
 	"deltas": [{
-		"constructed parser": 0.005246467000000005,
-		"constructed lexer": 2.736100000000352e-5,
-		"parsed input": 3.502580443,
-		"end": 6.500000000020378e-6
+		"constructed parser": 0.001704551999999998,
+		"constructed lexer": 1.3579999999999148e-5,
+		"parsed input": 3.5740440660000004,
+		"end": 6.789999999590179e-6
 	}, {
-		"constructed parser": 3.6018499999990183e-4,
-		"constructed lexer": 3.7999999999982492e-6,
-		"parsed input": 3.5294978640000005,
-		"end": 6.3199999997820555e-6
+		"constructed parser": 3.7538499999989483e-4,
+		"constructed lexer": 4.520000000063362e-6,
+		"parsed input": 3.323674987,
+		"end": 6.400000000184036e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-08-25T20:31:22-00:00",
-	"euphrates_revision_id": "d2e953624f8575cc74e9357ff520dc190b851356",
-	"euphrates_revision_date": "2024-08-25T13:28:47-07:00",
-	"euphrates_revision_title": "add lr-goto/given-first"
+	"rundate": "2024-08-26T01:54:08-00:00",
+	"euphrates_revision_id": "ab5a483478f56a967e5815ef76c2673ba3ac6ccc",
+	"euphrates_revision_date": "2024-08-25T18:51:19-07:00",
+	"euphrates_revision_title": "initial implementation of graph building for LR"
 }
