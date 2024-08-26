@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.324061292,
-	"alltimes": [3.575768988, 3.324061292],
-	"avgtime": 3.44991514,
+	"time": 3.383825431,
+	"alltimes": [3.458450321, 3.383825431],
+	"avgtime": 3.421137876,
 	"deltas": [{
-		"constructed parser": 0.001704551999999998,
-		"constructed lexer": 1.3579999999999148e-5,
-		"parsed input": 3.5740440660000004,
-		"end": 6.789999999590179e-6
+		"constructed parser": 0.0016562420000000022,
+		"constructed lexer": 1.1520000000000974e-5,
+		"parsed input": 3.4567746780000004,
+		"end": 7.880999999709815e-6
 	}, {
-		"constructed parser": 3.7538499999989483e-4,
-		"constructed lexer": 4.520000000063362e-6,
-		"parsed input": 3.323674987,
-		"end": 6.400000000184036e-6
+		"constructed parser": 4.786869999997556e-4,
+		"constructed lexer": 4.860000000217468e-6,
+		"parsed input": 3.383334293,
+		"end": 7.5910000001400135e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-08-26T01:54:08-00:00",
-	"euphrates_revision_id": "ab5a483478f56a967e5815ef76c2673ba3ac6ccc",
-	"euphrates_revision_date": "2024-08-25T18:51:19-07:00",
-	"euphrates_revision_title": "initial implementation of graph building for LR"
+	"rundate": "2024-08-26T03:14:16-00:00",
+	"euphrates_revision_id": "b8751a75070c3da28392440e08b864b14425e1ad",
+	"euphrates_revision_date": "2024-08-25T20:11:34-07:00",
+	"euphrates_revision_title": "add more tests for lr:collect-outgoing-states and fix nondet bug"
 }

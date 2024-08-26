@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-5",
-	"time": 1.4834849359999964,
-	"alltimes": [1.4763995360000024, 1.4834849359999964],
-	"avgtime": 1.4799422359999994,
+	"time": 1.5294063329999972,
+	"alltimes": [1.5508231729999977, 1.5294063329999972],
+	"avgtime": 1.5401147529999974,
 	"deltas": [{
-		"constructed parser": 1.1360092390000034,
-		"constructed lexer": 1.191100000141887e-5,
-		"parsed input": 0.34037239599999225,
-		"end": 5.990000005340335e-6
+		"constructed parser": 1.2173626589999742,
+		"constructed lexer": 1.1319999998704589e-5,
+		"parsed input": 0.3334430640000221,
+		"end": 6.130000002713132e-6
 	}, {
-		"constructed parser": 1.175156837000003,
-		"constructed lexer": 1.0459999998602143e-5,
-		"parsed input": 0.308311529000008,
-		"end": 6.10999998684747e-6
+		"constructed parser": 1.2105683200000215,
+		"constructed lexer": 1.3179999996282277e-5,
+		"parsed input": 0.3188190630000065,
+		"end": 5.769999972926598e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-08-26T01:59:57-00:00",
-	"euphrates_revision_id": "ab5a483478f56a967e5815ef76c2673ba3ac6ccc",
-	"euphrates_revision_date": "2024-08-25T18:51:19-07:00",
-	"euphrates_revision_title": "initial implementation of graph building for LR"
+	"rundate": "2024-08-26T03:20:15-00:00",
+	"euphrates_revision_id": "b8751a75070c3da28392440e08b864b14425e1ad",
+	"euphrates_revision_date": "2024-08-25T20:11:34-07:00",
+	"euphrates_revision_title": "add more tests for lr:collect-outgoing-states and fix nondet bug"
 }
