@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.13854520700000705,
-	"alltimes": [0.13536902599999223, 0.13854520700000705],
-	"avgtime": 0.13695711649999964,
+	"time": 0.13890169599997648,
+	"alltimes": [0.14019875299999285, 0.13890169599997648],
+	"avgtime": 0.13955022449998467,
 	"deltas": [{
-		"constructed parser": 3.381999999874097e-5,
-		"constructed lexer": 1.9999999949504854e-6,
-		"got first result": 3.0200000082913903e-6,
-		"end": 0.13533018599999025
+		"constructed parser": 3.3880000017916245e-5,
+		"constructed lexer": 7.999999809271685e-7,
+		"got first result": 3.0000000208474376e-6,
+		"end": 0.14016107299997316
 	}, {
-		"constructed parser": 2.7330999998298466e-5,
+		"constructed parser": 2.845999998157822e-5,
 		"constructed lexer": 1.0500000087176886e-6,
-		"got first result": 3.5099999990961805e-6,
-		"end": 0.13851331600000094
+		"got first result": 3.450000008342613e-6,
+		"end": 0.13886873599997784
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-08-30T07:39:01-00:00",
-	"euphrates_revision_id": "18d3486bb016bf6f05f17d098ea548f4cdac6031",
-	"euphrates_revision_date": "2024-08-30T00:34:44-07:00",
-	"euphrates_revision_title": "initial implementation of lr parsing table construction"
+	"rundate": "2024-08-30T08:04:51-00:00",
+	"euphrates_revision_id": "0c367f17d79ce65f23200dc364bfa1b168d3e609",
+	"euphrates_revision_date": "2024-08-30T00:59:05-07:00",
+	"euphrates_revision_title": "fix small ACC generation in lr parsing table computation"
 }
