@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 12.760767505000004,
-	"alltimes": [13.088680013999998, 12.760767505000004],
-	"avgtime": 12.9247237595,
+	"time": 12.247931543999997,
+	"alltimes": [12.525302226999997, 12.247931543999997],
+	"avgtime": 12.386616885499997,
 	"deltas": [{
-		"constructed parser": 3.9484599999894954e-4,
-		"constructed lexer": 1.6500000015184924e-6,
-		"got first result": 0.0028277870000010807,
-		"end": 13.085455730999996
+		"constructed parser": 3.681150000005573e-4,
+		"constructed lexer": 1.4600000000086766e-6,
+		"got first result": 0.0028432880000011096,
+		"end": 12.522089363999996
 	}, {
-		"constructed parser": 2.923340000009489e-4,
-		"constructed lexer": 1.7799999980638859e-6,
-		"got first result": 0.0061735009999992485,
-		"end": 12.754299890000006
+		"constructed parser": 1.742119999974534e-4,
+		"constructed lexer": 1.5199999978676715e-6,
+		"got first result": 0.003686919000003286,
+		"end": 12.244068892999998
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-08-30T08:03:43-00:00",
-	"euphrates_revision_id": "0c367f17d79ce65f23200dc364bfa1b168d3e609",
-	"euphrates_revision_date": "2024-08-30T00:59:05-07:00",
-	"euphrates_revision_title": "fix small ACC generation in lr parsing table computation"
+	"rundate": "2024-08-30T08:14:48-00:00",
+	"euphrates_revision_id": "9cb5ce8330c58272d7d741fa7b05164f981a3b4c",
+	"euphrates_revision_date": "2024-08-30T01:11:35-07:00",
+	"euphrates_revision_title": "add some negative example tests for lr"
 }
