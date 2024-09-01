@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 17.861750236999995,
-	"alltimes": [19.763070788999983, 17.861750236999995],
-	"avgtime": 18.81241051299999,
+	"time": 18.494758647999987,
+	"alltimes": [19.470376799000007, 18.494758647999987],
+	"avgtime": 18.982567723499997,
 	"deltas": [{
-		"constructed parser": 2.3439999978336346e-5,
-		"constructed lexer": 8.400000126584928e-7,
-		"got first result": 3.2799999871713226e-6,
-		"end": 19.763043229000004
+		"constructed parser": 2.348099999949227e-5,
+		"constructed lexer": 7.800000219049252e-7,
+		"got first result": 3.199999980552093e-6,
+		"end": 19.470349338000005
 	}, {
-		"constructed parser": 2.3381000005429087e-5,
+		"constructed parser": 2.4099999990312426e-5,
 		"constructed lexer": 8.300000047256617e-7,
-		"got first result": 3.3099999825481063e-6,
-		"end": 17.861722716000003
+		"got first result": 2.510000001620938e-6,
+		"end": 18.49473120799999
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-08-31T23:56:54-00:00",
-	"euphrates_revision_id": "d19538f8cebcea7011a5d3e0797075d82c4f3e71",
-	"euphrates_revision_date": "2024-08-31T16:50:58-07:00",
-	"euphrates_revision_title": "fix return type of get-conflicts"
+	"rundate": "2024-08-31T23:59:43-00:00",
+	"euphrates_revision_id": "2d1c59a03c16f0e2de87cd8732c41e304ec55043",
+	"euphrates_revision_date": "2024-08-31T16:54:12-07:00",
+	"euphrates_revision_title": "fix double entry of keys to parsing table"
 }

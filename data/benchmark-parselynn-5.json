@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-5",
-	"time": 0.1833396859999965,
-	"alltimes": [0.19755418500000133, 0.1833396859999965],
-	"avgtime": 0.19044693549999892,
+	"time": 0.17942933899999503,
+	"alltimes": [0.19259746299999847, 0.17942933899999503],
+	"avgtime": 0.18601340099999675,
 	"deltas": [{
-		"constructed parser": 5.753100000305267e-5,
-		"constructed lexer": 3.5199999999235843e-6,
-		"parsed input": 0.19748694399999778,
-		"end": 6.190000000572127e-6
+		"constructed parser": 5.249000000162596e-5,
+		"constructed lexer": 2.9099999991899494e-6,
+		"parsed input": 0.19253500300000326,
+		"end": 7.0599999943965486e-6
 	}, {
-		"constructed parser": 5.482099999909451e-5,
-		"constructed lexer": 5.809999997552495e-6,
-		"parsed input": 0.18327255500000206,
-		"end": 6.499999997799932e-6
+		"constructed parser": 5.375099999582744e-5,
+		"constructed lexer": 5.5400000036343044e-6,
+		"parsed input": 0.17936427699999768,
+		"end": 5.770999997878334e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-08-31T23:54:52-00:00",
-	"euphrates_revision_id": "d19538f8cebcea7011a5d3e0797075d82c4f3e71",
-	"euphrates_revision_date": "2024-08-31T16:50:58-07:00",
-	"euphrates_revision_title": "fix return type of get-conflicts"
+	"rundate": "2024-08-31T23:57:43-00:00",
+	"euphrates_revision_id": "2d1c59a03c16f0e2de87cd8732c41e304ec55043",
+	"euphrates_revision_date": "2024-08-31T16:54:12-07:00",
+	"euphrates_revision_title": "fix double entry of keys to parsing table"
 }
