@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.08161036999999283,
-	"alltimes": [0.077350593999995, 0.08161036999999283],
-	"avgtime": 0.07948048199999391,
+	"time": 0.101779936000014,
+	"alltimes": [0.09363688899998124, 0.101779936000014],
+	"avgtime": 0.09770841249999762,
 	"deltas": [{
-		"constructed parser": 1.875999998901534e-5,
-		"constructed lexer": 1.7499999955816747e-6,
-		"parsed input": 0.07732304400002477,
-		"end": 7.039999985636314e-6
+		"constructed parser": 2.5940000000446162e-5,
+		"constructed lexer": 3.800000001774606e-6,
+		"parsed input": 0.09359972899997615,
+		"end": 7.4200000028668e-6
 	}, {
-		"constructed parser": 2.4509999974497987e-5,
-		"constructed lexer": 2.340000008871357e-6,
-		"parsed input": 0.08157783000001473,
-		"end": 5.689999994729078e-6
+		"constructed parser": 2.5740000012319797e-5,
+		"constructed lexer": 2.8499999871201e-6,
+		"parsed input": 0.10174457600001574,
+		"end": 6.76999999882355e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-01T00:00:01-00:00",
-	"euphrates_revision_id": "2d1c59a03c16f0e2de87cd8732c41e304ec55043",
-	"euphrates_revision_date": "2024-08-31T16:54:12-07:00",
-	"euphrates_revision_title": "fix double entry of keys to parsing table"
+	"rundate": "2024-09-02T23:01:10-00:00",
+	"euphrates_revision_id": "1ac6be9c622b4b940e8df68a9b27fd6d997db193",
+	"euphrates_revision_date": "2024-09-02T15:55:35-07:00",
+	"euphrates_revision_title": "initial implementation of lr-interpret"
 }
