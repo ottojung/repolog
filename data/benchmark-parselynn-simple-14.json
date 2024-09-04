@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-14",
-	"time": 30.853011392000013,
-	"alltimes": [36.01440138000001, 30.853011392000013],
-	"avgtime": 33.43370638600001,
+	"time": 27.701442163999985,
+	"alltimes": [28.316549389000016, 27.701442163999985],
+	"avgtime": 28.0089957765,
 	"deltas": [{
-		"constructed parser": 1.1111569820000113,
-		"constructed lexer": 5.78999998879226e-6,
-		"parsed input": 34.903232196999994,
-		"end": 6.411000015305035e-6
+		"constructed parser": 0.5014609629999995,
+		"constructed lexer": 3.7100000156442547e-6,
+		"parsed input": 27.815077795999997,
+		"end": 6.920000004129179e-6
 	}, {
-		"constructed parser": 0.5486824349999608,
-		"constructed lexer": 5.9400000509413076e-6,
-		"parsed input": 30.30431572599997,
-		"end": 7.291000031273143e-6
+		"constructed parser": 0.49779699600000527,
+		"constructed lexer": 4.640000014433099e-6,
+		"parsed input": 27.20363366799998,
+		"end": 6.859999984953902e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 1,
 		"string_inputq": false
 	},
-	"rundate": "2024-09-04T05:25:27-00:00",
-	"euphrates_revision_id": "d2c294e963653582bb644e3737e7fbb421bd7a1b",
-	"euphrates_revision_date": "2024-09-03T22:14:35-07:00",
-	"euphrates_revision_title": "remove debug prints"
+	"rundate": "2024-09-04T06:08:50-00:00",
+	"euphrates_revision_id": "3169e9632344a964e29d66067bce76ca056ed9ec",
+	"euphrates_revision_date": "2024-09-03T22:58:31-07:00",
+	"euphrates_revision_title": "add start symbol to the output of lr-interpret"
 }
