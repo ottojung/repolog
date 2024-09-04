@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 13.183241442999998,
-	"alltimes": [13.638653555999998, 13.183241442999998],
-	"avgtime": 13.410947499499997,
+	"time": 13.748295861,
+	"alltimes": [14.11781358, 13.748295861],
+	"avgtime": 13.9330547205,
 	"deltas": [{
-		"constructed parser": 0.02135688599999999,
-		"constructed lexer": 2.372000000000485e-5,
-		"parsed input": 13.61726878,
-		"end": 4.169999998637763e-6
+		"constructed parser": 0.022082384999999982,
+		"constructed lexer": 2.48610000000149e-5,
+		"parsed input": 14.095702004000001,
+		"end": 4.329999999441725e-6
 	}, {
-		"constructed parser": 0.009282791999998707,
-		"constructed lexer": 7.930000000655468e-6,
-		"parsed input": 13.173946250999998,
-		"end": 4.470000000367236e-6
+		"constructed parser": 0.011281251999999853,
+		"constructed lexer": 7.53999999858479e-6,
+		"parsed input": 13.737001859000001,
+		"end": 5.210000001198978e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-04T06:20:59-00:00",
-	"euphrates_revision_id": "f50c3492226e4e046ff73ce7ddcba8e894c96ec6",
-	"euphrates_revision_date": "2024-09-03T23:14:19-07:00",
-	"euphrates_revision_title": "add more tests for lr interpret"
+	"rundate": "2024-09-04T06:27:08-00:00",
+	"euphrates_revision_id": "100272a05284e4501d3c51fe90cc73caa7721a10",
+	"euphrates_revision_date": "2024-09-03T23:20:57-07:00",
+	"euphrates_revision_title": "reduce number of parentheses in lr interpret output"
 }
