@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 13.950441439000002,
-	"alltimes": [29.888990074000006, 13.950441439000002],
-	"avgtime": 21.919715756500004,
+	"time": 14.344928882000001,
+	"alltimes": [14.204585433000002, 14.344928882000001],
+	"avgtime": 14.274757157500002,
 	"deltas": [{
-		"constructed parser": 6.253489999998862e-4,
-		"constructed lexer": 5.610000000544346e-6,
-		"parsed input": 0.003541785999999547,
-		"end": 29.884817329000004
+		"constructed parser": 5.379970000003453e-4,
+		"constructed lexer": 4.709999999796821e-6,
+		"parsed input": 0.002748426000000137,
+		"end": 14.2012943
 	}, {
-		"constructed parser": 3.569540000043503e-4,
-		"constructed lexer": 5.590000000665896e-6,
-		"parsed input": 0.003243172999994215,
-		"end": 13.946835722000003
+		"constructed parser": 3.2451399999899877e-4,
+		"constructed lexer": 5.520000001979497e-6,
+		"parsed input": 0.0025615739999977905,
+		"end": 14.342037274000003
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-06T07:12:41-00:00",
-	"euphrates_revision_id": "3a0c3c59cd3e75b8e004392322db970cf8438618",
-	"euphrates_revision_date": "2024-09-06T00:08:42-07:00",
-	"euphrates_revision_title": "eta-reduce lr-interpret"
+	"rundate": "2024-09-06T07:13:15-00:00",
+	"euphrates_revision_id": "d976ec43b1cda713327a57fa4241c708a60be9c7",
+	"euphrates_revision_date": "2024-09-06T00:09:20-07:00",
+	"euphrates_revision_title": "remove unused definitions in lr-interpret"
 }
