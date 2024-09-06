@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 14.344928882000001,
-	"alltimes": [14.204585433000002, 14.344928882000001],
-	"avgtime": 14.274757157500002,
+	"time": 13.920953559,
+	"alltimes": [14.434431669000002, 13.920953559],
+	"avgtime": 14.177692614000001,
 	"deltas": [{
-		"constructed parser": 5.379970000003453e-4,
-		"constructed lexer": 4.709999999796821e-6,
-		"parsed input": 0.002748426000000137,
-		"end": 14.2012943
+		"constructed parser": 5.618279999994868e-4,
+		"constructed lexer": 5.060000000334242e-6,
+		"parsed input": 0.0033891549999998105,
+		"end": 14.430475626000002
 	}, {
-		"constructed parser": 3.2451399999899877e-4,
-		"constructed lexer": 5.520000001979497e-6,
-		"parsed input": 0.0025615739999977905,
-		"end": 14.342037274000003
+		"constructed parser": 2.9508400000111124e-4,
+		"constructed lexer": 4.019999998661206e-6,
+		"parsed input": 0.002819816999998892,
+		"end": 13.917834638000002
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-06T07:13:15-00:00",
-	"euphrates_revision_id": "d976ec43b1cda713327a57fa4241c708a60be9c7",
-	"euphrates_revision_date": "2024-09-06T00:09:20-07:00",
-	"euphrates_revision_title": "remove unused definitions in lr-interpret"
+	"rundate": "2024-09-06T07:51:29-00:00",
+	"euphrates_revision_id": "6686aabde26f7d3c6cea29dc82cd56fca8dacb75",
+	"euphrates_revision_date": "2024-09-06T00:45:41-07:00",
+	"euphrates_revision_title": "add lr-parse-conflict class"
 }
