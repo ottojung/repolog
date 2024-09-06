@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 12.161317047,
-	"alltimes": [12.243344265999998, 12.161317047],
-	"avgtime": 12.2023306565,
+	"time": 12.570377643,
+	"alltimes": [12.677826785, 12.570377643],
+	"avgtime": 12.624102214,
 	"deltas": [{
-		"constructed parser": 4.3696599999965e-4,
-		"constructed lexer": 5.240000000128475e-6,
-		"parsed input": 0.00246543999999993,
-		"end": 12.240436619999999
+		"constructed parser": 4.195250000007533e-4,
+		"constructed lexer": 4.2499999999279225e-6,
+		"parsed input": 0.002423441999999554,
+		"end": 12.674979568000001
 	}, {
-		"constructed parser": 3.5245400000150084e-4,
-		"constructed lexer": 5.029999996963852e-6,
-		"parsed input": 0.00307520800000205,
-		"end": 12.157884355
+		"constructed parser": 3.2753400000018473e-4,
+		"constructed lexer": 4.001000000641852e-6,
+		"parsed input": 0.0024742710000005275,
+		"end": 12.567571837
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-04T06:23:43-00:00",
-	"euphrates_revision_id": "100272a05284e4501d3c51fe90cc73caa7721a10",
-	"euphrates_revision_date": "2024-09-03T23:20:57-07:00",
-	"euphrates_revision_title": "reduce number of parentheses in lr interpret output"
+	"rundate": "2024-09-06T06:13:36-00:00",
+	"euphrates_revision_id": "2b9ca50a5327d1955e8a8721cb28a6a5607bdc25",
+	"euphrates_revision_date": "2024-09-05T23:10:36-07:00",
+	"euphrates_revision_title": "fix lr initial final state handling"
 }
