@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 20.172900607000003,
-	"alltimes": [19.701242166999997, 20.172900607000003],
-	"avgtime": 19.937071387,
+	"time": 19.000322505,
+	"alltimes": [19.068902093, 19.000322505],
+	"avgtime": 19.034612299,
 	"deltas": [{
-		"constructed parser": 1.971219999958862e-4,
-		"constructed lexer": 5.430000001638291e-6,
-		"parsed input": 19.701032154000004,
-		"end": 7.460999995601014e-6
+		"constructed parser": 1.645319999994399e-4,
+		"constructed lexer": 5.3199999996422775e-6,
+		"parsed input": 19.06872550100001,
+		"end": 6.739999989235912e-6
 	}, {
-		"constructed parser": 2.417000000320968e-5,
-		"constructed lexer": 6.260000006363953e-6,
-		"parsed input": 20.172862505999987,
-		"end": 7.671000005871065e-6
+		"constructed parser": 2.4819999993042074e-5,
+		"constructed lexer": 5.920000006653936e-6,
+		"parsed input": 19.000285245,
+		"end": 6.51999999945474e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-07T06:48:28-00:00",
-	"euphrates_revision_id": "0826999fcdfbf87c7e7f5d77dd905dd1cb9a69a3",
-	"euphrates_revision_date": "2024-09-06T23:44:35-07:00",
-	"euphrates_revision_title": "improve printing of lr-state by inlining"
+	"rundate": "2024-09-07T06:51:17-00:00",
+	"euphrates_revision_id": "8449ae53a0fcc35ec7e1a0f462e7a49b9a4070b4",
+	"euphrates_revision_date": "2024-09-06T23:47:19-07:00",
+	"euphrates_revision_title": "fix comments in lr state"
 }
