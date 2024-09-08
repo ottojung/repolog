@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.10871144699999036,
-	"alltimes": [0.11359910200002332, 0.10871144699999036],
-	"avgtime": 0.11115527450000684,
+	"time": 0.1179203879999875,
+	"alltimes": [0.20251118100000554, 0.1179203879999875],
+	"avgtime": 0.16021578449999652,
 	"deltas": [{
-		"constructed parser": 4.0011000010053976e-5,
-		"constructed lexer": 1.720000000204891e-6,
-		"got first result": 0.11355110100001298,
-		"end": 6.270000000085929e-6
+		"constructed parser": 4.314100002034138e-5,
+		"constructed lexer": 1.7599999750927964e-6,
+		"got first result": 0.20245909000001916,
+		"end": 7.189999990941942e-6
 	}, {
-		"constructed parser": 2.478100000757877e-5,
-		"constructed lexer": 6.799999994200334e-7,
-		"got first result": 0.10867918599998916,
-		"end": 6.799999994200334e-6
+		"constructed parser": 2.650999999787018e-5,
+		"constructed lexer": 7.900000014160469e-7,
+		"got first result": 0.11788287799998898,
+		"end": 1.0209999999233332e-5
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-09-08T17:09:12-00:00",
-	"euphrates_revision_id": "54d06e936b996337d9f82595be44ab7ea7dd76cf",
-	"euphrates_revision_date": "2024-09-08T10:04:18-07:00",
-	"euphrates_revision_title": "ensure proper deduplication of states in state graph construction"
+	"rundate": "2024-09-08T17:24:20-00:00",
+	"euphrates_revision_id": "017b9cd4c1ead45e4bfc34e950e08cab32df3df8",
+	"euphrates_revision_date": "2024-09-08T10:18:06-07:00",
+	"euphrates_revision_title": "fix lr closure interaction with epsilon"
 }
