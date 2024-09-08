@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-5",
-	"time": 1.737257346000007,
-	"alltimes": [1.8211528349999924, 1.737257346000007],
-	"avgtime": 1.7792050904999996,
+	"time": 1.733448629999998,
+	"alltimes": [1.623585109000004, 1.733448629999998],
+	"avgtime": 1.678516869500001,
 	"deltas": [{
-		"constructed parser": 1.4506367569999838,
-		"constructed lexer": 1.4069999991761506e-5,
-		"parsed input": 0.3704957580000041,
-		"end": 6.250000012641976e-6
+		"constructed parser": 1.3007541020000133,
+		"constructed lexer": 1.1099999994712562e-5,
+		"parsed input": 0.32281441599999994,
+		"end": 5.490999996027313e-6
 	}, {
-		"constructed parser": 1.3222559499999988,
-		"constructed lexer": 1.3030000019398358e-5,
-		"parsed input": 0.41498233599998,
-		"end": 6.0300000086499495e-6
+		"constructed parser": 1.3260389559999908,
+		"constructed lexer": 1.1080000007268609e-5,
+		"parsed input": 0.4073926540000059,
+		"end": 5.939999994097889e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-08T17:07:17-00:00",
-	"euphrates_revision_id": "17c8adf53654b0b096bd683e5b371ef212ecfb40",
-	"euphrates_revision_date": "2024-09-08T09:57:25-07:00",
-	"euphrates_revision_title": "ensure that eoi is dislayed as \"$\" in table printing"
+	"rundate": "2024-09-08T17:13:24-00:00",
+	"euphrates_revision_id": "54d06e936b996337d9f82595be44ab7ea7dd76cf",
+	"euphrates_revision_date": "2024-09-08T10:04:18-07:00",
+	"euphrates_revision_title": "ensure proper deduplication of states in state graph construction"
 }
