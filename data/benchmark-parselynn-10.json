@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-10",
-	"time": 0.14221106899999825,
-	"alltimes": [0.1510704819999944, 0.14221106899999825],
-	"avgtime": 0.14664077549999632,
+	"time": 0.137981527000008,
+	"alltimes": [0.14027612599998918, 0.137981527000008],
+	"avgtime": 0.13912882649999858,
 	"deltas": [{
-		"constructed parser": 3.618099999869173e-5,
-		"constructed lexer": 7.900000014160469e-7,
-		"got first result": 4.609999990634606e-6,
-		"end": 0.15102890100000366
+		"constructed parser": 3.7739999996233564e-5,
+		"constructed lexer": 1.0010000011106968e-6,
+		"got first result": 4.459999999539832e-6,
+		"end": 0.1402329249999923
 	}, {
-		"constructed parser": 2.8301000000396925e-5,
-		"constructed lexer": 8.100000030708543e-7,
-		"got first result": 3.5899999915045555e-6,
-		"end": 0.14217836800000327
+		"constructed parser": 2.5790999998775987e-5,
+		"constructed lexer": 9.099999971340367e-7,
+		"got first result": 3.5500000024057954e-6,
+		"end": 0.13795127600000967
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-09-08T23:13:05-00:00",
-	"euphrates_revision_id": "c13712ff8d2a6aa4f21d2523cee077a74e44c717",
-	"euphrates_revision_date": "2024-09-08T16:09:00-07:00",
-	"euphrates_revision_title": "fix compilation of const for LR(1)"
+	"rundate": "2024-09-08T23:18:19-00:00",
+	"euphrates_revision_id": "e9e20ffaa65cb4ab0511f6e673aaca27c0257932",
+	"euphrates_revision_date": "2024-09-08T16:13:26-07:00",
+	"euphrates_revision_title": "solve FIXME in labelinglogic"
 }
