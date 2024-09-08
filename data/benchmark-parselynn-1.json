@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.57585877,
-	"alltimes": [3.761743096, 3.57585877],
-	"avgtime": 3.668800933,
+	"time": 2.874969257,
+	"alltimes": [3.0392658760000004, 2.874969257],
+	"avgtime": 2.9571175665,
 	"deltas": [{
-		"constructed parser": 0.0014475889999999991,
-		"constructed lexer": 9.589999999989884e-6,
-		"parsed input": 3.760278327,
-		"end": 7.590000000057273e-6
+		"constructed parser": 0.0014231390000000038,
+		"constructed lexer": 1.2249999999991434e-5,
+		"parsed input": 3.037825067,
+		"end": 5.420000000366798e-6
 	}, {
-		"constructed parser": 3.719250000000507e-4,
-		"constructed lexer": 4.679999999979145e-6,
-		"parsed input": 3.575476455,
-		"end": 5.709999999936599e-6
+		"constructed parser": 3.3488399999992424e-4,
+		"constructed lexer": 4.450000000044696e-6,
+		"parsed input": 2.8746245829999997,
+		"end": 5.3400000004089065e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-08T21:09:21-00:00",
-	"euphrates_revision_id": "98d79167f274e03d3b29ee8c6aa81bf434a163a6",
-	"euphrates_revision_date": "2024-09-08T14:05:33-07:00",
-	"euphrates_revision_title": "implement initial integration of LR 1 with parselynn:core"
+	"rundate": "2024-09-08T21:16:37-00:00",
+	"euphrates_revision_id": "2f53719602559a1af18be955826abdf11f322c91",
+	"euphrates_revision_date": "2024-09-08T14:09:26-07:00",
+	"euphrates_revision_title": "fix benchmark grammars"
 }
