@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-10",
-	"time": 0.844295126999981,
-	"alltimes": [0.7734545630000014, 0.844295126999981],
-	"avgtime": 0.8088748449999912,
+	"time": 0.62880054499999,
+	"alltimes": [0.6212076440000089, 0.62880054499999],
+	"avgtime": 0.6250040944999995,
 	"deltas": [{
-		"constructed parser": 0.6203541220000091,
-		"constructed lexer": 2.3259999977653933e-5,
-		"parsed input": 0.15307124100002056,
-		"end": 5.939999994097889e-6
+		"constructed parser": 0.4888414390000264,
+		"constructed lexer": 1.6490999996676692e-5,
+		"parsed input": 0.1323437839999997,
+		"end": 5.929999986165058e-6
 	}, {
-		"constructed parser": 0.6825994309999999,
-		"constructed lexer": 1.281100000483093e-5,
-		"parsed input": 0.16167834499998435,
-		"end": 4.539999991948207e-6
+		"constructed parser": 0.49165856700000177,
+		"constructed lexer": 1.1529999994763784e-5,
+		"parsed input": 0.13712574799998833,
+		"end": 4.700000005186666e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-08T17:29:10-00:00",
-	"euphrates_revision_id": "017b9cd4c1ead45e4bfc34e950e08cab32df3df8",
-	"euphrates_revision_date": "2024-09-08T10:18:06-07:00",
-	"euphrates_revision_title": "fix lr closure interaction with epsilon"
+	"rundate": "2024-09-08T19:27:39-00:00",
+	"euphrates_revision_id": "ee549d8747f8284b1a40e8d1a1c7d727354f5936",
+	"euphrates_revision_date": "2024-09-08T12:16:42-07:00",
+	"euphrates_revision_title": "fix nondeterminism in parselynn:lr-closure"
 }
