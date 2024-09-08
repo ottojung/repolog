@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-9",
-	"time": 0.10768549899998447,
-	"alltimes": [0.10522535599997695, 0.10768549899998447],
-	"avgtime": 0.10645542749998071,
+	"time": 0.15117725499999324,
+	"alltimes": [0.1281081300000153, 0.15117725499999324],
+	"avgtime": 0.13964269250000427,
 	"deltas": [{
-		"constructed parser": 4.0880999989667544e-5,
-		"constructed lexer": 1.4299999975264654e-6,
-		"got first result": 0.10517645499999162,
-		"end": 6.589999998141138e-6
+		"constructed parser": 4.618100001607672e-5,
+		"constructed lexer": 1.5599999869664316e-6,
+		"got first result": 0.12804208800000083,
+		"end": 1.8301000011433644e-5
 	}, {
-		"constructed parser": 2.533999997922365e-5,
-		"constructed lexer": 6.399999961104186e-7,
-		"got first result": 0.10765160800002604,
-		"end": 7.91099998309619e-6
+		"constructed parser": 3.018099999962942e-5,
+		"constructed lexer": 8.899999954792293e-7,
+		"got first result": 0.1511369840000043,
+		"end": 9.199999993825259e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 50000
 	},
-	"rundate": "2024-09-08T21:11:03-00:00",
-	"euphrates_revision_id": "d43f1d1c0a65ebccce342265e1d7f70ca79ec073",
+	"rundate": "2024-09-08T21:11:18-00:00",
+	"euphrates_revision_id": "e5b40bb5e7d4ecd1d72cd8356fd54cc06e372563",
 	"euphrates_revision_date": "2024-09-08T14:05:33-07:00",
-	"euphrates_revision_title": "add new methods for bnf-alist"
+	"euphrates_revision_title": "fix callback compilation in LR 1"
 }
