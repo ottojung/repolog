@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-2",
-	"time": 11.638597010000002,
-	"alltimes": [12.152497042, 11.638597010000002],
-	"avgtime": 11.895547026000001,
+	"time": 13.155365504000002,
+	"alltimes": [13.055077131000001, 13.155365504000002],
+	"avgtime": 13.105221317500002,
 	"deltas": [{
-		"constructed parser": 4.196160000002891e-4,
-		"constructed lexer": 5.840000000034706e-6,
-		"parsed input": 0.002455501999999221,
-		"end": 12.149616084000002
+		"constructed parser": 4.699870000006712e-4,
+		"constructed lexer": 4.169999999525942e-6,
+		"parsed input": 0.0024789620000005286,
+		"end": 13.052124012
 	}, {
-		"constructed parser": 3.51924000000281e-4,
-		"constructed lexer": 5.210000001198978e-6,
-		"parsed input": 0.0027436759999979188,
-		"end": 11.635496200000002
+		"constructed parser": 3.6330500000048005e-4,
+		"constructed lexer": 4.969999999104857e-6,
+		"parsed input": 0.0031429719999991335,
+		"end": 13.151854257000004
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-07T06:50:10-00:00",
-	"euphrates_revision_id": "8449ae53a0fcc35ec7e1a0f462e7a49b9a4070b4",
-	"euphrates_revision_date": "2024-09-06T23:47:19-07:00",
-	"euphrates_revision_title": "fix comments in lr state"
+	"rundate": "2024-09-08T02:12:35-00:00",
+	"euphrates_revision_id": "cedd10627da8c4c4419d2049fb2a7a7e006534e0",
+	"euphrates_revision_date": "2024-09-07T19:09:30-07:00",
+	"euphrates_revision_title": "make driver names more generic in parselynn:core"
 }
