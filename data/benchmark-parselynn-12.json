@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 22.468359007000004,
-	"alltimes": [22.980573866000015, 22.468359007000004],
-	"avgtime": 22.72446643650001,
+	"time": 20.457967164999985,
+	"alltimes": [21.518455961, 20.457967164999985],
+	"avgtime": 20.988211562999993,
 	"deltas": [{
-		"constructed parser": 3.0699999996386396e-5,
-		"constructed lexer": 9.000000034120603e-7,
-		"got first result": 4.539999991948207e-6,
-		"end": 22.980537726000023
+		"constructed parser": 2.3450000014690886e-5,
+		"constructed lexer": 2.0100000028833165e-6,
+		"got first result": 3.630000009025025e-6,
+		"end": 21.518426870999974
 	}, {
-		"constructed parser": 3.10500000182401e-5,
-		"constructed lexer": 1.0400000007848575e-6,
-		"got first result": 3.7099999872225453e-6,
-		"end": 22.468323206999997
+		"constructed parser": 2.8019999973594167e-5,
+		"constructed lexer": 9.400000067216752e-7,
+		"got first result": 3.219999996417755e-6,
+		"end": 20.45793498500001
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-09-08T21:03:37-00:00",
-	"euphrates_revision_id": "1d1172e511e0b8eec7b283b5167d895abbbfe073",
-	"euphrates_revision_date": "2024-09-08T13:58:27-07:00",
-	"euphrates_revision_title": "fix callback compilation in LR 1"
+	"rundate": "2024-09-08T21:05:33-00:00",
+	"euphrates_revision_id": "0db7f450723656a9b951f686cfd7f1d896602544",
+	"euphrates_revision_date": "2024-09-08T13:59:33-07:00",
+	"euphrates_revision_title": "implement initial integration of LR 1 with parselynn:core"
 }

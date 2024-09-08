@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-6",
-	"time": 0.2527972180000049,
-	"alltimes": [0.2515527110000022, 0.2527972180000049],
-	"avgtime": 0.25217496450000354,
+	"time": 0.2706363420000031,
+	"alltimes": [0.27956005100000425, 0.2706363420000031],
+	"avgtime": 0.27509819650000367,
 	"deltas": [{
-		"constructed parser": 6.349099999880536e-5,
-		"constructed lexer": 4.190000005621641e-6,
-		"parsed input": 3.409999997927571e-6,
-		"end": 0.25148161999999985
+		"constructed parser": 5.9399999997822306e-5,
+		"constructed lexer": 3.7800000001197986e-6,
+		"parsed input": 3.401000000735621e-6,
+		"end": 0.2794934700000056
 	}, {
-		"constructed parser": 3.234100000071294e-5,
-		"constructed lexer": 3.640999999987571e-5,
-		"parsed input": 6.689999999309748e-6,
-		"end": 0.252721777000005
+		"constructed parser": 3.1380000010017284e-5,
+		"constructed lexer": 2.5959999987890114e-5,
+		"parsed input": 7.63000001313685e-6,
+		"end": 0.27057137199999204
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-08T21:01:15-00:00",
-	"euphrates_revision_id": "1d1172e511e0b8eec7b283b5167d895abbbfe073",
-	"euphrates_revision_date": "2024-09-08T13:58:27-07:00",
-	"euphrates_revision_title": "fix callback compilation in LR 1"
+	"rundate": "2024-09-08T21:03:19-00:00",
+	"euphrates_revision_id": "0db7f450723656a9b951f686cfd7f1d896602544",
+	"euphrates_revision_date": "2024-09-08T13:59:33-07:00",
+	"euphrates_revision_title": "implement initial integration of LR 1 with parselynn:core"
 }
