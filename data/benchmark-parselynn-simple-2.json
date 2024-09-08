@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-2",
-	"time": 25.042584078999994,
-	"alltimes": [23.730623607000002, 25.042584078999994],
-	"avgtime": 24.386603842999996,
+	"time": 22.205295489,
+	"alltimes": [23.173608008, 22.205295489],
+	"avgtime": 22.689451748499998,
 	"deltas": [{
-		"constructed parser": 0.06404691400000218,
-		"constructed lexer": 2.0499999997980467e-5,
-		"parsed input": 23.666551842999997,
-		"end": 4.350000004649246e-6
+		"constructed parser": 0.06510307900000001,
+		"constructed lexer": 1.693000000102529e-5,
+		"parsed input": 23.108482967999997,
+		"end": 5.031000000599306e-6
 	}, {
-		"constructed parser": 0.06150417100000283,
-		"constructed lexer": 1.0889999998653366e-5,
-		"parsed input": 24.981062677999994,
-		"end": 6.339999998772328e-6
+		"constructed parser": 0.06000158099999453,
+		"constructed lexer": 9.370000000785694e-6,
+		"parsed input": 22.145280418000006,
+		"end": 4.119999999829815e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-08T04:33:20-00:00",
-	"euphrates_revision_id": "27eff665c5b1ed0d2894004d0387c1c19e93d70c",
-	"euphrates_revision_date": "2024-09-07T21:25:47-07:00",
-	"euphrates_revision_title": "accept real tokes in lr-interpret"
+	"rundate": "2024-09-08T04:34:44-00:00",
+	"euphrates_revision_id": "6a6cbec15638d7d0d62bef911d31c69c92374550",
+	"euphrates_revision_date": "2024-09-07T21:27:30-07:00",
+	"euphrates_revision_title": "rename ret to parse-stack in lr-interpret"
 }
