@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 23.600868522000013,
-	"alltimes": [22.711492850000013, 23.600868522000013],
-	"avgtime": 23.156180686000013,
+	"time": 22.274608993000015,
+	"alltimes": [24.281424584999996, 22.274608993000015],
+	"avgtime": 23.278016789000006,
 	"deltas": [{
-		"constructed parser": 2.4429999996300467e-5,
-		"constructed lexer": 6.699999914872024e-7,
-		"got first result": 4.070000017009079e-6,
-		"end": 22.71146368000001
+		"constructed parser": 2.6641000005156457e-5,
+		"constructed lexer": 8.799999875463982e-7,
+		"got first result": 6.540000015320402e-6,
+		"end": 24.28139052399999
 	}, {
-		"constructed parser": 2.6439999999183783e-5,
+		"constructed parser": 2.8641000000106942e-5,
 		"constructed lexer": 8.300000047256617e-7,
-		"got first result": 4.180000019005092e-6,
-		"end": 23.60083707199999
+		"got first result": 3.5200000070290116e-6,
+		"end": 22.274576002000003
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-09-08T23:38:52-00:00",
-	"euphrates_revision_id": "2221f7b9e5a18e83f267a47e3f03ed3870b9b445",
-	"euphrates_revision_date": "2024-09-08T16:32:37-07:00",
-	"euphrates_revision_title": "zoreslava: improve loading and unloading"
+	"rundate": "2024-09-08T23:44:12-00:00",
+	"euphrates_revision_id": "cac330ee104e3173a1a650e52318858a894d85b7",
+	"euphrates_revision_date": "2024-09-08T16:38:15-07:00",
+	"euphrates_revision_title": "make parselynn:lr-interpret a curried function"
 }

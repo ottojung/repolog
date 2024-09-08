@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-6",
-	"time": 0.24676460799999944,
-	"alltimes": [0.2305735720000044, 0.24676460799999944],
-	"avgtime": 0.23866909000000192,
+	"time": 0.26849993899999447,
+	"alltimes": [0.25883772799999605, 0.26849993899999447],
+	"avgtime": 0.26366883349999526,
 	"deltas": [{
-		"constructed parser": 7.068100000395816e-5,
-		"constructed lexer": 3.6190999999519136e-5,
-		"parsed input": 3.739999996810184e-6,
-		"end": 0.2304629600000041
+		"constructed parser": 7.092099999539414e-5,
+		"constructed lexer": 3.5130000000549444e-5,
+		"parsed input": 4.459999999539832e-6,
+		"end": 0.25872721700000056
 	}, {
-		"constructed parser": 2.975000000304817e-5,
-		"constructed lexer": 5.44210000015255e-5,
-		"parsed input": 7.409999994933969e-6,
-		"end": 0.24667302699999993
+		"constructed parser": 3.6269999995397484e-5,
+		"constructed lexer": 6.309100000123635e-5,
+		"parsed input": 8.119999996836214e-6,
+		"end": 0.268392458000001
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-08T23:36:37-00:00",
-	"euphrates_revision_id": "2221f7b9e5a18e83f267a47e3f03ed3870b9b445",
-	"euphrates_revision_date": "2024-09-08T16:32:37-07:00",
-	"euphrates_revision_title": "zoreslava: improve loading and unloading"
+	"rundate": "2024-09-08T23:41:47-00:00",
+	"euphrates_revision_id": "cac330ee104e3173a1a650e52318858a894d85b7",
+	"euphrates_revision_date": "2024-09-08T16:38:15-07:00",
+	"euphrates_revision_title": "make parselynn:lr-interpret a curried function"
 }
