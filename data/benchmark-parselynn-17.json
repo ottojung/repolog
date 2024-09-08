@@ -1,0 +1,27 @@
+{
+	"name": "benchmark-parselynn-17",
+	"time": 0.31291284299999234,
+	"alltimes": [0.32642477499999245, 0.31291284299999234],
+	"avgtime": 0.3196688089999924,
+	"deltas": [{
+		"constructed parser": 0.003670790000001034,
+		"constructed lexer": 1.539999999522479e-6,
+		"got first result": 0.32274808500000063,
+		"end": 4.359999991265795e-6
+	}, {
+		"constructed parser": 0.002485823999990089,
+		"constructed lexer": 1.2600000047768845e-6,
+		"got first result": 0.3104212089999976,
+		"end": 4.549999999881038e-6
+	}],
+	"inputs": {
+		"driver": "(LR 1)",
+		"loadq": false,
+		"tree_depth": 50000,
+		"n_runs": 1
+	},
+	"rundate": "2024-09-08T21:34:44-00:00",
+	"euphrates_revision_id": "823fca4adf3a60216ce50e527e19b563205671d4",
+	"euphrates_revision_date": "2024-09-08T14:28:10-07:00",
+	"euphrates_revision_title": "add initial benchmarks for LR(1)"
+}
