@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-2",
-	"time": 27.931847390999998,
-	"alltimes": [28.124533199999995, 27.931847390999998],
-	"avgtime": 28.028190295499996,
+	"time": 23.476842479999995,
+	"alltimes": [23.073364954, 23.476842479999995],
+	"avgtime": 23.275103716999997,
 	"deltas": [{
-		"constructed parser": 0.06908926199999854,
-		"constructed lexer": 2.621000000146978e-5,
-		"parsed input": 28.055411707999994,
-		"end": 6.020000000717118e-6
+		"constructed parser": 0.06341539499999982,
+		"constructed lexer": 2.021000000240747e-5,
+		"parsed input": 23.009924618999996,
+		"end": 4.73000000056345e-6
 	}, {
-		"constructed parser": 0.0818087399999996,
-		"constructed lexer": 9.470000001954304e-6,
-		"parsed input": 27.850024371000003,
-		"end": 4.809999992971825e-6
+		"constructed parser": 0.06302250000000242,
+		"constructed lexer": 1.3359999996964689e-5,
+		"parsed input": 23.413802499999996,
+		"end": 4.119999999829815e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-09T00:06:50-00:00",
-	"euphrates_revision_id": "448fd4fff28107eb80c21482f879647712d4e5af",
-	"euphrates_revision_date": "2024-09-08T16:58:04-07:00",
-	"euphrates_revision_title": "improve iterator implementation"
+	"rundate": "2024-09-09T03:11:36-00:00",
+	"euphrates_revision_id": "0a21fd1fd88b688edcf15ef92796cd76e49851c2",
+	"euphrates_revision_date": "2024-09-08T20:04:37-07:00",
+	"euphrates_revision_title": "implement initial lr-1-compile"
 }
