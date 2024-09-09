@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-18",
-	"time": 0.5858191769999905,
-	"alltimes": [0.5570568150000099, 0.5858191769999905],
-	"avgtime": 0.5714379960000002,
+	"time": 0.7698867009999617,
+	"alltimes": [0.845890724999947, 0.7698867009999617],
+	"avgtime": 0.8078887129999544,
 	"deltas": [{
-		"constructed parser": 7.889010000212693e-4,
-		"constructed lexer": 1.548999998135514e-5,
-		"parsed input": 0.5562485940000101,
-		"end": 3.82999999715139e-6
+		"constructed parser": 0.0015490099999624363,
+		"constructed lexer": 3.263100001049679e-5,
+		"parsed input": 0.844302684000013,
+		"end": 6.399999961104186e-6
 	}, {
-		"constructed parser": 0.0011983459999953538,
-		"constructed lexer": 1.394000000232154e-5,
-		"parsed input": 0.5846021410000048,
-		"end": 4.749999988007403e-6
+		"constructed parser": 0.0012214559999961239,
+		"constructed lexer": 1.6860000016549748e-5,
+		"parsed input": 0.7686432649999801,
+		"end": 5.119999968883349e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-08T23:51:49-00:00",
-	"euphrates_revision_id": "72c3cfcac765c3d498be16fda093868d854295c6",
-	"euphrates_revision_date": "2024-09-08T16:45:47-07:00",
-	"euphrates_revision_title": "reorgzanie lr-interpret code a bit"
+	"rundate": "2024-09-09T00:05:19-00:00",
+	"euphrates_revision_id": "448fd4fff28107eb80c21482f879647712d4e5af",
+	"euphrates_revision_date": "2024-09-08T16:58:04-07:00",
+	"euphrates_revision_title": "improve iterator implementation"
 }
