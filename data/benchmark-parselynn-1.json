@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 2.6243535020000004,
-	"alltimes": [2.6846646700000005, 2.6243535020000004],
-	"avgtime": 2.6545090860000005,
+	"time": 2.609100773,
+	"alltimes": [2.7250825689999996, 2.609100773],
+	"avgtime": 2.6670916709999997,
 	"deltas": [{
-		"constructed parser": 0.001403208000000003,
-		"constructed lexer": 1.9790000000005636e-5,
-		"parsed input": 2.683217352,
-		"end": 2.4320000000077613e-5
+		"constructed parser": 0.0011903260000000193,
+		"constructed lexer": 2.5549999999929796e-5,
+		"parsed input": 2.723841033,
+		"end": 2.5659999999927408e-5
 	}, {
-		"constructed parser": 3.8450499999997945e-4,
-		"constructed lexer": 1.343100000017472e-5,
-		"parsed input": 2.623948146,
-		"end": 7.420000000202265e-6
+		"constructed parser": 2.5106399999996754e-4,
+		"constructed lexer": 1.708000000011367e-5,
+		"parsed input": 2.6088246890000004,
+		"end": 7.939999999706515e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-09T03:58:13-00:00",
-	"euphrates_revision_id": "bddf498aeaa9d67f7d7f7a75bbe614746971ec2b",
-	"euphrates_revision_date": "2024-09-08T20:55:54-07:00",
-	"euphrates_revision_title": "initial incorporation of compiled LR(1) into core"
+	"rundate": "2024-09-09T04:59:52-00:00",
+	"euphrates_revision_id": "35811a589f52262f3d37f645ccfb2f4f49cdd31b",
+	"euphrates_revision_date": "2024-09-08T21:57:49-07:00",
+	"euphrates_revision_title": "fix nondeterminism in LR(1)"
 }
