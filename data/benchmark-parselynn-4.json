@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 16.004771447000003,
-	"alltimes": [16.88907469, 16.004771447000003],
-	"avgtime": 16.446923068500002,
+	"time": 16.735190938,
+	"alltimes": [17.294781526, 16.735190938],
+	"avgtime": 17.014986232,
 	"deltas": [{
-		"constructed parser": 4.3751599999986013e-4,
-		"constructed lexer": 1.8900000000598993e-6,
-		"got first result": 0.003716258999999056,
-		"end": 16.884919025000002
+		"constructed parser": 4.577860000001266e-4,
+		"constructed lexer": 1.6800000004479898e-6,
+		"got first result": 0.004074743000000325,
+		"end": 17.290247317000002
 	}, {
-		"constructed parser": 2.508230000017875e-4,
-		"constructed lexer": 1.1700000008829647e-6,
-		"got first result": 0.002570494000000423,
-		"end": 16.00194896
+		"constructed parser": 2.9072300000265727e-4,
+		"constructed lexer": 1.5199999978676715e-6,
+		"got first result": 0.0028235579999993377,
+		"end": 16.732075137
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-09T05:05:18-00:00",
-	"euphrates_revision_id": "8496fe68e7f14aa2c2c97c25954adba3f1cc04b1",
-	"euphrates_revision_date": "2024-09-08T22:01:41-07:00",
-	"euphrates_revision_title": "add serialization test for LR(1)"
+	"rundate": "2024-09-09T05:05:08-00:00",
+	"euphrates_revision_id": "1cea1e48b12b3e5eaca684e043b7bb1395a09992",
+	"euphrates_revision_date": "2024-09-08T22:01:27-07:00",
+	"euphrates_revision_title": "fix nondeterminism in LR(1)"
 }
