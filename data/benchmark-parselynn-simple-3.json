@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-3",
-	"time": 43.75640960300001,
-	"alltimes": [42.841716270000006, 43.75640960300001],
-	"avgtime": 43.29906293650001,
+	"time": 40.845520158,
+	"alltimes": [42.441121743, 40.845520158],
+	"avgtime": 41.6433209505,
 	"deltas": [{
-		"constructed parser": 0.1838817800000072,
-		"constructed lexer": 1.8689999990328943e-5,
-		"parsed input": 42.65781331000001,
-		"end": 2.4899999999661304e-6
+		"constructed parser": 0.1975537590000016,
+		"constructed lexer": 1.788999999519092e-5,
+		"parsed input": 42.243547284,
+		"end": 2.8099999980213397e-6
 	}, {
-		"constructed parser": 0.19076614900001232,
-		"constructed lexer": 8.5999999868136e-6,
-		"parsed input": 43.565632363999995,
-		"end": 2.490000014176985e-6
+		"constructed parser": 0.1974395659999999,
+		"constructed lexer": 9.77999999918211e-6,
+		"parsed input": 40.64806813099999,
+		"end": 2.6810000122168276e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-09T05:22:29-00:00",
-	"euphrates_revision_id": "78964479fbc0d8db36d8238151babc50f2efa96a",
-	"euphrates_revision_date": "2024-09-08T22:12:45-07:00",
-	"euphrates_revision_title": "fix import errors in LR(1) parser"
+	"rundate": "2024-09-09T05:23:32-00:00",
+	"euphrates_revision_id": "fc1ae6120843c09202c9fa931e595b5e64c1af9a",
+	"euphrates_revision_date": "2024-09-08T22:14:21-07:00",
+	"euphrates_revision_title": "add benchmarks for loaded LR(1) parser"
 }
