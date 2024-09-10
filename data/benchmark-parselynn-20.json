@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-20",
-	"time": 0.1491330039999923,
-	"alltimes": [0.14209259199998314, 0.1491330039999923],
-	"avgtime": 0.14561279799998772,
+	"time": 0.18998524300002373,
+	"alltimes": [0.20058069300000625, 0.18998524300002373],
+	"avgtime": 0.195282968000015,
 	"deltas": [{
-		"constructed parser": 3.77009999965594e-5,
-		"constructed lexer": 1.6999999843392288e-6,
-		"got first result": 0.14204601100001923,
-		"end": 7.179999983009111e-6
+		"constructed parser": 4.075100000022758e-5,
+		"constructed lexer": 1.5300000200113573e-6,
+		"got first result": 0.2005303819999824,
+		"end": 8.030000003600435e-6
 	}, {
-		"constructed parser": 2.716000000191343e-5,
-		"constructed lexer": 6.299999881775875e-7,
-		"got first result": 0.1490976240000066,
-		"end": 7.589999995616381e-6
+		"constructed parser": 2.877000000012231e-5,
+		"constructed lexer": 9.100000113448914e-7,
+		"got first result": 0.18994569299999853,
+		"end": 9.87000001373417e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T23:50:23-00:00",
-	"euphrates_revision_id": "038292500cdb495cc0d37389f7553f39a42a07f6",
+	"rundate": "2024-09-10T23:53:13-00:00",
+	"euphrates_revision_id": "921750ab4e81b2957c2ff6bbae406ef667444007",
 	"euphrates_revision_date": "2024-09-10T16:05:39-07:00",
-	"euphrates_revision_title": "adopt the core-largecases test to LR(1) parser"
+	"euphrates_revision_title": "small potential size optimization for LR(1) codegen"
 }
