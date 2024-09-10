@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-20",
-	"time": 0.17870757500000423,
-	"alltimes": [0.15704061799999636, 0.17870757500000423],
-	"avgtime": 0.1678740965000003,
+	"time": 0.15930607499998928,
+	"alltimes": [0.16477998799999227, 0.15930607499998928],
+	"avgtime": 0.16204303149999078,
 	"deltas": [{
-		"constructed parser": 4.140100000427083e-5,
-		"constructed lexer": 1.2399999889112223e-6,
-		"got first result": 0.15699028599999565,
-		"end": 7.691000007525872e-6
+		"constructed parser": 3.651099999046892e-5,
+		"constructed lexer": 1.150000002780871e-6,
+		"got first result": 0.16473476699999878,
+		"end": 7.560000000239597e-6
 	}, {
-		"constructed parser": 4.0549999994254904e-5,
-		"constructed lexer": 7.799999934832158e-7,
-		"got first result": 0.17865745500000685,
-		"end": 8.790000009639698e-6
+		"constructed parser": 2.9181000002154178e-5,
+		"constructed lexer": 7.900000014160469e-7,
+		"got first result": 0.15926784300000918,
+		"end": 8.260999976528183e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T23:44:03-00:00",
-	"euphrates_revision_id": "c2e3fe8985472bc483189b89d3010c892c315cdd",
+	"rundate": "2024-09-10T23:45:31-00:00",
+	"euphrates_revision_id": "db3d9c4e04e34917001ab7ee38374c55af50dfe1",
 	"euphrates_revision_date": "2024-09-10T16:05:39-07:00",
-	"euphrates_revision_title": "optimize LR(1) code size by remove multiplexed do-reject code"
+	"euphrates_revision_title": "add a TODO for LR(1) compiler"
 }
