@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.06666540300000179,
-	"alltimes": [0.08061221700000942, 0.06666540300000179],
-	"avgtime": 0.0736388100000056,
+	"time": 0.08090261899999973,
+	"alltimes": [0.07180248700001357, 0.08090261899999973],
+	"avgtime": 0.07635255300000665,
 	"deltas": [{
-		"constructed parser": 2.6219999995191756e-5,
-		"constructed lexer": 2.5561000001061984e-5,
-		"parsed input": 0.08055028600000469,
-		"end": 1.0150000008479765e-5
+		"constructed parser": 2.3351000010052303e-5,
+		"constructed lexer": 2.6059999981953297e-5,
+		"parsed input": 0.07174500600001466,
+		"end": 8.07000000691005e-6
 	}, {
-		"constructed parser": 3.350100001853207e-5,
-		"constructed lexer": 4.9689999997326595e-5,
-		"parsed input": 0.06657568200000696,
-		"end": 6.529999978965861e-6
+		"constructed parser": 2.5740000012319797e-5,
+		"constructed lexer": 4.270099998393562e-5,
+		"parsed input": 0.08082693800000129,
+		"end": 7.240000002184388e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-10T04:29:40-00:00",
-	"euphrates_revision_id": "4e34df69128ebd105a1fbb4739b6165690e1bb87",
-	"euphrates_revision_date": "2024-09-09T21:24:42-07:00",
-	"euphrates_revision_title": "optimize lr-1-size by skipping reject procedures"
+	"rundate": "2024-09-10T04:43:46-00:00",
+	"euphrates_revision_id": "1ed2c9d8c16d1860192cb65ab0ef0b092c59f1b9",
+	"euphrates_revision_date": "2024-09-09T21:38:37-07:00",
+	"euphrates_revision_title": "move do-reject and change process-accept in LR(1)"
 }
