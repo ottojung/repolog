@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-22",
-	"time": 16.201118844000007,
-	"alltimes": [16.412906240000012, 16.201118844000007],
-	"avgtime": 16.30701254200001,
+	"time": 17.305657534000005,
+	"alltimes": [16.805056595999986, 17.305657534000005],
+	"avgtime": 17.055357064999995,
 	"deltas": [{
-		"constructed parser": 2.4660000008225325e-5,
-		"constructed lexer": 1.9920999989153643e-5,
-		"parsed input": 16.412854108999994,
-		"end": 7.550000020728476e-6
+		"constructed parser": 2.77100000118935e-5,
+		"constructed lexer": 2.404999997906998e-5,
+		"parsed input": 16.804995835,
+		"end": 9.000999995123493e-6
 	}, {
-		"constructed parser": 2.756099999601247e-5,
-		"constructed lexer": 3.9829999991525256e-5,
-		"parsed input": 16.201043862999995,
-		"end": 7.5900000240380905e-6
+		"constructed parser": 3.283999998870968e-5,
+		"constructed lexer": 4.735100000630155e-5,
+		"parsed input": 17.30556985300001,
+		"end": 7.490000001553199e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T06:48:34-00:00",
-	"euphrates_revision_id": "8ce8b54e68a5f24dd2b6ffeba2e947f6c09028cc",
-	"euphrates_revision_date": "2024-09-09T23:42:40-07:00",
-	"euphrates_revision_title": "add bunch of weird dedup code for LR(1) codegen"
+	"rundate": "2024-09-10T07:18:58-00:00",
+	"euphrates_revision_id": "fcf912f8b2adc082da2be05dfd3bb4bfbbb69432",
+	"euphrates_revision_date": "2024-09-10T00:12:30-07:00",
+	"euphrates_revision_title": "small speed optimization of LR(1) codegen"
 }

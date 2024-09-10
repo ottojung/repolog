@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 19.582804888,
-	"alltimes": [23.470179027, 19.582804888],
-	"avgtime": 21.5264919575,
+	"time": 21.787181061000013,
+	"alltimes": [26.930454534000006, 21.787181061000013],
+	"avgtime": 24.35881779750001,
 	"deltas": [{
-		"constructed parser": 2.26300000036872e-5,
-		"constructed lexer": 1.2600000047768845e-6,
-		"got first result": 4.430999993587648e-6,
-		"end": 23.470150706
+		"constructed parser": 2.637100000413284e-5,
+		"constructed lexer": 9.399999925108204e-7,
+		"got first result": 3.6400000027470014e-6,
+		"end": 26.930423583000007
 	}, {
-		"constructed parser": 2.5769999993485726e-5,
-		"constructed lexer": 8.899999954792293e-7,
-		"got first result": 4.210000000171021e-6,
-		"end": 19.58277401800001
+		"constructed parser": 2.9151000006777394e-5,
+		"constructed lexer": 1.1000000057492798e-6,
+		"got first result": 5.549999997356281e-6,
+		"end": 21.787145260000003
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-09-10T06:47:08-00:00",
-	"euphrates_revision_id": "8ce8b54e68a5f24dd2b6ffeba2e947f6c09028cc",
-	"euphrates_revision_date": "2024-09-09T23:42:40-07:00",
-	"euphrates_revision_title": "add bunch of weird dedup code for LR(1) codegen"
+	"rundate": "2024-09-10T07:17:23-00:00",
+	"euphrates_revision_id": "fcf912f8b2adc082da2be05dfd3bb4bfbbb69432",
+	"euphrates_revision_date": "2024-09-10T00:12:30-07:00",
+	"euphrates_revision_title": "small speed optimization of LR(1) codegen"
 }
