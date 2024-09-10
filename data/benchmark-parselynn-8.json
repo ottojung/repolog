@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-8",
-	"time": 7.18009999971514e-5,
-	"alltimes": [1.4163199999472909e-4, 7.18009999971514e-5],
-	"avgtime": 1.0671649999594024e-4,
+	"time": 8.029100000328526e-5,
+	"alltimes": [1.435920000005808e-4, 8.029100000328526e-5],
+	"avgtime": 1.1194150000193304e-4,
 	"deltas": [{
-		"constructed parser": 2.532099999541515e-5,
-		"constructed lexer": 2.6470000001665994e-5,
-		"parsed input": 3.6100000002647903e-6,
-		"end": 8.623099999738315e-5
+		"constructed parser": 2.4029999998731455e-5,
+		"constructed lexer": 2.8190999998400912e-5,
+		"parsed input": 4.27999999885742e-6,
+		"end": 8.709100000459102e-5
 	}, {
-		"constructed parser": 7.249999995906364e-6,
-		"constructed lexer": 7.119999999360971e-6,
-		"parsed input": 1.1600000036082747e-6,
-		"end": 5.6270999998275784e-5
+		"constructed parser": 6.679999998482344e-6,
+		"constructed lexer": 8.030000003600435e-6,
+		"parsed input": 1.3399999971852594e-6,
+		"end": 6.424100000401722e-5
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 29,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T04:23:49-00:00",
-	"euphrates_revision_id": "332abe950f6b6c3431ca34fca2ffc05f60b255a7",
-	"euphrates_revision_date": "2024-09-09T21:20:29-07:00",
-	"euphrates_revision_title": "improve names of compile procedures in lr-1 compilation"
+	"rundate": "2024-09-10T04:28:16-00:00",
+	"euphrates_revision_id": "4e34df69128ebd105a1fbb4739b6165690e1bb87",
+	"euphrates_revision_date": "2024-09-09T21:24:42-07:00",
+	"euphrates_revision_title": "optimize lr-1-size by skipping reject procedures"
 }
