@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-18",
-	"time": 10.405519343999998,
-	"alltimes": [10.176992201000019, 10.405519343999998],
-	"avgtime": 10.291255772500008,
+	"time": 9.558392228000002,
+	"alltimes": [9.669941289000008, 9.558392228000002],
+	"avgtime": 9.614166758500005,
 	"deltas": [{
-		"constructed parser": 0.0012802660000090782,
-		"constructed lexer": 1.5850000011141674e-5,
-		"parsed input": 10.175676723999999,
-		"end": 1.9360999999662454e-5
+		"constructed parser": 0.0013872579999940626,
+		"constructed lexer": 1.5230999991899807e-5,
+		"parsed input": 9.668531910000013,
+		"end": 6.890000008752395e-6
 	}, {
-		"constructed parser": 0.00112880500000756,
-		"constructed lexer": 1.1970000002747838e-5,
-		"parsed input": 10.404370569000008,
-		"end": 7.999999979801942e-6
+		"constructed parser": 0.0015124690000050123,
+		"constructed lexer": 1.3101000007509356e-5,
+		"parsed input": 9.556860457999989,
+		"end": 6.2000000013995304e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-10T06:20:36-00:00",
-	"euphrates_revision_id": "93bdaf618b0012c113a0cf4bcb0ac707c0ef14bb",
-	"euphrates_revision_date": "2024-09-09T23:14:35-07:00",
-	"euphrates_revision_title": "[experiment] set LR(1) initial stack size to very small"
+	"rundate": "2024-09-10T06:22:31-00:00",
+	"euphrates_revision_id": "22c2a874629b4f0965fb92a81ac38843eb50d1ba",
+	"euphrates_revision_date": "2024-09-09T23:16:44-07:00",
+	"euphrates_revision_title": "Revert \"[experiment] set LR(1) initial stack size to very small\""
 }
