@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 13.793467596,
-	"alltimes": [13.973629359, 13.793467596],
-	"avgtime": 13.8835484775,
+	"time": 13.654019772000002,
+	"alltimes": [13.616715806999999, 13.654019772000002],
+	"avgtime": 13.6353677895,
 	"deltas": [{
-		"constructed parser": 0.016681663000000013,
-		"constructed lexer": 2.810999999999786e-5,
-		"parsed input": 13.956912946,
-		"end": 6.6400000005018e-6
+		"constructed parser": 0.024882252999999993,
+		"constructed lexer": 3.193100000001281e-5,
+		"parsed input": 13.591795422999999,
+		"end": 6.199999999623174e-6
 	}, {
-		"constructed parser": 0.009717459999999178,
-		"constructed lexer": 8.430000001169446e-6,
-		"parsed input": 13.783737265999997,
-		"end": 4.440000001437738e-6
+		"constructed parser": 0.009297984999999898,
+		"constructed lexer": 8.850000000393266e-6,
+		"parsed input": 13.644708877,
+		"end": 4.0600000019708204e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-10T05:37:26-00:00",
-	"euphrates_revision_id": "723ad00fc56145d335660833f76e1150a82c8798",
-	"euphrates_revision_date": "2024-09-09T22:30:30-07:00",
-	"euphrates_revision_title": "add a todo in LR(1) codegen"
+	"rundate": "2024-09-10T05:40:02-00:00",
+	"euphrates_revision_id": "2fc71c56235e721edecccb36a1cfad0fd55c13b1",
+	"euphrates_revision_date": "2024-09-09T22:32:34-07:00",
+	"euphrates_revision_title": "improve code sharing in tests"
 }
