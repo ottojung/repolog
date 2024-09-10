@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-11",
-	"time": 9.480257648000006,
-	"alltimes": [9.567233087000005, 9.480257648000006],
-	"avgtime": 9.523745367500005,
+	"time": 10.033188502000002,
+	"alltimes": [9.615826612, 10.033188502000002],
+	"avgtime": 9.824507557,
 	"deltas": [{
-		"constructed parser": 2.67799999988938e-5,
-		"constructed lexer": 9.800000029258626e-7,
-		"got first result": 9.567197137,
-		"end": 8.19000000262804e-6
+		"constructed parser": 2.9650000001879562e-5,
+		"constructed lexer": 1.060000002439665e-6,
+		"got first result": 9.615786002,
+		"end": 9.8999999949001e-6
 	}, {
-		"constructed parser": 2.4330000002237284e-5,
-		"constructed lexer": 6.500000040432496e-7,
-		"got first result": 9.480224587999999,
-		"end": 8.080000000632026e-6
+		"constructed parser": 3.291999999532891e-5,
+		"constructed lexer": 7.000000010748408e-7,
+		"got first result": 10.033146122000005,
+		"end": 8.76000000005206e-6
 	}],
 	"inputs": {
 		"driver": "lr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2024-09-10T05:23:56-00:00",
-	"euphrates_revision_id": "884912d4c1ac3e06804a6d66a65e52d8e3e278e9",
-	"euphrates_revision_date": "2024-09-09T22:20:24-07:00",
-	"euphrates_revision_title": "tiny size optimization for LR(1) code"
+	"rundate": "2024-09-10T05:29:14-00:00",
+	"euphrates_revision_id": "55a692c654df9b97e7ca93e097dcefb0adc3710b",
+	"euphrates_revision_date": "2024-09-09T22:24:56-07:00",
+	"euphrates_revision_title": "small potential size optimization for LR(1) codegen"
 }
