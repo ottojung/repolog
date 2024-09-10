@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 8.503214423,
-	"alltimes": [8.438437760000001, 8.503214423],
-	"avgtime": 8.470826091500001,
+	"time": 9.621279164999997,
+	"alltimes": [9.084904295, 9.621279164999997],
+	"avgtime": 9.35309173,
 	"deltas": [{
-		"constructed parser": 2.998840000003611e-4,
-		"constructed lexer": 1.4000000003733248e-6,
-		"got first result": 0.0024953129999989443,
-		"end": 8.435641163000001
+		"constructed parser": 3.190740000000858e-4,
+		"constructed lexer": 1.6300000016400418e-6,
+		"got first result": 0.002646425999998314,
+		"end": 9.081937165
 	}, {
-		"constructed parser": 3.0495400000063455e-4,
-		"constructed lexer": 1.300000000981072e-6,
-		"got first result": 0.0035596579999968014,
-		"end": 8.499348511
+		"constructed parser": 2.922239999989529e-4,
+		"constructed lexer": 1.5500000003498826e-6,
+		"got first result": 0.0032650529999997957,
+		"end": 9.617720337999998
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T04:48:34-00:00",
-	"euphrates_revision_id": "adbed4eb1dfef5c3354f04cc9bf8028a53c703f8",
-	"euphrates_revision_date": "2024-09-09T21:45:24-07:00",
-	"euphrates_revision_title": "fix end-of-input recognition in do-reject of LR(1)"
+	"rundate": "2024-09-10T05:01:20-00:00",
+	"euphrates_revision_id": "6b7e7089f8fc085ce7374a0ab6d1671a869ed270",
+	"euphrates_revision_date": "2024-09-09T21:56:58-07:00",
+	"euphrates_revision_title": "optimize LR(1) code size by remove multiplexed do-reject code"
 }
