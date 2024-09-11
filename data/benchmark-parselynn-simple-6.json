@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-6",
-	"time": 4.233780485000011,
-	"alltimes": [7.379834977000002, 4.233780485000011],
-	"avgtime": 5.806807731000006,
+	"time": 4.390296624999991,
+	"alltimes": [4.246509768999999, 4.390296624999991],
+	"avgtime": 4.318403196999995,
 	"deltas": [{
-		"constructed parser": 6.6536785509999845,
-		"constructed lexer": 1.247000000148546e-5,
-		"parsed input": 0.7261404449999986,
-		"end": 3.5110000169424893e-6
+		"constructed parser": 3.5131224829999894,
+		"constructed lexer": 1.2851000008140545e-5,
+		"parsed input": 0.7333720350000021,
+		"end": 2.3999999996249244e-6
 	}, {
-		"constructed parser": 3.4630180120000205,
-		"constructed lexer": 2.6300000001810986e-5,
-		"parsed input": 0.7707334629999991,
-		"end": 2.7099999897473026e-6
+		"constructed parser": 3.6570236329999943,
+		"constructed lexer": 5.1731000013433004e-5,
+		"parsed input": 0.7332184709999865,
+		"end": 2.7899999963665323e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-11T00:07:44-00:00",
-	"euphrates_revision_id": "7d059fb146b942064317697da243797b9cf0f9cb",
+	"rundate": "2024-09-11T00:09:02-00:00",
+	"euphrates_revision_id": "d3c0379872694a1eb3e9682f3721970903efc26b",
 	"euphrates_revision_date": "2024-09-10T16:05:39-07:00",
-	"euphrates_revision_title": "improve code sharing in tests"
+	"euphrates_revision_title": "prepare for stack upgrade in LR(1)"
 }
