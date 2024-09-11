@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-8",
-	"time": 8.098100001063813e-5,
-	"alltimes": [1.6023199999892768e-4, 8.098100001063813e-5],
-	"avgtime": 1.206065000047829e-4,
+	"time": 8.349099999804821e-5,
+	"alltimes": [1.8038300000000618e-4, 8.349099999804821e-5],
+	"avgtime": 1.319369999990272e-4,
 	"deltas": [{
-		"constructed parser": 2.6489999996215374e-5,
-		"constructed lexer": 2.9310000002169545e-5,
-		"parsed input": 3.5899999915045555e-6,
-		"end": 1.008420000090382e-4
+		"constructed parser": 2.9851000000746808e-5,
+		"constructed lexer": 3.276999999712871e-5,
+		"parsed input": 4.5700000015358455e-6,
+		"end": 1.1319200000059482e-4
 	}, {
-		"constructed parser": 8.340000007933668e-6,
-		"constructed lexer": 7.979999992357989e-6,
-		"parsed input": 1.55000000745531e-6,
-		"end": 6.311100000289116e-5
+		"constructed parser": 7.750000001749413e-6,
+		"constructed lexer": 8.409999999514639e-6,
+		"parsed input": 2.519999995342914e-6,
+		"end": 6.481100000144124e-5
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 29,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T23:54:22-00:00",
-	"euphrates_revision_id": "8015ee447cdd10c9ec4a9e027f3d58b41a44c6b5",
+	"rundate": "2024-09-10T23:56:35-00:00",
+	"euphrates_revision_id": "c893aee68ae751a00117094ec199b33951207b69",
 	"euphrates_revision_date": "2024-09-10T16:05:39-07:00",
-	"euphrates_revision_title": "small size optimization for potential null cases in LR(1) codegen"
+	"euphrates_revision_title": "add a todo in LR(1) codegen"
 }
