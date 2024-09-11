@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-10",
-	"time": 0.9170703169999967,
-	"alltimes": [0.8792162099999814, 0.9170703169999967],
-	"avgtime": 0.8981432634999891,
+	"time": 0.8625683139999865,
+	"alltimes": [0.8462356119999868, 0.8625683139999865],
+	"avgtime": 0.8544019629999866,
 	"deltas": [{
-		"constructed parser": 0.7149389859999928,
-		"constructed lexer": 2.1059999994577083e-5,
-		"parsed input": 0.16425017400001707,
-		"end": 5.989999976918625e-6
+		"constructed parser": 0.6792357120000077,
+		"constructed lexer": 2.664999999524298e-5,
+		"parsed input": 0.16696711999998115,
+		"end": 6.130000002713132e-6
 	}, {
-		"constructed parser": 0.7533209700000043,
-		"constructed lexer": 1.1800999999422856e-5,
-		"parsed input": 0.16373190600000953,
-		"end": 5.639999983486632e-6
+		"constructed parser": 0.6769627209999953,
+		"constructed lexer": 1.3760000001639128e-5,
+		"parsed input": 0.18558549299999072,
+		"end": 6.339999998772328e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-11T00:15:04-00:00",
-	"euphrates_revision_id": "c9622f68c879a1519d62baf3de05c6643adc9872",
+	"rundate": "2024-09-11T00:15:36-00:00",
+	"euphrates_revision_id": "9bb402562551eb6bf542655a4779479b849f8a16",
 	"euphrates_revision_date": "2024-09-10T16:05:40-07:00",
-	"euphrates_revision_title": "prepare for stack upgrade in LR(1) [3]"
+	"euphrates_revision_title": "optimize speed of LR(1) by implementing vector-based stacks"
 }
