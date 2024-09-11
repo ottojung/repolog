@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.2172553200000005,
-	"alltimes": [3.1991226409999998, 3.2172553200000005],
-	"avgtime": 3.2081889805,
+	"time": 3.242385372,
+	"alltimes": [3.6113108629999995, 3.242385372],
+	"avgtime": 3.4268481174999996,
 	"deltas": [{
-		"constructed parser": 0.002674406000000018,
-		"constructed lexer": 5.958100000003075e-5,
-		"parsed input": 3.196364804,
-		"end": 2.38499999998254e-5
+		"constructed parser": 0.00161597400000002,
+		"constructed lexer": 3.234999999990329e-5,
+		"parsed input": 3.6096372189999997,
+		"end": 2.53199999997733e-5
 	}, {
-		"constructed parser": 4.037359999999879e-4,
-		"constructed lexer": 1.820000000041233e-5,
-		"parsed input": 3.2168250240000003,
-		"end": 8.359999999818513e-6
+		"constructed parser": 3.695050000001032e-4,
+		"constructed lexer": 1.5510999999968078e-5,
+		"parsed input": 3.2419926760000006,
+		"end": 7.6799999995103e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-10T23:55:39-00:00",
-	"euphrates_revision_id": "c893aee68ae751a00117094ec199b33951207b69",
+	"rundate": "2024-09-10T23:58:55-00:00",
+	"euphrates_revision_id": "7d059fb146b942064317697da243797b9cf0f9cb",
 	"euphrates_revision_date": "2024-09-10T16:05:39-07:00",
-	"euphrates_revision_title": "add a todo in LR(1) codegen"
+	"euphrates_revision_title": "improve code sharing in tests"
 }
