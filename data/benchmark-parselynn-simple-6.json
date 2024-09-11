@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-6",
-	"time": 3.9829418380000163,
-	"alltimes": [3.9693626680000023, 3.9829418380000163],
-	"avgtime": 3.9761522530000093,
+	"time": 3.694106574999978,
+	"alltimes": [3.9241927149999754, 3.694106574999978],
+	"avgtime": 3.8091496449999767,
 	"deltas": [{
-		"constructed parser": 3.3138188210000123,
-		"constructed lexer": 1.320999999165906e-5,
-		"parsed input": 0.6555278069999986,
-		"end": 2.829999999676147e-6
+		"constructed parser": 3.1673337039999865,
+		"constructed lexer": 1.4469999996435945e-5,
+		"parsed input": 0.7568415910000112,
+		"end": 2.9499999811832822e-6
 	}, {
-		"constructed parser": 3.29264816700001,
-		"constructed lexer": 2.2129999990738725e-5,
-		"parsed input": 0.6902679310000224,
-		"end": 3.609999993159363e-6
+		"constructed parser": 3.0551811509999993,
+		"constructed lexer": 2.5970999985247545e-5,
+		"parsed input": 0.6388964930000043,
+		"end": 2.9599999891161133e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2024-09-11T00:14:57-00:00",
-	"euphrates_revision_id": "9bb402562551eb6bf542655a4779479b849f8a16",
+	"rundate": "2024-09-11T00:17:14-00:00",
+	"euphrates_revision_id": "2a46c3e81371286ad26d6513743d807025294fb2",
 	"euphrates_revision_date": "2024-09-10T16:05:40-07:00",
-	"euphrates_revision_title": "optimize speed of LR(1) by implementing vector-based stacks"
+	"euphrates_revision_title": "[experiment] set LR(1) initial stack size to very small"
 }
