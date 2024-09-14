@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-6",
-	"time": 9.660100000274952e-5,
-	"alltimes": [3.7514499999957707e-4, 9.660100000274952e-5],
-	"avgtime": 2.358730000011633e-4,
+	"time": 1.1526099999770167e-4,
+	"alltimes": [4.3417499999520714e-4, 1.1526099999770167e-4],
+	"avgtime": 2.747179999964544e-4,
 	"deltas": [{
-		"constructed parser": 6.064099999747441e-5,
-		"constructed lexer": 3.602999999685608e-5,
-		"parsed input": 3.230000004350586e-6,
-		"end": 2.75244000000896e-4
+		"constructed parser": 6.081999999452137e-5,
+		"constructed lexer": 4.130100000310222e-5,
+		"parsed input": 5.489999999497286e-6,
+		"end": 3.265639999980863e-4
 	}, {
-		"constructed parser": 1.668000000165648e-5,
-		"constructed lexer": 2.3710000000676246e-5,
-		"parsed input": 5.320999996172304e-6,
-		"end": 5.0890000004244484e-5
+		"constructed parser": 1.70300000021939e-5,
+		"constructed lexer": 2.3429999998825224e-5,
+		"parsed input": 5.629999996870083e-6,
+		"end": 6.917099999981247e-5
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-11T00:37:07-00:00",
-	"euphrates_revision_id": "c9554ac8e1598c178698345312beabf26acf378d",
-	"euphrates_revision_date": "2024-09-10T16:46:51-07:00",
-	"euphrates_revision_title": "optimize size of LR(1) generated code by removing redundant let"
+	"rundate": "2024-09-14T04:36:42-00:00",
+	"euphrates_revision_id": "a8704d011371ca4b304fcce489aba5568eeba981",
+	"euphrates_revision_date": "2024-09-13T21:33:16-07:00",
+	"euphrates_revision_title": "initial Lesya implementation"
 }

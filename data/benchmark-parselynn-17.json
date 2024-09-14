@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-17",
-	"time": 6.486104979000004,
-	"alltimes": [6.634744576000003, 6.486104979000004],
-	"avgtime": 6.560424777500003,
+	"time": 7.384383108999998,
+	"alltimes": [7.43876246100001, 7.384383108999998],
+	"avgtime": 7.411572785000004,
 	"deltas": [{
-		"constructed parser": 0.005853290000004563,
-		"constructed lexer": 2.059999985704053e-6,
-		"got first result": 6.628880396,
-		"end": 8.830000012949313e-6
+		"constructed parser": 0.003990106999992804,
+		"constructed lexer": 1.4400000054592965e-6,
+		"got first result": 7.434763443999998,
+		"end": 7.470000014109246e-6
 	}, {
-		"constructed parser": 0.0050122979999969175,
-		"constructed lexer": 2.0100000028833165e-6,
-		"got first result": 6.481083161000015,
-		"end": 7.509999988997151e-6
+		"constructed parser": 0.003882274999995161,
+		"constructed lexer": 9.400000067216752e-7,
+		"got first result": 7.380490093999981,
+		"end": 9.800000015047772e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-11T00:39:46-00:00",
-	"euphrates_revision_id": "c9554ac8e1598c178698345312beabf26acf378d",
-	"euphrates_revision_date": "2024-09-10T16:46:51-07:00",
-	"euphrates_revision_title": "optimize size of LR(1) generated code by removing redundant let"
+	"rundate": "2024-09-14T04:39:11-00:00",
+	"euphrates_revision_id": "a8704d011371ca4b304fcce489aba5568eeba981",
+	"euphrates_revision_date": "2024-09-13T21:33:16-07:00",
+	"euphrates_revision_title": "initial Lesya implementation"
 }
