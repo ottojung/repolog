@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 9.048995302999998,
-	"alltimes": [8.983479251999995, 9.048995302999998],
-	"avgtime": 9.016237277499997,
+	"time": 10.209140793000017,
+	"alltimes": [10.363442830999986, 10.209140793000017],
+	"avgtime": 10.286291812000002,
 	"deltas": [{
-		"constructed parser": 0.002369036999994023,
-		"constructed lexer": 2.0123200002331032e-4,
-		"parsed input": 8.980898553000003,
-		"end": 1.042999997480365e-5
+		"constructed parser": 0.0023488369999995484,
+		"constructed lexer": 1.9839999993109814e-5,
+		"parsed input": 10.361065214000007,
+		"end": 8.939999986523617e-6
 	}, {
-		"constructed parser": 0.005937748999997439,
-		"constructed lexer": 4.648100002668798e-5,
-		"parsed input": 9.043001172999993,
-		"end": 9.899999980689245e-6
+		"constructed parser": 0.0014408769999931792,
+		"constructed lexer": 1.3040000027331189e-5,
+		"parsed input": 10.207676935999984,
+		"end": 9.940000012420569e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-14T04:56:33-00:00",
-	"euphrates_revision_id": "664ed29eb5340a1251bdf6bd25eac8e16d0aa9a3",
-	"euphrates_revision_date": "2024-09-13T21:51:16-07:00",
-	"euphrates_revision_title": "some immediate improvements to Lesya"
+	"rundate": "2024-09-14T04:57:43-00:00",
+	"euphrates_revision_id": "716cdd9f3216e95241acc98d8e79129512f0859b",
+	"euphrates_revision_date": "2024-09-13T21:53:26-07:00",
+	"euphrates_revision_title": "rename \"cons\" to \"define\" in Lesya"
 }
