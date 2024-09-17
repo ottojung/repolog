@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-18",
-	"time": 13.553562436000021,
-	"alltimes": [13.069536940000006, 13.553562436000021],
-	"avgtime": 13.311549688000014,
+	"time": 11.687268568000007,
+	"alltimes": [12.450356124999985, 11.687268568000007],
+	"avgtime": 12.068812346499996,
 	"deltas": [{
-		"constructed parser": 0.0015507509999963531,
-		"constructed lexer": 2.013000002420995e-5,
-		"parsed input": 13.067958198999975,
-		"end": 7.860000010850854e-6
+		"constructed parser": 0.0012553569999909087,
+		"constructed lexer": 1.7339999999421707e-5,
+		"parsed input": 12.449075518,
+		"end": 7.90999999367159e-6
 	}, {
-		"constructed parser": 0.0016255020000244258,
-		"constructed lexer": 1.5539999992597586e-5,
-		"parsed input": 13.551913614,
-		"end": 7.780000004231624e-6
+		"constructed parser": 0.0016210420000106751,
+		"constructed lexer": 1.639000001318891e-5,
+		"parsed input": 11.685623665999998,
+		"end": 7.4699999856875365e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-17T05:06:52-00:00",
-	"euphrates_revision_id": "f82d73263a8b84826b40d9b1a416f6d951fd6cce",
-	"euphrates_revision_date": "2024-09-16T21:47:16-07:00",
-	"euphrates_revision_title": "forbid some non-toplevel ops in Lesya"
+	"rundate": "2024-09-17T05:07:20-00:00",
+	"euphrates_revision_id": "ae08d8293571e50b82e04d20ff83e9938dd0bd24",
+	"euphrates_revision_date": "2024-09-16T21:47:19-07:00",
+	"euphrates_revision_title": "refine the toplevel alpha/beta/axiom restriction"
 }
