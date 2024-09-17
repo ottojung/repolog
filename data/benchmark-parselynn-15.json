@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.09255958599999303,
-	"alltimes": [0.06885784499999659, 0.09255958599999303],
-	"avgtime": 0.08070871549999481,
+	"time": 0.06437621899999613,
+	"alltimes": [0.06444346900002529, 0.06437621899999613],
+	"avgtime": 0.06440984400001071,
 	"deltas": [{
-		"constructed parser": 1.9591000011587312e-5,
-		"constructed lexer": 2.159999999662432e-5,
-		"parsed input": 0.06880940400000668,
-		"end": 7.24999998169551e-6
+		"constructed parser": 1.8041000004132002e-5,
+		"constructed lexer": 2.0010000014281104e-5,
+		"parsed input": 0.06439909799999555,
+		"end": 6.320000011328375e-6
 	}, {
-		"constructed parser": 2.2870999998758634e-5,
-		"constructed lexer": 3.189000000247688e-5,
-		"parsed input": 0.0924980249999976,
-		"end": 6.799999994200334e-6
+		"constructed parser": 2.3841000000857093e-5,
+		"constructed lexer": 3.5340000010819494e-5,
+		"parsed input": 0.06431015799998363,
+		"end": 6.880000000819564e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-17T05:27:53-00:00",
-	"euphrates_revision_id": "620603bff4a643db997a31ac8927d5b28d3d11f8",
-	"euphrates_revision_date": "2024-09-16T22:20:48-07:00",
-	"euphrates_revision_title": "remove Lesya's special handling of RAA"
+	"rundate": "2024-09-17T05:52:56-00:00",
+	"euphrates_revision_id": "b57bcd76ef4a226f46f5be050e6b7e430cc1d0c3",
+	"euphrates_revision_date": "2024-09-16T22:48:14-07:00",
+	"euphrates_revision_title": "fix test proof for Lesya"
 }
