@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-7",
-	"time": 20.76763541199999,
-	"alltimes": [18.467252352999992, 20.76763541199999],
-	"avgtime": 19.61744388249999,
+	"time": 18.062181294000005,
+	"alltimes": [18.292773645000004, 18.062181294000005],
+	"avgtime": 18.177477469500005,
 	"deltas": [{
-		"constructed parser": 1.1282099999476713e-4,
-		"constructed lexer": 1.954000000381484e-5,
-		"parsed input": 18.467111562,
-		"end": 8.429999994064019e-6
+		"constructed parser": 1.0440200000516597e-4,
+		"constructed lexer": 1.8879999998944186e-5,
+		"parsed input": 18.292640732000002,
+		"end": 9.630999997511935e-6
 	}, {
-		"constructed parser": 2.605999999616415e-5,
-		"constructed lexer": 8.634200000301462e-5,
-		"parsed input": 20.767513969999996,
-		"end": 9.039999994797654e-6
+		"constructed parser": 3.256000000106951e-5,
+		"constructed lexer": 8.86810000011451e-5,
+		"parsed input": 18.062051461999992,
+		"end": 8.591000010937933e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-17T05:16:55-00:00",
-	"euphrates_revision_id": "b6772e23b1d7f4d78e480315a18114d643679e6d",
-	"euphrates_revision_date": "2024-09-16T21:47:36-07:00",
-	"euphrates_revision_title": "rename lambda to let in Lesya"
+	"rundate": "2024-09-17T05:19:45-00:00",
+	"euphrates_revision_id": "ca3333c46b17b03c67485d786dcc8485446fadfc",
+	"euphrates_revision_date": "2024-09-16T21:51:18-07:00",
+	"euphrates_revision_title": "make Lesya's let variable arity"
 }
