@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 12.42378382199999,
-	"alltimes": [12.035366578000009, 12.42378382199999],
-	"avgtime": 12.2295752,
+	"time": 15.275228755,
+	"alltimes": [15.355176741999998, 15.275228755],
+	"avgtime": 15.315202748499999,
 	"deltas": [{
-		"constructed parser": 0.003170162000003529,
-		"constructed lexer": 2.2017300000243267e-4,
-		"parsed input": 12.031965412999995,
-		"end": 1.0830000007899798e-5
+		"constructed parser": 0.002859458000017412,
+		"constructed lexer": 2.1414299999378272e-4,
+		"parsed input": 15.352093230000008,
+		"end": 9.910999978046675e-6
 	}, {
-		"constructed parser": 0.002869368000006034,
-		"constructed lexer": 2.199999997287705e-5,
-		"parsed input": 12.420879014000008,
-		"end": 1.3440000003583918e-5
+		"constructed parser": 0.003411314000004495,
+		"constructed lexer": 2.1970999995346574e-5,
+		"parsed input": 15.271785419999986,
+		"end": 1.0050000014416582e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-17T04:54:11-00:00",
-	"euphrates_revision_id": "4fd1f2842013556e0acfb46501e359091372c424",
-	"euphrates_revision_date": "2024-09-16T21:46:54-07:00",
-	"euphrates_revision_title": "fix emberassing proof in lesya"
+	"rundate": "2024-09-17T04:53:53-00:00",
+	"euphrates_revision_id": "fc56265486dcc64d4718daeae47633b0c6d14cb8",
+	"euphrates_revision_date": "2024-09-16T21:46:52-07:00",
+	"euphrates_revision_title": "rename \"cons\" to \"define\" in Lesya"
 }
