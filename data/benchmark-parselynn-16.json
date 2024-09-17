@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 13.98333515500002,
-	"alltimes": [11.534562625000007, 13.98333515500002],
-	"avgtime": 12.758948890000013,
+	"time": 11.05749687300002,
+	"alltimes": [11.337354048000009, 11.05749687300002],
+	"avgtime": 11.197425460500014,
 	"deltas": [{
-		"constructed parser": 0.002899919000014961,
-		"constructed lexer": 2.541929999893e-4,
-		"parsed input": 11.531398753000019,
-		"end": 9.759999983316447e-6
+		"constructed parser": 0.0031805920000067545,
+		"constructed lexer": 2.0227199999567347e-4,
+		"parsed input": 11.333961044000006,
+		"end": 1.0140000000546934e-5
 	}, {
-		"constructed parser": 0.0030594400000154565,
-		"constructed lexer": 2.152999999793792e-5,
-		"parsed input": 13.980244284999998,
-		"end": 9.900000009110954e-6
+		"constructed parser": 0.0025296230000151354,
+		"constructed lexer": 1.818999999159132e-5,
+		"parsed input": 11.054939759999996,
+		"end": 9.30000001631015e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-17T05:16:48-00:00",
-	"euphrates_revision_id": "ed957f14259f0fbf4979164a552fe18c6875f037",
-	"euphrates_revision_date": "2024-09-16T21:47:31-07:00",
-	"euphrates_revision_title": "fix RAA in Lesya"
+	"rundate": "2024-09-17T05:18:53-00:00",
+	"euphrates_revision_id": "b6772e23b1d7f4d78e480315a18114d643679e6d",
+	"euphrates_revision_date": "2024-09-16T21:47:36-07:00",
+	"euphrates_revision_title": "rename lambda to let in Lesya"
 }
