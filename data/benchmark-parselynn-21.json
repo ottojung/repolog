@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-21",
-	"time": 0.031299190999988014,
-	"alltimes": [0.024959026999994194, 0.031299190999988014],
-	"avgtime": 0.028129108999991104,
+	"time": 0.019077151000004733,
+	"alltimes": [0.02029845699999555, 0.019077151000004733],
+	"avgtime": 0.019687804000000142,
 	"deltas": [{
-		"constructed parser": 3.0509999987771153e-5,
-		"constructed lexer": 5.005099998811602e-5,
-		"parsed input": 0.02486603600002013,
-		"end": 1.2429999998175845e-5
+		"constructed parser": 2.4520000010852527e-5,
+		"constructed lexer": 4.039099999886275e-5,
+		"parsed input": 0.020222295999985818,
+		"end": 1.125000000001819e-5
 	}, {
-		"constructed parser": 3.3799999982875306e-5,
-		"constructed lexer": 6.734100000471699e-5,
-		"parsed input": 0.0311822000000177,
-		"end": 1.5849999982719964e-5
+		"constructed parser": 2.8729999996812694e-5,
+		"constructed lexer": 4.8231000022269654e-5,
+		"parsed input": 0.018990000000002283,
+		"end": 1.018999998336767e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-17T05:23:38-00:00",
-	"euphrates_revision_id": "1108122be86b8be6c6739c48a4f3c6747bc97c40",
-	"euphrates_revision_date": "2024-09-16T21:53:03-07:00",
-	"euphrates_revision_title": "reduce Lesya's code duplication"
+	"rundate": "2024-09-17T05:27:30-00:00",
+	"euphrates_revision_id": "beadfe2e4d7e736f5a41a3a6b21c17092614b2b6",
+	"euphrates_revision_date": "2024-09-16T22:00:56-07:00",
+	"euphrates_revision_title": "fix Lesya's supposedterms stack handling"
 }
