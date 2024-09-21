@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 12.355219749000014,
-	"alltimes": [15.258536497000023, 12.355219749000014],
-	"avgtime": 13.806878123000018,
+	"time": 16.073767766000003,
+	"alltimes": [13.804260313999976, 16.073767766000003],
+	"avgtime": 14.93901403999999,
 	"deltas": [{
-		"constructed parser": 0.003500265000013769,
-		"constructed lexer": 0.0030985610000016095,
-		"parsed input": 15.251927211000009,
-		"end": 1.0459999998602143e-5
+		"constructed parser": 0.0034608449999780078,
+		"constructed lexer": 2.5899300001697156e-4,
+		"parsed input": 13.800528495999998,
+		"end": 1.197999998225896e-5
 	}, {
-		"constructed parser": 0.0034514349999881233,
-		"constructed lexer": 3.882100000396349e-5,
-		"parsed input": 12.351717362000016,
-		"end": 1.2131000005410897e-5
+		"constructed parser": 0.00333395300000916,
+		"constructed lexer": 3.104999998981839e-5,
+		"parsed input": 16.070391833000002,
+		"end": 1.093000000196298e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-21T14:54:27-00:00",
-	"euphrates_revision_id": "4220df176d17c610aab171a9b88067d164f04723",
-	"euphrates_revision_date": "2024-09-21T07:45:41-07:00",
-	"euphrates_revision_title": "test that Lesya will throw if map used not on toplevel"
+	"rundate": "2024-09-21T17:32:58-00:00",
+	"euphrates_revision_id": "25636ac44cdcd2ab9f5f91533a18edbc44445321",
+	"euphrates_revision_date": "2024-09-21T10:27:18-07:00",
+	"euphrates_revision_title": "add de-morgan law proof as Lesya test case"
 }
