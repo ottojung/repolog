@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.07789623299998993,
-	"alltimes": [0.09158299300000294, 0.07789623299998993],
-	"avgtime": 0.08473961299999644,
+	"time": 0.09218520300001387,
+	"alltimes": [0.08920260400000757, 0.09218520300001387],
+	"avgtime": 0.09069390350001072,
 	"deltas": [{
-		"constructed parser": 2.3179999999456413e-5,
-		"constructed lexer": 2.4760000002288507e-5,
-		"parsed input": 0.09152801199999772,
-		"end": 7.0410000034826226e-6
+		"constructed parser": 2.4319999994304453e-5,
+		"constructed lexer": 2.7530000011211087e-5,
+		"parsed input": 0.08914230400000633,
+		"end": 8.449999995718827e-6
 	}, {
-		"constructed parser": 2.9210000008106363e-5,
-		"constructed lexer": 3.4610999989581614e-5,
-		"parsed input": 0.07782497200000194,
-		"end": 7.439999990310753e-6
+		"constructed parser": 2.9699999998911153e-5,
+		"constructed lexer": 4.666099999894868e-5,
+		"parsed input": 0.09210061200002428,
+		"end": 8.2299999917268e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-21T14:08:04-00:00",
-	"euphrates_revision_id": "e165dba9de3e5d2a0d166cfcf3f28f9ec0ddb57a",
-	"euphrates_revision_date": "2024-09-21T07:02:30-07:00",
-	"euphrates_revision_title": "fix order in Lesya's evaled map"
+	"rundate": "2024-09-21T14:54:00-00:00",
+	"euphrates_revision_id": "4220df176d17c610aab171a9b88067d164f04723",
+	"euphrates_revision_date": "2024-09-21T07:45:41-07:00",
+	"euphrates_revision_title": "test that Lesya will throw if map used not on toplevel"
 }
