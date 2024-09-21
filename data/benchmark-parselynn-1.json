@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 2.9642886720000003,
-	"alltimes": [3.1840389399999998, 2.9642886720000003],
-	"avgtime": 3.074163806,
+	"time": 3.297140835,
+	"alltimes": [3.367276006, 3.297140835],
+	"avgtime": 3.3322084204999998,
 	"deltas": [{
-		"constructed parser": 0.001450239000000006,
-		"constructed lexer": 2.5659999999996796e-5,
-		"parsed input": 3.1825398209999998,
-		"end": 2.3220000000101493e-5
+		"constructed parser": 0.0016351109999999947,
+		"constructed lexer": 2.1361000000025276e-5,
+		"parsed input": 3.365592944,
+		"end": 2.659000000004852e-5
 	}, {
-		"constructed parser": 3.792350000000333e-4,
-		"constructed lexer": 1.7430000000207002e-5,
-		"parsed input": 2.963883137,
-		"end": 8.870000000271716e-6
+		"constructed parser": 4.050649999998157e-4,
+		"constructed lexer": 1.546000000018921e-5,
+		"parsed input": 3.296709059,
+		"end": 1.125100000010093e-5
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-21T14:01:27-00:00",
-	"euphrates_revision_id": "8c9c1571ce58d987c5d0d1ddfb7edd87c4796ca7",
-	"euphrates_revision_date": "2024-09-21T06:58:53-07:00",
-	"euphrates_revision_title": "introduce basic eval to Lesya"
+	"rundate": "2024-09-21T14:05:27-00:00",
+	"euphrates_revision_id": "e165dba9de3e5d2a0d166cfcf3f28f9ec0ddb57a",
+	"euphrates_revision_date": "2024-09-21T07:02:30-07:00",
+	"euphrates_revision_title": "fix order in Lesya's evaled map"
 }
