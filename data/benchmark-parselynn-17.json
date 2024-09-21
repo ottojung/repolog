@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-17",
-	"time": 5.386506682999993,
-	"alltimes": [5.556191080000019, 5.386506682999993],
-	"avgtime": 5.471348881500006,
+	"time": 5.425871618000002,
+	"alltimes": [5.267113007000006, 5.425871618000002],
+	"avgtime": 5.346492312500004,
 	"deltas": [{
-		"constructed parser": 0.004519518000023481,
+		"constructed parser": 0.004081455000005008,
 		"constructed lexer": 1.4000000021496817e-6,
-		"got first result": 5.5516633419999835,
-		"end": 6.820000010065996e-6
+		"got first result": 5.263022051999997,
+		"end": 8.100000002286833e-6
 	}, {
-		"constructed parser": 0.0035120550000158346,
-		"constructed lexer": 8.600000001024455e-7,
-		"got first result": 5.382986738,
-		"end": 7.029999977703483e-6
+		"constructed parser": 0.0034591179999949873,
+		"constructed lexer": 1.200000014023317e-6,
+		"got first result": 5.422403889999998,
+		"end": 7.409999994933969e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2024-09-20T04:16:51-00:00",
-	"euphrates_revision_id": "0061fc38aa646035dc7b55784bfac96e26abae71",
-	"euphrates_revision_date": "2024-09-19T21:10:59-07:00",
-	"euphrates_revision_title": "go back to requiring only generalizations in Lesya's map"
+	"rundate": "2024-09-21T00:39:48-00:00",
+	"euphrates_revision_id": "43e58cf92f0cfc41a611230c89a0b29351c8dc35",
+	"euphrates_revision_date": "2024-09-19T19:36:39-07:00",
+	"euphrates_revision_title": "relax Lesya's beta-reduce requirements"
 }
