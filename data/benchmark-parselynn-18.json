@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-18",
-	"time": 10.435723717999991,
-	"alltimes": [10.555392902999984, 10.435723717999991],
-	"avgtime": 10.495558310499987,
+	"time": 12.302321844999994,
+	"alltimes": [11.745896548000019, 12.302321844999994],
+	"avgtime": 12.024109196500007,
 	"deltas": [{
-		"constructed parser": 0.001235726999993858,
-		"constructed lexer": 1.6259999995327235e-5,
-		"parsed input": 10.554133766000007,
-		"end": 7.149999987632327e-6
+		"constructed parser": 0.0011418450000064695,
+		"constructed lexer": 1.4711000005718233e-5,
+		"parsed input": 11.744730301999994,
+		"end": 9.690000013051758e-6
 	}, {
-		"constructed parser": 0.0014084500000137723,
-		"constructed lexer": 1.2939999976424588e-5,
-		"parsed input": 10.434295538000015,
-		"end": 6.789999986267503e-6
+		"constructed parser": 0.0021398700000077042,
+		"constructed lexer": 2.1140000001196313e-5,
+		"parsed input": 12.300153594999983,
+		"end": 7.240000002184388e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-09-24T04:19:39-00:00",
-	"euphrates_revision_id": "afc848e0d0edb66c58de1c4b69b37ab1338273ff",
+	"rundate": "2024-09-24T04:20:11-00:00",
+	"euphrates_revision_id": "246d334356ca075e7e212cde64bd4a77fcefdb74",
 	"euphrates_revision_date": "2024-09-23T20:59:45-07:00",
-	"euphrates_revision_title": "remove Lesya alpha command"
+	"euphrates_revision_title": "do not use beta run in Lesya tests"
 }
