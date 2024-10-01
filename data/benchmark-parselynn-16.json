@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 8.52795687599999,
-	"alltimes": [8.93172877500001, 8.52795687599999],
-	"avgtime": 8.7298428255,
+	"time": 9.751787115000013,
+	"alltimes": [9.881137940000002, 9.751787115000013],
+	"avgtime": 9.816462527500008,
 	"deltas": [{
-		"constructed parser": 0.003101264000008541,
-		"constructed lexer": 2.2189199998479125e-4,
-		"parsed input": 8.928395979000015,
-		"end": 9.640000001809312e-6
+		"constructed parser": 0.002384057000000439,
+		"constructed lexer": 2.459619999797269e-4,
+		"parsed input": 9.878497021000015,
+		"end": 1.0900000006586197e-5
 	}, {
-		"constructed parser": 0.002505126999977847,
-		"constructed lexer": 1.6329999994013633e-5,
-		"parsed input": 8.52542667900002,
-		"end": 8.739999998397252e-6
+		"constructed parser": 0.0027826209999943785,
+		"constructed lexer": 2.087999999389467e-5,
+		"parsed input": 9.748973944000028,
+		"end": 9.669999997186096e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-10-01T02:57:48-00:00",
-	"euphrates_revision_id": "e5be8b5c3bf614f3460c456797fdcb41bdfa7f07",
-	"euphrates_revision_date": "2024-09-30T19:52:32-07:00",
-	"euphrates_revision_title": "improve use of map in Lesya"
+	"rundate": "2024-10-01T02:59:36-00:00",
+	"euphrates_revision_id": "b082d367b7c255150edef3682544bb9a89b94fb9",
+	"euphrates_revision_date": "2024-09-30T19:54:06-07:00",
+	"euphrates_revision_title": "remove axioms tracking in Lesya"
 }
