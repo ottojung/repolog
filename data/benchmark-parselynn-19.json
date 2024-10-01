@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-19",
-	"time": 0.04019127300000491,
-	"alltimes": [0.04955589499999746, 0.04019127300000491],
-	"avgtime": 0.04487358400000119,
+	"time": 0.0325002550000022,
+	"alltimes": [0.03762304800000038, 0.0325002550000022],
+	"avgtime": 0.03506165150000129,
 	"deltas": [{
-		"constructed parser": 3.9649999990842844e-5,
-		"constructed lexer": 3.1669999998484855e-5,
-		"parsed input": 0.049474344999993036,
-		"end": 1.0230000015098994e-5
+		"constructed parser": 3.685999999447631e-5,
+		"constructed lexer": 3.133000001298569e-5,
+		"parsed input": 0.03754352799998628,
+		"end": 1.133000000663742e-5
 	}, {
-		"constructed parser": 3.844999997681953e-5,
-		"constructed lexer": 2.4253300000509626e-4,
-		"parsed input": 0.03989899900000182,
-		"end": 1.1291000021174113e-5
+		"constructed parser": 3.320000001849621e-5,
+		"constructed lexer": 2.7141299997879287e-4,
+		"parsed input": 0.03218582100001299,
+		"end": 9.820999991916324e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-10-01T03:00:08-00:00",
-	"euphrates_revision_id": "b082d367b7c255150edef3682544bb9a89b94fb9",
-	"euphrates_revision_date": "2024-09-30T19:54:06-07:00",
-	"euphrates_revision_title": "remove axioms tracking in Lesya"
+	"rundate": "2024-10-01T03:04:46-00:00",
+	"euphrates_revision_id": "21159d6387fbac98d877020b53e4f4924f13bcd7",
+	"euphrates_revision_date": "2024-09-30T19:58:03-07:00",
+	"euphrates_revision_title": "do not use eval+list in Lesya tests"
 }
