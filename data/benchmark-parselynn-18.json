@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-18",
-	"time": 12.291851702000002,
-	"alltimes": [12.42071197200002, 12.291851702000002],
-	"avgtime": 12.356281837000012,
+	"time": 12.544289206000002,
+	"alltimes": [12.855553968999999, 12.544289206000002],
+	"avgtime": 12.6999215875,
 	"deltas": [{
-		"constructed parser": 0.0015980370000079347,
-		"constructed lexer": 2.2211000015204263e-5,
-		"parsed input": 12.419082473999993,
-		"end": 9.250000005067704e-6
+		"constructed parser": 0.0012993940000001203,
+		"constructed lexer": 1.7729999996163315e-5,
+		"parsed input": 12.854229204999996,
+		"end": 7.640000006858827e-6
 	}, {
-		"constructed parser": 0.0019328909999956068,
-		"constructed lexer": 1.8720000014127436e-5,
-		"parsed input": 12.289892530000003,
-		"end": 7.560999989664197e-6
+		"constructed parser": 0.0013684750000209078,
+		"constructed lexer": 1.4319999991130317e-5,
+		"parsed input": 12.542898689999987,
+		"end": 7.721000002902656e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-10-01T03:04:46-00:00",
-	"euphrates_revision_id": "21159d6387fbac98d877020b53e4f4924f13bcd7",
-	"euphrates_revision_date": "2024-09-30T19:58:03-07:00",
-	"euphrates_revision_title": "do not use eval+list in Lesya tests"
+	"rundate": "2024-10-01T03:06:24-00:00",
+	"euphrates_revision_id": "0536e82071ac9cc4a6a392cf884d0b79978b7169",
+	"euphrates_revision_date": "2024-09-30T20:00:30-07:00",
+	"euphrates_revision_title": "remove lesya:language:list"
 }
