@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-19",
-	"time": 0.03394945100001223,
-	"alltimes": [0.03542640700001698, 0.03394945100001223],
-	"avgtime": 0.034687929000014606,
+	"time": 0.03707931299999245,
+	"alltimes": [0.03522058300001163, 0.03707931299999245],
+	"avgtime": 0.03614994800000204,
 	"deltas": [{
-		"constructed parser": 3.904100000795552e-5,
-		"constructed lexer": 3.129000000967608e-5,
-		"parsed input": 0.03534572600000274,
-		"end": 1.034999999660613e-5
+		"constructed parser": 2.843999999413427e-5,
+		"constructed lexer": 2.6439999999183783e-5,
+		"parsed input": 0.03515751300000147,
+		"end": 8.190000016838894e-6
 	}, {
-		"constructed parser": 3.2081000000516724e-5,
-		"constructed lexer": 3.0991299999527655e-4,
-		"parsed input": 0.0335963870000171,
-		"end": 1.1069999999335778e-5
+		"constructed parser": 2.3040000002083616e-5,
+		"constructed lexer": 2.2914199999490847e-4,
+		"parsed input": 0.03681675100000348,
+		"end": 1.0379999991982913e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-10-07T04:44:07-00:00",
-	"euphrates_revision_id": "a56eeb9d12bf57b34947fe503c41178e759fc833",
-	"euphrates_revision_date": "2024-10-06T21:38:17-07:00",
-	"euphrates_revision_title": "add trace and trace+interpret to Olesya"
+	"rundate": "2024-10-07T04:47:28-00:00",
+	"euphrates_revision_id": "59e5a60035935f1551382186b7bde61c33e21476",
+	"euphrates_revision_date": "2024-10-06T21:41:10-07:00",
+	"euphrates_revision_title": "rename Olesya trace to Olesya treeify"
 }
