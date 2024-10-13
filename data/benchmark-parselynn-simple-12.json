@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-12",
-	"time": 0.736760500999992,
-	"alltimes": [0.7349886609999885, 0.736760500999992],
-	"avgtime": 0.7358745809999903,
+	"time": 0.8575866609999991,
+	"alltimes": [0.8514690799999869, 0.8575866609999991],
+	"avgtime": 0.854527870499993,
 	"deltas": [{
-		"constructed parser": 0.6116115730000047,
-		"constructed lexer": 5.770000001348308e-6,
-		"parsed input": 0.1233655380000016,
-		"end": 5.779999980859429e-6
+		"constructed parser": 0.7163058699999851,
+		"constructed lexer": 6.049999996093902e-6,
+		"parsed input": 0.13515080000001944,
+		"end": 6.35999998621628e-6
 	}, {
-		"constructed parser": 0.6182754609999961,
-		"constructed lexer": 6.36000001463799e-6,
-		"parsed input": 0.118473449999982,
-		"end": 5.2299999993010715e-6
+		"constructed parser": 0.6912202389999891,
+		"constructed lexer": 5.090000001928274e-6,
+		"parsed input": 0.16635535200001073,
+		"end": 5.9799999974075035e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": false
 	},
-	"rundate": "2024-10-13T18:08:59-00:00",
-	"euphrates_revision_id": "b5851cf31a021dfbefabcd2cb3ccff72a9d32f8d",
-	"euphrates_revision_date": "2024-10-13T10:57:31-07:00",
-	"euphrates_revision_title": "do not add supposed terms in Olesya reverse"
+	"rundate": "2024-10-13T18:30:25-00:00",
+	"euphrates_revision_id": "89f09578d0beb251eced0a967185a72b197ff663",
+	"euphrates_revision_date": "2024-10-13T11:20:06-07:00",
+	"euphrates_revision_title": "dont add axioms that are used during eval"
 }
