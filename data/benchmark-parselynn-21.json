@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-21",
-	"time": 0.018246150000010175,
-	"alltimes": [0.020989119999995864, 0.018246150000010175],
-	"avgtime": 0.01961763500000302,
+	"time": 0.01657330499998011,
+	"alltimes": [0.021829424000003428, 0.01657330499998011],
+	"avgtime": 0.01920136449999177,
 	"deltas": [{
-		"constructed parser": 2.6810999997906038e-5,
-		"constructed lexer": 3.3230000013872996e-5,
-		"parsed input": 0.020916828999986592,
-		"end": 1.2249999997493433e-5
+		"constructed parser": 3.0270000024756882e-5,
+		"constructed lexer": 4.120099998772275e-5,
+		"parsed input": 0.021745713000001388,
+		"end": 1.2239999989560602e-5
 	}, {
-		"constructed parser": 3.231100001244158e-5,
-		"constructed lexer": 4.8389999989240096e-5,
-		"parsed input": 0.018154659000003903,
-		"end": 1.0790000004590183e-5
+		"constructed parser": 3.3710999986169554e-5,
+		"constructed lexer": 3.097930000137694e-4,
+		"parsed input": 0.01621977099998162,
+		"end": 1.002999999855092e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2024-10-13T06:15:43-00:00",
-	"euphrates_revision_id": "b5db74eaa86313dd0ca6f371f29a4c26998cfa58",
-	"euphrates_revision_date": "2024-10-12T23:09:00-07:00",
-	"euphrates_revision_title": "improve Olesya exports"
+	"rundate": "2024-10-13T06:28:25-00:00",
+	"euphrates_revision_id": "219acee62beb8f001a0325200a66e9e4d510154e",
+	"euphrates_revision_date": "2024-10-12T23:21:16-07:00",
+	"euphrates_revision_title": "use treeify in trace of Olesya"
 }
