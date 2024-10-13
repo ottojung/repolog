@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-5",
-	"time": 0.20184847800000227,
-	"alltimes": [0.20283545000000203, 0.20184847800000227],
-	"avgtime": 0.20234196400000215,
+	"time": 0.24915957099999986,
+	"alltimes": [0.20604175700000127, 0.24915957099999986],
+	"avgtime": 0.22760066400000056,
 	"deltas": [{
-		"constructed parser": 6.371100000279739e-5,
-		"constructed lexer": 1.327709999969784e-4,
-		"parsed input": 0.20263026800000006,
-		"end": 8.700000002193065e-6
+		"constructed parser": 6.936100000132228e-5,
+		"constructed lexer": 2.8831000001616758e-5,
+		"parsed input": 0.2059350749999993,
+		"end": 8.489999999028441e-6
 	}, {
-		"constructed parser": 5.6531000005577425e-5,
-		"constructed lexer": 3.736099999684939e-5,
-		"parsed input": 0.2017472460000036,
-		"end": 7.33999999624757e-6
+		"constructed parser": 5.673100000080922e-5,
+		"constructed lexer": 4.5610000000806394e-5,
+		"parsed input": 0.24904894000000155,
+		"end": 8.289999996691222e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2024-10-13T02:31:01-00:00",
-	"euphrates_revision_id": "9cb0a583fdbf2292cb8b35ee572379a1de22839a",
-	"euphrates_revision_date": "2024-10-12T19:27:25-07:00",
-	"euphrates_revision_title": "add let expression to Olesya"
+	"rundate": "2024-10-13T02:31:20-00:00",
+	"euphrates_revision_id": "bcb2ba10102fee9c4726991fd3591b3073d24b39",
+	"euphrates_revision_date": "2024-10-12T19:27:28-07:00",
+	"euphrates_revision_title": "only allow to bind objects in Olesya let"
 }
