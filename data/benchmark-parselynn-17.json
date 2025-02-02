@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-17",
-	"time": 5.507073497999983,
-	"alltimes": [6.110210720999987, 5.507073497999983],
-	"avgtime": 5.808642109499985,
+	"time": 8.620443881,
+	"alltimes": [8.593725247000009, 8.620443881],
+	"avgtime": 8.607084564000004,
 	"deltas": [{
-		"constructed parser": 0.004187623000007079,
-		"constructed lexer": 1.70999999227206e-6,
-		"got first result": 6.106014206999987,
-		"end": 7.18100000085542e-6
+		"constructed parser": 0.00551938700002097,
+		"constructed lexer": 1.3399999829744047e-6,
+		"got first result": 8.588196390000007,
+		"end": 8.129999997663617e-6
 	}, {
-		"constructed parser": 0.0034384049999971467,
-		"constructed lexer": 1.5520999994578233e-5,
-		"got first result": 5.503611971999987,
-		"end": 7.600000003549212e-6
+		"constructed parser": 0.005579057000005605,
+		"constructed lexer": 1.3799999862840195e-6,
+		"got first result": 8.614855393999989,
+		"end": 8.050000019466097e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2025-01-29T04:36:32-00:00",
-	"euphrates_revision_id": "f5908d96322bb3c4b9ae46cb757fc3e6827c676e",
-	"euphrates_revision_date": "2025-01-28T20:30:33-08:00",
-	"euphrates_revision_title": "update CI config"
+	"rundate": "2025-02-02T08:25:19-00:00",
+	"euphrates_revision_id": "4272f5d55d4dabe8a63df7e34ea4bd25cde92cbf",
+	"euphrates_revision_date": "2025-02-02T00:18:09-08:00",
+	"euphrates_revision_title": "implement initial version of LL(1) parser"
 }
