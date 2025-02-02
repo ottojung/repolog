@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-6",
-	"time": 1.5719099999955688e-4,
-	"alltimes": [0.0028536090000059744, 1.5719099999955688e-4],
-	"avgtime": 0.0015054000000027656,
+	"time": 9.139100000510325e-5,
+	"alltimes": [3.9060400000323625e-4, 9.139100000510325e-5],
+	"avgtime": 2.4099750000416975e-4,
 	"deltas": [{
-		"constructed parser": 1.1783100000428703e-4,
-		"constructed lexer": 4.648099999826627e-5,
-		"parsed input": 4.840000002559464e-6,
-		"end": 0.0026844570000008616
+		"constructed parser": 5.5781000000365566e-5,
+		"constructed lexer": 3.879000000495125e-5,
+		"parsed input": 3.8399999979787935e-6,
+		"end": 2.9219299999994064e-4
 	}, {
-		"constructed parser": 3.410000000059199e-5,
-		"constructed lexer": 5.335099999825843e-5,
-		"parsed input": 7.74000000092201e-6,
-		"end": 6.199999999978445e-5
+		"constructed parser": 1.601000000306385e-5,
+		"constructed lexer": 2.5471000000720778e-5,
+		"parsed input": 5.2299999993010715e-6,
+		"end": 4.468000000201755e-5
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"seq_len": 23,
 		"n_runs": 1
 	},
-	"rundate": "2025-02-02T08:24:02-00:00",
-	"euphrates_revision_id": "d940eae8b165ccc09b23a9fe5bd345d78fa709b9",
-	"euphrates_revision_date": "2025-02-02T00:20:20-08:00",
-	"euphrates_revision_title": "fix iterator handling in parselynn:ll-interpret"
+	"rundate": "2025-02-02T08:36:14-00:00",
+	"euphrates_revision_id": "ef8d39007643a9d038559c07390085c410189952",
+	"euphrates_revision_date": "2025-02-02T00:32:52-08:00",
+	"euphrates_revision_title": "fix interpret-ll test for parselynn"
 }
