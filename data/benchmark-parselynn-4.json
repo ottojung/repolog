@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 18.333451766,
-	"alltimes": [18.737793005, 18.333451766],
-	"avgtime": 18.535622385499998,
+	"time": 19.285298390999998,
+	"alltimes": [19.233093471, 19.285298390999998],
+	"avgtime": 19.259195931,
 	"deltas": [{
-		"constructed parser": 3.486440000006752e-4,
-		"constructed lexer": 1.5199999996440283e-6,
-		"got first result": 0.0027795780000001713,
-		"end": 18.734663263
+		"constructed parser": 3.6306400000007955e-4,
+		"constructed lexer": 1.34999999978902e-6,
+		"got first result": 0.003483465999998714,
+		"end": 19.229245591
 	}, {
-		"constructed parser": 3.3584300000200074e-4,
-		"constructed lexer": 1.3599999988400668e-6,
-		"got first result": 0.0036205470000005846,
-		"end": 18.329494015999998
+		"constructed parser": 2.9955300000139573e-4,
+		"constructed lexer": 1.4999999997655777e-6,
+		"got first result": 0.0035893769999972847,
+		"end": 19.281407961
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2025-02-02T08:22:19-00:00",
-	"euphrates_revision_id": "4272f5d55d4dabe8a63df7e34ea4bd25cde92cbf",
-	"euphrates_revision_date": "2025-02-02T00:18:09-08:00",
-	"euphrates_revision_title": "implement initial version of LL(1) parser"
+	"rundate": "2025-02-02T08:24:01-00:00",
+	"euphrates_revision_id": "d940eae8b165ccc09b23a9fe5bd345d78fa709b9",
+	"euphrates_revision_date": "2025-02-02T00:20:20-08:00",
+	"euphrates_revision_title": "fix iterator handling in parselynn:ll-interpret"
 }
