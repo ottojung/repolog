@@ -1,17 +1,17 @@
 {
 	"name": "benchmark-parselynn-11",
-	"time": 12.408335100000002,
-	"alltimes": [10.880119570000005, 12.408335100000002],
-	"avgtime": 11.644227335000004,
+	"time": 10.841840383000005,
+	"alltimes": [11.44426575300001, 10.841840383000005],
+	"avgtime": 11.143053068000007,
 	"deltas": [{
-		"constructed parser": 2.4340000010170115e-5,
-		"constructed lexer": 9.399999925108204e-7,
-		"got first result": 10.880084230000008,
-		"end": 1.0059999993927704e-5
+		"constructed parser": 2.5100000001998524e-5,
+		"constructed lexer": 1.0000000116860974e-6,
+		"got first result": 11.444231532999993,
+		"end": 8.120000003941641e-6
 	}, {
-		"constructed parser": 2.8810000003431924e-5,
-		"constructed lexer": 9.200000050668677e-7,
-		"got first result": 12.408296239999999,
+		"constructed parser": 2.777100000628252e-5,
+		"constructed lexer": 7.400000043844557e-7,
+		"got first result": 10.841802741999999,
 		"end": 9.12999999513886e-6
 	}],
 	"inputs": {
@@ -19,8 +19,8 @@
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2025-02-02T08:55:57-00:00",
-	"euphrates_revision_id": "2c68c28e4d70ff9a277a414de118909460f525b7",
-	"euphrates_revision_date": "2025-02-02T00:51:24-08:00",
-	"euphrates_revision_title": "fixup throw errors in parselynn:ll"
+	"rundate": "2025-02-02T08:58:38-00:00",
+	"euphrates_revision_id": "298043664aaecacc2ee04f9d8e08b8b5ad3b7d55",
+	"euphrates_revision_date": "2025-02-02T00:53:48-08:00",
+	"euphrates_revision_title": "fix handling of eof in parselynn:hashmap-ref-epsilon-aware"
 }

@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-2",
-	"time": 31.976890267,
-	"alltimes": [26.196463355000006, 31.976890267],
-	"avgtime": 29.086676811000004,
+	"time": 32.411651369,
+	"alltimes": [33.615170435, 32.411651369],
+	"avgtime": 33.013410902000004,
 	"deltas": [{
-		"constructed parser": 0.07482707000000488,
-		"constructed lexer": 1.9469999998023013e-5,
-		"parsed input": 26.121611615,
-		"end": 5.200000003924288e-6
+		"constructed parser": 0.10491883800000323,
+		"constructed lexer": 2.7709999997682644e-5,
+		"parsed input": 33.510218466999994,
+		"end": 5.420000007916315e-6
 	}, {
-		"constructed parser": 0.06317494299999993,
-		"constructed lexer": 1.0750000001280569e-5,
-		"parsed input": 31.913699434,
-		"end": 5.1399999989598655e-6
+		"constructed parser": 0.09536959100000786,
+		"constructed lexer": 9.109999993484053e-6,
+		"parsed input": 32.316267597999996,
+		"end": 5.070000000273467e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2025-02-02T09:00:15-00:00",
-	"euphrates_revision_id": "2c68c28e4d70ff9a277a414de118909460f525b7",
-	"euphrates_revision_date": "2025-02-02T00:51:24-08:00",
-	"euphrates_revision_title": "fixup throw errors in parselynn:ll"
+	"rundate": "2025-02-02T09:03:20-00:00",
+	"euphrates_revision_id": "298043664aaecacc2ee04f9d8e08b8b5ad3b7d55",
+	"euphrates_revision_date": "2025-02-02T00:53:48-08:00",
+	"euphrates_revision_title": "fix handling of eof in parselynn:hashmap-ref-epsilon-aware"
 }
