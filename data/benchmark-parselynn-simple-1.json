@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 21.386496097,
-	"alltimes": [21.810779601, 21.386496097],
-	"avgtime": 21.598637849,
+	"time": 15.761732023,
+	"alltimes": [16.416496095, 15.761732023],
+	"avgtime": 16.089114059,
 	"deltas": [{
-		"constructed parser": 0.023904051000000037,
-		"constructed lexer": 3.854999999997055e-5,
-		"parsed input": 21.78682867,
-		"end": 8.330000000000837e-6
+		"constructed parser": 0.020654777999999985,
+		"constructed lexer": 3.201100000002621e-5,
+		"parsed input": 16.395802216000003,
+		"end": 7.08999999687876e-6
 	}, {
-		"constructed parser": 0.03656579800000159,
-		"constructed lexer": 1.247999999876015e-5,
-		"parsed input": 21.349912128,
-		"end": 5.690999998364532e-6
+		"constructed parser": 0.010024591000000527,
+		"constructed lexer": 1.0619999997629748e-5,
+		"parsed input": 15.751691632,
+		"end": 5.18000000226948e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2025-02-02T09:02:14-00:00",
-	"euphrates_revision_id": "298043664aaecacc2ee04f9d8e08b8b5ad3b7d55",
-	"euphrates_revision_date": "2025-02-02T00:53:48-08:00",
-	"euphrates_revision_title": "fix handling of eof in parselynn:hashmap-ref-epsilon-aware"
+	"rundate": "2025-02-02T09:07:27-00:00",
+	"euphrates_revision_id": "43ac40b72751bc90482b3758cb6bc2442c932948",
+	"euphrates_revision_date": "2025-02-02T00:58:50-08:00",
+	"euphrates_revision_title": "fixup list-find-first usage in parselynn:ll"
 }
