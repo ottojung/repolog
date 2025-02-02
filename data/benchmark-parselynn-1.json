@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-1",
-	"time": 3.5444144,
-	"alltimes": [3.667926299, 3.5444144],
-	"avgtime": 3.6061703495,
+	"time": 3.113580598,
+	"alltimes": [3.0897772850000003, 3.113580598],
+	"avgtime": 3.1016789415000003,
 	"deltas": [{
-		"constructed parser": 0.0017032070000000121,
-		"constructed lexer": 2.3890999999998108e-5,
-		"parsed input": 3.66617214,
-		"end": 2.7060999999939384e-5
+		"constructed parser": 0.001783897999999992,
+		"constructed lexer": 2.2310000000011487e-5,
+		"parsed input": 3.087944986,
+		"end": 2.609100000006137e-5
 	}, {
-		"constructed parser": 4.3853400000015696e-4,
-		"constructed lexer": 1.5910999999757536e-5,
-		"parsed input": 3.5439502149999997,
-		"end": 9.740000000313387e-6
+		"constructed parser": 4.505049999998789e-4,
+		"constructed lexer": 1.8129999999949575e-5,
+		"parsed input": 3.1131047329999997,
+		"end": 7.230000000468806e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2025-02-02T09:10:20-00:00",
-	"euphrates_revision_id": "755d9bd55be6d6d7265e138edddd708b63f706a2",
-	"euphrates_revision_date": "2025-02-02T01:07:28-08:00",
-	"euphrates_revision_title": "fix epsilon handling in parselynn:ll"
+	"rundate": "2025-02-02T09:22:24-00:00",
+	"euphrates_revision_id": "0f6e552ed8fd4600f38ddbe45ea385f056ca857f",
+	"euphrates_revision_date": "2025-02-02T01:19:42-08:00",
+	"euphrates_revision_title": "add more test cases for parselynn:ll"
 }
