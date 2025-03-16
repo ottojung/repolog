@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-16",
-	"time": 9.480012316,
-	"alltimes": [9.194250120999982, 9.480012316],
-	"avgtime": 9.33713121849999,
+	"time": 11.657088802000004,
+	"alltimes": [11.050480733, 11.657088802000004],
+	"avgtime": 11.353784767500002,
 	"deltas": [{
-		"constructed parser": 0.0023150739999948655,
-		"constructed lexer": 1.9354200000520905e-4,
-		"parsed input": 9.191730914999994,
-		"end": 1.058999998804211e-5
+		"constructed parser": 0.0023866359999829,
+		"constructed lexer": 2.0296200000302633e-4,
+		"parsed input": 11.047878655000005,
+		"end": 1.248000000941829e-5
 	}, {
-		"constructed parser": 0.0026998369999944316,
-		"constructed lexer": 2.1150000009129144e-5,
-		"parsed input": 9.477281787999999,
-		"end": 9.54099999717073e-6
+		"constructed parser": 0.003529119000006631,
+		"constructed lexer": 3.184999999916727e-5,
+		"parsed input": 11.653517483000002,
+		"end": 1.034999999660613e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 300000,
 		"n_runs": 1
 	},
-	"rundate": "2025-03-15T23:54:37-00:00",
-	"euphrates_revision_id": "58c7f31f9a356744e37b75ec6970a7e70233cf93",
-	"euphrates_revision_date": "2025-03-15T16:49:26-07:00",
-	"euphrates_revision_title": "more small improvements to all paths computation"
+	"rundate": "2025-03-16T00:34:28-00:00",
+	"euphrates_revision_id": "38862a245000624b5de7f262d9db00430a4b95f5",
+	"euphrates_revision_date": "2025-03-15T17:10:58-07:00",
+	"euphrates_revision_title": "fix comment in computing all paths"
 }
