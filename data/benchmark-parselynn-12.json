@@ -1,26 +1,26 @@
 {
 	"name": "benchmark-parselynn-12",
-	"time": 23.22735782800001,
-	"alltimes": [30.624667498999983, 23.22735782800001],
-	"avgtime": 26.926012663499996,
+	"time": 23.131983136000002,
+	"alltimes": [28.629624300000003, 23.131983136000002],
+	"avgtime": 25.880803718000003,
 	"deltas": [{
-		"constructed parser": 2.5979999989544922e-5,
-		"constructed lexer": 9.600000083764826e-7,
-		"got first result": 5.349999995019061e-6,
-		"end": 30.62463520899999
+		"constructed parser": 2.609000000575179e-5,
+		"constructed lexer": 7.900000014160469e-7,
+		"got first result": 3.3599999937905523e-6,
+		"end": 28.629594060000002
 	}, {
-		"constructed parser": 3.0280000004268004e-5,
-		"constructed lexer": 1.5800000028320937e-6,
-		"got first result": 3.450000008342613e-6,
-		"end": 23.227322517999994
+		"constructed parser": 3.430000001003464e-5,
+		"constructed lexer": 1.330000003463283e-6,
+		"got first result": 5.009999995309045e-6,
+		"end": 23.131942495999994
 	}],
 	"inputs": {
 		"driver": "glr",
 		"loadq": true,
 		"tree_depth": 5000000
 	},
-	"rundate": "2025-03-16T00:33:46-00:00",
-	"euphrates_revision_id": "38862a245000624b5de7f262d9db00430a4b95f5",
-	"euphrates_revision_date": "2025-03-15T17:10:58-07:00",
-	"euphrates_revision_title": "fix comment in computing all paths"
+	"rundate": "2025-03-16T01:03:41-00:00",
+	"euphrates_revision_id": "e70994fba15ac0146fc0ea4c1ed81893df3e35af",
+	"euphrates_revision_date": "2025-03-15T17:58:08-07:00",
+	"euphrates_revision_title": "implement bnf-alist:find-left-recursion"
 }
