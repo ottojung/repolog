@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-15",
-	"time": 0.06758212199997615,
-	"alltimes": [0.06696638500000063, 0.06758212199997615],
-	"avgtime": 0.06727425349998839,
+	"time": 0.07160091699998361,
+	"alltimes": [0.06837980400001697, 0.07160091699998361],
+	"avgtime": 0.06999036050000029,
 	"deltas": [{
-		"constructed parser": 1.9280000003618625e-5,
-		"constructed lexer": 2.0510000013018725e-5,
-		"parsed input": 0.06691987499999641,
-		"end": 6.7199999875811045e-6
+		"constructed parser": 1.859100001411207e-5,
+		"constructed lexer": 2.1709999998620333e-5,
+		"parsed input": 0.06833208300000138,
+		"end": 7.4200000028668e-6
 	}, {
-		"constructed parser": 2.5649999997767736e-5,
-		"constructed lexer": 3.448100000014165e-5,
-		"parsed input": 0.0675151709999966,
-		"end": 6.819999981644287e-6
+		"constructed parser": 2.3030999983575384e-5,
+		"constructed lexer": 3.556999999432264e-5,
+		"parsed input": 0.07153531600002339,
+		"end": 6.999999982326699e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2025-03-25T06:27:14-00:00",
-	"euphrates_revision_id": "b1df358c72986d10a6c932a7c5f0434dd37e2be4",
-	"euphrates_revision_date": "2025-03-24T23:22:18-07:00",
-	"euphrates_revision_title": "fix some recursion cases"
+	"rundate": "2025-03-25T06:35:12-00:00",
+	"euphrates_revision_id": "54558fcf8651c09c93e898fe08c687408e913736",
+	"euphrates_revision_date": "2025-03-24T23:30:07-07:00",
+	"euphrates_revision_title": "fix remaining bugs with find left recursion"
 }
