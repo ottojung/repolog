@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-4",
-	"time": 16.203958923,
-	"alltimes": [17.150936989999998, 16.203958923],
-	"avgtime": 16.677447956499996,
+	"time": 15.621813989,
+	"alltimes": [15.989430156000001, 15.621813989],
+	"avgtime": 15.8056220725,
 	"deltas": [{
-		"constructed parser": 4.904450000005056e-4,
-		"constructed lexer": 1.8799999992324956e-6,
-		"got first result": 0.004166204000000562,
-		"end": 17.146278460999998
+		"constructed parser": 3.5474300000082337e-4,
+		"constructed lexer": 1.34999999978902e-6,
+		"got first result": 0.0027595369999993125,
+		"end": 15.986314526000001
 	}, {
-		"constructed parser": 2.649330000004113e-4,
-		"constructed lexer": 1.2699999984988608e-6,
-		"got first result": 0.0076638110000004644,
-		"end": 16.196028909
+		"constructed parser": 3.4011300000003075e-4,
+		"constructed lexer": 1.7399999983069847e-6,
+		"got first result": 0.003699185000002103,
+		"end": 15.617772951
 	}],
 	"inputs": {
 		"driver": "glr",
@@ -20,8 +20,8 @@
 		"tree_depth": 50000,
 		"n_runs": 1
 	},
-	"rundate": "2025-04-08T03:09:00-00:00",
-	"euphrates_revision_id": "b25750e80c89bd056166d384638453721548c1e5",
-	"euphrates_revision_date": "2025-04-07T20:05:42-07:00",
-	"euphrates_revision_title": "reuse signal-conflict in parselynn"
+	"rundate": "2025-04-08T04:16:45-00:00",
+	"euphrates_revision_id": "56d41ab2bc85e03cf3b8ceb127a578b5dc8fc071",
+	"euphrates_revision_date": "2025-04-07T20:03:51-07:00",
+	"euphrates_revision_title": "introduce signal-lr-conflict"
 }
