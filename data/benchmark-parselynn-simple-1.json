@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-simple-1",
-	"time": 12.636182393000002,
-	"alltimes": [13.065373926, 12.636182393000002],
-	"avgtime": 12.8507781595,
+	"time": 13.272600961,
+	"alltimes": [13.769517489999998, 13.272600961],
+	"avgtime": 13.5210592255,
 	"deltas": [{
-		"constructed parser": 0.018563550000000012,
-		"constructed lexer": 2.767000000000741e-5,
-		"parsed input": 13.046777826000001,
-		"end": 4.879999998763651e-6
+		"constructed parser": 0.01719559599999998,
+		"constructed lexer": 2.5340000000012575e-5,
+		"parsed input": 13.752291554,
+		"end": 4.999999999810711e-6
 	}, {
-		"constructed parser": 0.008798379999999995,
-		"constructed lexer": 6.540000001109547e-6,
-		"parsed input": 12.627373123,
-		"end": 4.350000001096532e-6
+		"constructed parser": 0.015725112000000152,
+		"constructed lexer": 8.169999999196875e-6,
+		"parsed input": 13.256863549,
+		"end": 4.130000000657219e-6
 	}],
 	"inputs": {
 		"driver": "lr",
@@ -21,8 +21,8 @@
 		"n_runs": 3000,
 		"string_inputq": true
 	},
-	"rundate": "2025-04-08T04:25:35-00:00",
-	"euphrates_revision_id": "3fdaa1634399656f77c3dc37db4dd2f5632a4978",
-	"euphrates_revision_date": "2025-04-07T21:18:22-07:00",
-	"euphrates_revision_title": "change order of arguments in parselynns signal-conflict"
+	"rundate": "2025-04-08T04:38:57-00:00",
+	"euphrates_revision_id": "e8729526160b9d5a0c955f77cfc5ee27b15f6e07",
+	"euphrates_revision_date": "2025-04-07T21:32:50-07:00",
+	"euphrates_revision_title": "improve error reporting in parselynn:core:novel"
 }
