@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-22",
-	"time": 3.5185008869999876,
-	"alltimes": [3.9143588229999864, 3.5185008869999876],
-	"avgtime": 3.716429854999987,
+	"time": 3.3842882980000013,
+	"alltimes": [3.7768093859999965, 3.3842882980000013],
+	"avgtime": 3.580548841999999,
 	"deltas": [{
-		"constructed parser": 2.756099999601247e-5,
-		"constructed lexer": 2.6840000003858222e-5,
-		"parsed input": 3.914293162000007,
-		"end": 1.1259999979529312e-5
+		"constructed parser": 2.1169999996573097e-5,
+		"constructed lexer": 2.9979999993656747e-5,
+		"parsed input": 3.776746336000002,
+		"end": 1.190000000406144e-5
 	}, {
-		"constructed parser": 4.2829999983950984e-5,
-		"constructed lexer": 5.06410000014057e-5,
-		"parsed input": 3.518391145999999,
-		"end": 1.6270000003260066e-5
+		"constructed parser": 2.7551000016501348e-5,
+		"constructed lexer": 6.216999997832318e-5,
+		"parsed input": 3.384187646000015,
+		"end": 1.093099999138758e-5
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 30000000,
 		"n_runs": 1
 	},
-	"rundate": "2025-04-11T03:08:04-00:00",
-	"euphrates_revision_id": "6d52134df38e48989b0d3f2d638c8e60bca53316",
-	"euphrates_revision_date": "2025-04-10T20:01:32-07:00",
-	"euphrates_revision_title": "improve conflict code in parselynn"
+	"rundate": "2025-04-11T03:33:28-00:00",
+	"euphrates_revision_id": "a4255cee7c674aa73a3cb80db037c4574e76727e",
+	"euphrates_revision_date": "2025-04-10T20:27:08-07:00",
+	"euphrates_revision_title": "report ll conflicts in parselynn:core:nove"
 }
