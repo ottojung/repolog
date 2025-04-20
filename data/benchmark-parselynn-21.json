@@ -1,18 +1,18 @@
 {
 	"name": "benchmark-parselynn-21",
-	"time": 0.017273902999988877,
-	"alltimes": [0.016916208000026245, 0.017273902999988877],
-	"avgtime": 0.01709505550000756,
+	"time": 0.015434581999983266,
+	"alltimes": [0.015226509999990867, 0.015434581999983266],
+	"avgtime": 0.015330545999987066,
 	"deltas": [{
-		"constructed parser": 2.4360000026035777e-5,
-		"constructed lexer": 4.297099999917009e-5,
-		"parsed input": 0.016838487000001123,
-		"end": 1.0389999999915744e-5
+		"constructed parser": 2.2839999985535542e-5,
+		"constructed lexer": 2.8561000021909422e-5,
+		"parsed input": 0.015166348999997581,
+		"end": 8.759999985841205e-6
 	}, {
-		"constructed parser": 3.169999999386164e-5,
-		"constructed lexer": 4.654099998901984e-5,
-		"parsed input": 0.017184242000013228,
-		"end": 1.1419999992767771e-5
+		"constructed parser": 2.355000000875407e-5,
+		"constructed lexer": 4.093100000090999e-5,
+		"parsed input": 0.0153621009999938,
+		"end": 7.999999979801942e-6
 	}],
 	"inputs": {
 		"driver": "(LR 1)",
@@ -20,8 +20,8 @@
 		"seq_len": 41,
 		"n_runs": 3000
 	},
-	"rundate": "2025-04-17T02:34:22-00:00",
-	"euphrates_revision_id": "ccaf90d04ecf7af6735e7232366c6e02204b07f6",
-	"euphrates_revision_date": "2025-04-16T19:28:27-07:00",
-	"euphrates_revision_title": "finish implementation of define-union-type"
+	"rundate": "2025-04-20T06:01:23-00:00",
+	"euphrates_revision_id": "8f656093e43b486271462cb0820ce9eb7ad25fb5",
+	"euphrates_revision_date": "2025-04-19T22:55:19-07:00",
+	"euphrates_revision_title": "use define-union-type in LL parser"
 }
